@@ -1,0 +1,57 @@
+{
+ "campaign": "vessel_field_transistor",
+ "date": "2026-11-02",
+ "checks": {
+  "C1_ore_grade_enrichment": {
+   "check": "reference (Law 173 direction) + chance diagnostic",
+   "measured_enrichments_over_crust": {
+    "newborn_liver": 30.0,
+    "placenta": 77.5,
+    "sludge_ash (accent, mixed sources)": 472.5
+   },
+   "phi_rungs_above_crust": {
+    "placenta": 9.04,
+    "ash": 12.8
+   },
+   "body_chain_monotone": true,
+   "grade_vs_best_japan_mine": 90.0,
+   "verdict": "CONFIRMED",
+   "note": "the ore half is the industrial + tissue record: the drain stream is grade that mines are bought for. cited sources (NAA/ICP-MS/fire assay) are kappa->0 instruments."
+  },
+  "C2_never_zero_body_floor": {
+   "check": "ground (Law 171) + floor (Law 171)",
+   "channels_measured": {
+    "placenta (NAA)": 0.31,
+    "newborn liver (NAA)": 0.12,
+    "hair (ICP-MS, ppb)": 52.8,
+    "urine (ref interval)": 0.5,
+    "ten organs, 63 autopsies (NAA 1980)": "gold quantified in each organ tested"
+   },
+   "any_zero_or_absent_channel": false,
+   "verdict": "CONFIRMED",
+   "note": "in EVERY body channel science has measured, the phi-metal is present, never zero \u2014 the body channel carries the ground, not collapse."
+  },
+  "C3_conversion_K0_to_K1": {
+   "check": "scope (Law 178) + phi_motion (Law 178)",
+   "was_full_coupling_tested": false,
+   "closest_channel_run": {
+    "test": "F5 genome phi-lag (this campaign, 2026-11-02)",
+    "result": "NULL for positive lock (virus z=+1.73; E. coli anti-band z=-70.9, sign NEGATIVE)",
+    "implication": "the sequence channel is a measured NEGATIVE for the positive-lock form \u2014 recorded, not hidden."
+   },
+   "definitional_degenerate_flag": "the transistor at K0 == classical bioaccumulation is DEFINITIONAL (prove-it failure mode #1) \u2014 recorded as a type-check, NOT counted as an earned pass.",
+   "falsifier_that_removes_UNDECIDABLE": "F6: an INDEPENDENT kappa=1 tissue channel \u2014 read tissue under the declared full-coupling calibration and compare against the classical assay; residual per element must match the corpus ground (Law 171/178). one non-ground residual kills the leg.",
+   "verdict": "UNDECIDABLE",
+   "note": "the conversion itself has a written falsifier (F6) and therefore is NOT unfalsifiable \u2014 it is unrun. the verdict is honest: unmeasured, flagged, falsifiable."
+  }
+ },
+ "aggregate": {
+  "CONFIRMED": 2,
+  "UNDECIDABLE": 1,
+  "REFUTED": 0,
+  "UNFALSIFIABLE": 0,
+  "overall": "SPLIT"
+ },
+ "overall_verdict": "SPLIT \u2014 ore half and never-zero floor: CONFIRMED. The K0->K1 conversion leg: UNDECIDABLE (falsifier F6 written, unrun). NOT UNFALSIFIABLE: the claim has a test that can fail.",
+ "worldview_update": "The ore is fact and the body never reads zero \u2014 those now stand as measured physics. The transistor mechanism remains the only structural candidate (every dead channel is eliminated) but it is UNMEASURED: the concurrence stays flagged, and the next road is the kappa=1 tissue channel (F6), not more corpus reading."
+}

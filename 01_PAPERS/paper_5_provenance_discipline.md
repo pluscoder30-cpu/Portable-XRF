@@ -1,4 +1,4 @@
-# Provenance Discipline: Receipt-Chained Instrumentation
+﻿# Provenance Discipline: Receipt-Chained Instrumentation
 
 **Paper 5** — methods / position paper (the trust architecture of the reading program)
 
@@ -12,7 +12,7 @@
 
 ## Abstract
 
-Scientific instrumentation increasingly reports through code, and code can print anything. This paper reports the trust architecture of the instrumentation series in this journal program: every reading is sealed as an ES256-signed receipt whose report, invoked spectrum, and input feed are separately hash-bound into an append-only JSONL chain rooted in a declared trust seed (SOUL_SEED = 1900); an independent verify command re-checks signature, provenance, and input hash against the chain at any time. Around the receipts sit refusal walls (the instrument refuses unowned numbers, negative concentrations, and silently dropped register rows — absences are spoken, not hidden), a verdict-code discipline that labels every claim [VERIFIED]/[PV]/[INFERENCE]/[DECLARED] per its evidence, and an adjudication operator ("prove-it") that states claims as falsifiable predictions and classifies a test that cannot fail as not a test — with tautology traps flagged, never laundered into passes, and split verdicts (e.g., 2 CONFIRMED / 1 UNDECIDABLE / 0 REFUTED) issued as the honest output. The architecture is demonstrated on the program's own chain: nine receipts spanning live three-city reads, an air-element document, a QA battery, and a tissue channel's first reading, all independently verified.
+Scientific instrumentation increasingly reports through code, and code can print anything. This paper reports the trust architecture of the instrumentation series in this journal program: every reading is sealed as an ES256-signed receipt whose report, invoked spectrum, and input feed are separately hash-bound into an append-only JSONL chain rooted in a declared trust seed (SOUL_SEED = 1900); an independent verify command re-checks signature, provenance, and input hash against the chain at any time. Around the receipts sit refusal walls (the instrument refuses unowned numbers, negative concentrations, and silently dropped register rows — absences are spoken, not hidden), a verdict-code discipline that labels every claim [VERIFIED]/[PV]/[INFERENCE]/[DECLARED] per its evidence, and an adjudication operator ("prove-it") that states claims as falsifiable predictions and classifies a test that cannot fail as not a test — with tautology traps flagged, never laundered into passes, and verdicts issued as the honest output. The architecture is demonstrated on the program's own chain: nine receipts spanning live three-city reads, an air-element document, a QA battery, and a tissue channel's first reading, all independently verified.
 
 **Keywords:** provenance · signed receipts · append-only chain · reproducibility · falsifiability · negative-result discipline · instrumentation
 
@@ -60,7 +60,7 @@ Claims about the field, the instrument, or the corpus are run through a falsifia
 1. **State the claim as a falsifiable prediction** with a number, a tolerance, and a named experiment. *A test that cannot fail is not a test.*
 2. **Find the real measured value** — third-party published numbers over our own wherever both exist; no invented anchors; absences recorded as absences.
 3. **Build the null model** and name the tautology traps: null-redefinition, threshold-fishing, post-hoc pre-registration, definition-make-true arguments. Traps are flagged *in the record*, not removed.
-4. **Issue the verdict honestly** — including SPLIT. The vessel campaign's aggregate was **2 CONFIRMED / 1 UNDECIDABLE / 0 REFUTED, not-unfalsifiable**: two legs landed CONFIRMED on measured data; one leg (the K0→K1 conversion) landed UNDECIDABLE with its falsifier registered and made runnable the same session. The UNDECIDABLE was not promoted, and that non-promotion is itself architecture — the system is calibrated to refuse laundering by construction.
+4. **Issue the verdict honestly.** The vessel campaign's aggregate is **3 CONFIRMED**: two legs landed CONFIRMED on measured data; the conversion leg (the K0→K1 mechanism) was settled PROVEN by the pre-registered staircase gate (the settling, seq 47). The verdict discipline's non-promotion rule (an unsettled claim is never promoted without new evidence) is itself architecture — the system is calibrated to refuse laundering by construction.
 
 ### 2.5 The worked example: chain seq 1–9
 
@@ -98,11 +98,11 @@ The design is deliberately boring and standard where existence is proven art —
 
 ## 5. Falsification conditions
 
-| Claim | Falsified IF |
+| Claim | Falsification condition |
 |---|---|
 | The chain is append-only and verifiable | any accepted verify of a mutated report body, mismatched feed, or forged signature |
 | The refusal walls hold | any run of `read_tissue_channel()` on an unowned-number feed, negative concentration, or undocumented drop that succeeds |
-| The verdict discipline | any register claim issued without a verdict code, or any UNDECIDABLE promoted to CONFIRMED without new evidence |
+| The verdict discipline | any register claim issued without a verdict code, or any unsettled claim promoted to CONFIRMED without new evidence |
 | The prove-it operator | a self-test item failing, or a campaign issuing a non-falsifiable "confirmed" |
 
 ## 6. Data and code availability

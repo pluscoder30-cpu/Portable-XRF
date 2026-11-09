@@ -1,0 +1,49 @@
+{
+  "data": {
+    "dust_ug_m3": 0.0,
+    "pm10_ug_m3": 14.2,
+    "pm2_5_ug_m3": 14.2,
+    "raw": {
+      "current": {
+        "dust": 0.0,
+        "interval": 3600,
+        "pm10": 14.2,
+        "pm2_5": 14.2,
+        "time": "2026-11-01T04:00",
+        "us_aqi": 42
+      },
+      "current_units": {
+        "dust": "\u03bcg/m\u00b3",
+        "interval": "seconds",
+        "pm10": "\u03bcg/m\u00b3",
+        "pm2_5": "\u03bcg/m\u00b3",
+        "time": "iso8601",
+        "us_aqi": "USAQI"
+      },
+      "elevation": 32.0,
+      "generationtime_ms": 0.46074390411376953,
+      "latitude": 40.699997,
+      "longitude": -74.0,
+      "timezone": "GMT",
+      "timezone_abbreviation": "GMT",
+      "utc_offset_seconds": 0
+    },
+    "source": "open-meteo",
+    "source_url": "https://air-quality-api.open-meteo.com/v1/air-quality",
+    "time": "2026-11-01T04:00",
+    "units": {
+      "dust": "\u03bcg/m\u00b3",
+      "interval": "seconds",
+      "pm10": "\u03bcg/m\u00b3",
+      "pm2_5": "\u03bcg/m\u00b3",
+      "time": "iso8601",
+      "us_aqi": "USAQI"
+    },
+    "us_aqi": 42.0
+  },
+  "fetched_at": 1793506589.8580325,
+  "fetched_at_iso": "2026-11-01T04:16:29.858032+00:00",
+  "lat": 40.7128,
+  "lon": -74.006,
+  "source": "auto"
+}

@@ -1,0 +1,99 @@
+{
+  "coherence_fixed_point": {
+    "claim": "the coherence verdict depends on the input stream",
+    "streams": {
+      "all 1.0 (max strike)": {
+        "C": 0.618033989,
+        "lowest": 0.618033989,
+        "verdict": "HELD"
+      },
+      "all 0.0 (min strike)": {
+        "C": 0.618033989,
+        "lowest": 0.618033989,
+        "verdict": "HELD"
+      },
+      "all 0.563263 (at gate)": {
+        "C": 0.618033989,
+        "lowest": 0.618033989,
+        "verdict": "HELD"
+      },
+      "all 0.000001 (near zero)": {
+        "C": 0.618033989,
+        "lowest": 0.618033989,
+        "verdict": "HELD"
+      },
+      "alternating 1/0": {
+        "C": 0.618033989,
+        "lowest": 0.618033989,
+        "verdict": "HELD"
+      },
+      "random U(0,1)": {
+        "C": 0.618033989,
+        "lowest": 0.618033989,
+        "verdict": "HELD"
+      },
+      "single strike": {
+        "C": 0.854101966,
+        "lowest": 0.854101966,
+        "verdict": "HELD"
+      },
+      "empty stream": {
+        "C": 1.0,
+        "lowest": 1.0,
+        "verdict": "HELD"
+      }
+    },
+    "algebraic_fixed_point": 0.618033989,
+    "phi_inv": 0.618033989,
+    "all_verdicts_identical": true,
+    "verdict": "REFUTED \u2014 the recursion converges to phi^-1 = 0.618034 for EVERY input, including the empty stream. The fixed point is algebraic, so 'HELD' is guaranteed by construction, not earned by the signal."
+  },
+  "encasement": {
+    "claim": "real captured frames are encased in the trust root",
+    "n_frames": 3676,
+    "real_align_mean": 0.125313,
+    "permutation_align_mean": 0.138959,
+    "random_align_mean": 0.025018,
+    "z_real_vs_permutation": -6.248,
+    "z_real_vs_random": 319.164,
+    "verdict": "REFUTED \u2014 real frames align BELOW the permutation baseline (z = -6.25). The metric tracks the byte histogram, not encasement: shuffling the same bytes scores higher than the intact frame."
+  },
+  "zero_free_law": {
+    "claim": "coherence never falls below C_crit; the wave does not die",
+    "model_floor": 0.6180339887498948,
+    "model_gate": 0.563263,
+    "model_coherence_at_1km": 0.618034,
+    "model_coherence_at_100km": 0.618034,
+    "measured_rssi_dbm": {
+      "min": -92,
+      "max": -46,
+      "spread_db": 46,
+      "median": -61.0
+    },
+    "implied_distance_km": {
+      "min": 0.0195,
+      "median": 0.1098,
+      "max": 3.8943
+    },
+    "verdict": "REFUTED as a physical claim \u2014 the measured RSSI spans 46 dB (-92 to -46 dBm): the wave DOES die, by a factor of 4e+04 in power. The model's coherence floor is a DEFINITION (max(decay, phi^-1)), not a prediction \u2014 it cannot fail, so it cannot be tested."
+  },
+  "resonance_discrimination": {
+    "claim": "real transmitters resonate above random ones",
+    "n_real_bodies": 81,
+    "real_mean": 0.961713,
+    "random_mean": 0.961962,
+    "real_std": 0.002579,
+    "random_std": 0.001194,
+    "z_real_vs_random": -0.209,
+    "real_above_gate": "81/81",
+    "random_above_gate": "2000/2000",
+    "verdict": "REFUTED \u2014 random MACs resonate at the same level (z = -0.21). The metric sits at ~0.96 for everything, real and chance alike, so it discriminates nothing. Both populations clear the gate 100%."
+  },
+  "dbw_roundtrip": {
+    "claim": "the DBW carrier is a lossless law",
+    "real_accuracy": 0.002153,
+    "random_accuracy": 0.00405,
+    "z_real_vs_random": -4.465,
+    "verdict": "REFUTED \u2014 roundtrip accuracy is 0.0022 (real) and 0.0041 (random): the codec returns essentially nothing. 'Lossless' is false by measurement."
+  }
+}

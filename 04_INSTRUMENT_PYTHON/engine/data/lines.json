@@ -1,0 +1,10098 @@
+{
+ "provenance": {
+  "source": "xraydb 4.5.8 (Elam et al. 2002 line table)",
+  "generated_utc": "2026-11-01T02:39:27+00:00",
+  "units": {
+   "energy": "eV",
+   "intensity": "branching ratio within the initial subshell (sums to 1 per initial level)"
+  }
+ },
+ "lines": {
+  "3": {
+   "Ka3": {
+    "energy": 49.4,
+    "intensity": 1.0,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "4": {
+   "Ka1": {
+    "energy": 108.5,
+    "intensity": 0.665747,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 108.5,
+    "intensity": 0.334205,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 103.5,
+    "intensity": 4.87326e-05,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "5": {
+   "Ka1": {
+    "energy": 183.3,
+    "intensity": 0.665738,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 183.3,
+    "intensity": 0.334201,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 175.4,
+    "intensity": 6.09151e-05,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "6": {
+   "Ka1": {
+    "energy": 277.0,
+    "intensity": 0.66573,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 277.0,
+    "intensity": 0.334197,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 266.2,
+    "intensity": 7.30972e-05,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "7": {
+   "Ka1": {
+    "energy": 392.4,
+    "intensity": 0.665722,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 392.4,
+    "intensity": 0.334193,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 372.6,
+    "intensity": 8.5279e-05,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "8": {
+   "Ka1": {
+    "energy": 524.9,
+    "intensity": 0.665714,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 524.9,
+    "intensity": 0.334188,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 501.5,
+    "intensity": 9.74605e-05,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "9": {
+   "Ka1": {
+    "energy": 676.8,
+    "intensity": 0.665706,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 676.8,
+    "intensity": 0.334184,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 651.7,
+    "intensity": 0.000109642,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "10": {
+   "Ka1": {
+    "energy": 848.6,
+    "intensity": 0.665698,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 848.5,
+    "intensity": 0.33418,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 821.7,
+    "intensity": 0.000121823,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "11": {
+   "Ka1": {
+    "energy": 1040.3,
+    "intensity": 0.66569,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 1040.4,
+    "intensity": 0.334176,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 1007.3,
+    "intensity": 0.000134003,
+    "initial": "K",
+    "final": "L1"
+   }
+  },
+  "12": {
+   "Ka1": {
+    "energy": 1253.79,
+    "intensity": 0.592111,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 1253.4,
+    "intensity": 0.29724,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 1214.4,
+    "intensity": 0.000130028,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 1302.0,
+    "intensity": 0.072806,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 1302.0,
+    "intensity": 0.0377135,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 47.21,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 47.6,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 87.6,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 87.6,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "13": {
+   "Ka1": {
+    "energy": 1486.5,
+    "intensity": 0.591398,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 1486.1,
+    "intensity": 0.296882,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 1441.2,
+    "intensity": 0.000140693,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 1557.0,
+    "intensity": 0.0735048,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 1557.0,
+    "intensity": 0.0380755,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 68.5,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 68.9,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 115.8,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 115.8,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "14": {
+   "Ka1": {
+    "energy": 1739.8,
+    "intensity": 0.590686,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 1739.2,
+    "intensity": 0.296524,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 1689.3,
+    "intensity": 0.000151334,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 1837.0,
+    "intensity": 0.074202,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 1837.0,
+    "intensity": 0.0384366,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 91.2,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 91.8,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 147.7,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 147.7,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "15": {
+   "Ka1": {
+    "energy": 2010.5,
+    "intensity": 0.589976,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 2009.5,
+    "intensity": 0.296168,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 1956.5,
+    "intensity": 0.000161948,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 2139.5,
+    "intensity": 0.0748974,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 2138.5,
+    "intensity": 0.0387969,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 123.0,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 124.0,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 183.0,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 182.0,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "16": {
+   "Ka1": {
+    "energy": 2309.5,
+    "intensity": 0.589268,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 2308.4,
+    "intensity": 0.295812,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 2241.1,
+    "intensity": 0.000172538,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 2465.0,
+    "intensity": 0.0755913,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 2464.0,
+    "intensity": 0.0391563,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 148.5,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 149.6,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 223.9,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 222.9,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "17": {
+   "Ka1": {
+    "energy": 2622.0,
+    "intensity": 0.588561,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 2620.0,
+    "intensity": 0.295458,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 2552.0,
+    "intensity": 0.000183101,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 2812.0,
+    "intensity": 0.0762834,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 2812.0,
+    "intensity": 0.0395148,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 182.0,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 184.0,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 260.0,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 260.0,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "18": {
+   "Ka1": {
+    "energy": 2957.5,
+    "intensity": 0.587856,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 2955.3,
+    "intensity": 0.295104,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 2879.6,
+    "intensity": 0.00019364,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 3190.2,
+    "intensity": 0.0769739,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 3190.0,
+    "intensity": 0.0398725,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 219.1,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 221.3,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 310.6,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 310.4,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "19": {
+   "Ka1": {
+    "energy": 3313.8,
+    "intensity": 0.587153,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 3311.1,
+    "intensity": 0.294751,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 3229.8,
+    "intensity": 0.000204153,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 3590.1,
+    "intensity": 0.0776627,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 3590.1,
+    "intensity": 0.0402293,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 259.8,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 262.5,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 360.3,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 360.3,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "20": {
+   "Ka1": {
+    "energy": 3692.3,
+    "intensity": 0.586452,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 3688.8,
+    "intensity": 0.294399,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 3600.1,
+    "intensity": 0.000214641,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 4013.1,
+    "intensity": 0.0783499,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 4013.1,
+    "intensity": 0.0405853,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 301.9,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 305.4,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 413.0,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 413.0,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "21": {
+   "Ka1": {
+    "energy": 4093.3,
+    "intensity": 0.585752,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 4088.4,
+    "intensity": 0.294047,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 3994.0,
+    "intensity": 0.000225104,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 4463.7,
+    "intensity": 0.0790355,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 4463.7,
+    "intensity": 0.0409404,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Ll": {
+    "energy": 347.6,
+    "intensity": 1.0,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 352.5,
+    "intensity": 1.0,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb3": {
+    "energy": 469.7,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 469.7,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "22": {
+   "Ka1": {
+    "energy": 4512.2,
+    "intensity": 0.584554,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 4505.8,
+    "intensity": 0.293692,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 4405.1,
+    "intensity": 0.000235342,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 4933.4,
+    "intensity": 0.0796514,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 4933.4,
+    "intensity": 0.0412594,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 4964.0,
+    "intensity": 0.000607001,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 451.8,
+    "intensity": 0.811622,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 451.8,
+    "intensity": 0.0892785,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 395.1,
+    "intensity": 0.0990991,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 401.5,
+    "intensity": 0.0811695,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 458.2,
+    "intensity": 0.918831,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 528.3,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 528.3,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "23": {
+   "Ka1": {
+    "energy": 4952.9,
+    "intensity": 0.583478,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 4945.2,
+    "intensity": 0.293776,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 4838.3,
+    "intensity": 0.000245586,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 5427.8,
+    "intensity": 0.0802808,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 5427.8,
+    "intensity": 0.0415854,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 5463.0,
+    "intensity": 0.000633424,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 510.1,
+    "intensity": 0.811622,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 510.1,
+    "intensity": 0.0892785,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 445.8,
+    "intensity": 0.0990991,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 453.5,
+    "intensity": 0.0794525,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 517.8,
+    "intensity": 0.920548,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 589.5,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 589.5,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "24": {
+   "Ka1": {
+    "energy": 5414.9,
+    "intensity": 0.582407,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 5405.2,
+    "intensity": 0.293859,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 5293.0,
+    "intensity": 0.000255793,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 5946.8,
+    "intensity": 0.080908,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 5946.8,
+    "intensity": 0.0419103,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 5987.0,
+    "intensity": 0.000659751,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 572.1,
+    "intensity": 0.811622,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 572.1,
+    "intensity": 0.0892785,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 500.0,
+    "intensity": 0.0990991,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 509.7,
+    "intensity": 0.077729,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 581.8,
+    "intensity": 0.922271,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 653.8,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 653.8,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "25": {
+   "Ka1": {
+    "energy": 5900.3,
+    "intensity": 0.58134,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 5889.1,
+    "intensity": 0.293941,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 5769.9,
+    "intensity": 0.000265963,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 6491.8,
+    "intensity": 0.0815329,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 6491.8,
+    "intensity": 0.042234,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 6537.0,
+    "intensity": 0.000685981,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 636.7,
+    "intensity": 0.811622,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 636.7,
+    "intensity": 0.0892785,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 556.4,
+    "intensity": 0.0990991,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 567.6,
+    "intensity": 0.0759991,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 647.9,
+    "intensity": 0.924001,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 721.9,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 721.9,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "26": {
+   "Ka1": {
+    "energy": 6405.2,
+    "intensity": 0.580277,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 6392.1,
+    "intensity": 0.294023,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 6267.4,
+    "intensity": 0.000276096,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 7059.3,
+    "intensity": 0.0821556,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 7059.3,
+    "intensity": 0.0425566,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 7110.0,
+    "intensity": 0.000712115,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 704.8,
+    "intensity": 0.811679,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 704.8,
+    "intensity": 0.0892847,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 615.5,
+    "intensity": 0.0990365,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 628.6,
+    "intensity": 0.0742626,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 717.9,
+    "intensity": 0.925737,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 791.9,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 791.9,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "27": {
+   "Ka1": {
+    "energy": 6930.9,
+    "intensity": 0.579217,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 6915.8,
+    "intensity": 0.294105,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 6783.9,
+    "intensity": 0.000286191,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 7649.1,
+    "intensity": 0.0827759,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 7650.1,
+    "intensity": 0.0428779,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 7706.0,
+    "intensity": 0.000738154,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 775.1,
+    "intensity": 0.823973,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 775.1,
+    "intensity": 0.0906371,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 677.1,
+    "intensity": 0.0853896,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 692.2,
+    "intensity": 0.0725197,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 790.2,
+    "intensity": 0.92748,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 865.2,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 866.2,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "28": {
+   "Ka1": {
+    "energy": 7480.3,
+    "intensity": 0.578161,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 7463.0,
+    "intensity": 0.294187,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 7324.4,
+    "intensity": 0.00029625,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 8266.8,
+    "intensity": 0.083394,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 8265.0,
+    "intensity": 0.0431981,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 8329.0,
+    "intensity": 0.000764098,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 848.7,
+    "intensity": 0.833309,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 848.7,
+    "intensity": 0.091664,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 741.9,
+    "intensity": 0.0750272,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 759.2,
+    "intensity": 0.0685204,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 866.0,
+    "intensity": 0.93148,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 942.4,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 940.6,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "29": {
+   "Ka1": {
+    "energy": 8046.3,
+    "intensity": 0.577108,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 8026.7,
+    "intensity": 0.294269,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 7882.3,
+    "intensity": 0.000306271,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 8903.9,
+    "intensity": 0.0840096,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 8901.7,
+    "intensity": 0.043517,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 8974.0,
+    "intensity": 0.000789945,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 927.7,
+    "intensity": 0.840234,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 927.7,
+    "intensity": 0.0924257,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 810.2,
+    "intensity": 0.0673403,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 829.8,
+    "intensity": 0.06619,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 947.3,
+    "intensity": 0.93381,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1021.6,
+    "intensity": 0.586166,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1019.4,
+    "intensity": 0.413833,
+    "initial": "L1",
+    "final": "M2"
+   }
+  },
+  "30": {
+   "Ka1": {
+    "energy": 8637.2,
+    "intensity": 0.576058,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 8614.1,
+    "intensity": 0.294353,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 8462.8,
+    "intensity": 0.000316256,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 9570.4,
+    "intensity": 0.0846229,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 9567.6,
+    "intensity": 0.0438347,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 9648.8,
+    "intensity": 0.000815698,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1011.7,
+    "intensity": 0.845297,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1011.6,
+    "intensity": 0.0929826,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 882.0,
+    "intensity": 0.0617207,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 905.1,
+    "intensity": 0.0639247,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1034.7,
+    "intensity": 0.936075,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1107.6,
+    "intensity": 0.541418,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1104.8,
+    "intensity": 0.382241,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lg2": {
+    "energy": 1195.2,
+    "intensity": 0.07634,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Mz": {
+    "energy": 9.2,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "31": {
+   "Ka1": {
+    "energy": 9250.6,
+    "intensity": 0.57501,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 9223.8,
+    "intensity": 0.294438,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 9068.0,
+    "intensity": 0.000326203,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 10267.0,
+    "intensity": 0.0852337,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 10263.5,
+    "intensity": 0.0441511,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 10348.3,
+    "intensity": 0.000841354,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1097.7,
+    "intensity": 0.849004,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1097.7,
+    "intensity": 0.0933905,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 956.89,
+    "intensity": 0.0576051,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 983.69,
+    "intensity": 0.0617242,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1124.5,
+    "intensity": 0.938276,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1199.0,
+    "intensity": 0.495366,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1195.5,
+    "intensity": 0.349728,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lg2": {
+    "energy": 1297.0,
+    "intensity": 0.0705896,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 1297.0,
+    "intensity": 0.0843162,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 16.7,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "32": {
+   "Ka1": {
+    "energy": 9886.0,
+    "intensity": 0.573964,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 9854.9,
+    "intensity": 0.294524,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 9688.4,
+    "intensity": 0.000336113,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 10982.2,
+    "intensity": 0.0858421,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb3": {
+    "energy": 10978.1,
+    "intensity": 0.0444662,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 11073.2,
+    "intensity": 0.000866916,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1187.8,
+    "intensity": 0.851751,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1187.2,
+    "intensity": 0.0936926,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1036.9,
+    "intensity": 0.0544969,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1068.0,
+    "intensity": 0.0595885,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1218.3,
+    "intensity": 0.940412,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1293.8,
+    "intensity": 0.493627,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1289.7,
+    "intensity": 0.348501,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 1212.0,
+    "intensity": 5.96223e-05,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 1411.6,
+    "intensity": 0.0710823,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 1411.6,
+    "intensity": 0.08679,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 26.8,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "33": {
+   "Ka1": {
+    "energy": 10543.4,
+    "intensity": 0.572101,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 10507.9,
+    "intensity": 0.294192,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 10340.0,
+    "intensity": 0.000345492,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 11725.8,
+    "intensity": 0.0863243,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 11864.0,
+    "intensity": 0.00143025,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 11720.8,
+    "intensity": 0.044716,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 11825.3,
+    "intensity": 0.000891105,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1281.9,
+    "intensity": 0.85377,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1281.9,
+    "intensity": 0.0939148,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1118.9,
+    "intensity": 0.0519903,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1154.4,
+    "intensity": 0.0575174,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1317.4,
+    "intensity": 0.942483,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1385.8,
+    "intensity": 0.492862,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1380.8,
+    "intensity": 0.34796,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 1315.6,
+    "intensity": 0.000324433,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 1524.0,
+    "intensity": 0.0717114,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 1524.0,
+    "intensity": 0.0874663,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 38.7,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "34": {
+   "Ka1": {
+    "energy": 11224.1,
+    "intensity": 0.569274,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 11183.7,
+    "intensity": 0.293362,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 11006.0,
+    "intensity": 0.000354202,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 12497.3,
+    "intensity": 0.0866549,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 12655.0,
+    "intensity": 0.00455419,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 12491.5,
+    "intensity": 0.0448872,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 12602.5,
+    "intensity": 0.000913571,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1379.3,
+    "intensity": 0.855507,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1378.4,
+    "intensity": 0.0941058,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1204.3,
+    "intensity": 0.0497968,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1244.7,
+    "intensity": 0.0555107,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1418.8,
+    "intensity": 0.944489,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1491.3,
+    "intensity": 0.492079,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1485.5,
+    "intensity": 0.347407,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 1421.9,
+    "intensity": 0.0005903,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 1649.0,
+    "intensity": 0.0723355,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 1649.0,
+    "intensity": 0.0881785,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 52.5,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "35": {
+   "Ka1": {
+    "energy": 11924.0,
+    "intensity": 0.566472,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 11878.0,
+    "intensity": 0.292544,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 11692.0,
+    "intensity": 0.000362825,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 13292.0,
+    "intensity": 0.0869818,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 13471.0,
+    "intensity": 0.00764737,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 13285.0,
+    "intensity": 0.0450566,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 13404.0,
+    "intensity": 0.000935812,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1481.0,
+    "intensity": 0.857131,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1480.0,
+    "intensity": 0.0942844,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1293.0,
+    "intensity": 0.0477276,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1339.0,
+    "intensity": 0.0535683,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1526.0,
+    "intensity": 0.946432,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1600.0,
+    "intensity": 0.491277,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1593.0,
+    "intensity": 0.346842,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 1523.0,
+    "intensity": 0.000857131,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 1779.0,
+    "intensity": 0.0729547,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 1779.0,
+    "intensity": 0.0889264,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 67.0,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "36": {
+   "Ka1": {
+    "energy": 12647.6,
+    "intensity": 0.563695,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 12595.1,
+    "intensity": 0.291737,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 12405.0,
+    "intensity": 0.000371362,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 14111.6,
+    "intensity": 0.0873051,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 14311.9,
+    "intensity": 0.0107102,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 14103.8,
+    "intensity": 0.045224,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 14231.0,
+    "intensity": 0.00095783,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1584.6,
+    "intensity": 0.858714,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1583.4,
+    "intensity": 0.0944586,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1385.6,
+    "intensity": 0.0457022,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1438.1,
+    "intensity": 0.0516897,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1635.9,
+    "intensity": 0.94831,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1706.6,
+    "intensity": 0.490458,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1698.8,
+    "intensity": 0.346263,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 1650.9,
+    "intensity": 0.00112492,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 1906.9,
+    "intensity": 0.0735687,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 1906.9,
+    "intensity": 0.0897098,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 80.9,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "37": {
+   "Ka1": {
+    "energy": 13396.0,
+    "intensity": 0.560942,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 13336.0,
+    "intensity": 0.290941,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 13135.0,
+    "intensity": 0.000379814,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 14960.9,
+    "intensity": 0.0876247,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 15183.7,
+    "intensity": 0.0137431,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 14951.3,
+    "intensity": 0.0453896,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 15087.0,
+    "intensity": 0.000979629,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1692.0,
+    "intensity": 0.860221,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1691.0,
+    "intensity": 0.0946243,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1477.3,
+    "intensity": 0.0437611,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1537.3,
+    "intensity": 0.0498747,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1751.0,
+    "intensity": 0.950125,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1825.9,
+    "intensity": 0.489621,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1816.3,
+    "intensity": 0.345673,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 1773.5,
+    "intensity": 0.00139356,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 2048.7,
+    "intensity": 0.0741776,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 2049.7,
+    "intensity": 0.0905282,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 96.7,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "38": {
+   "Ka1": {
+    "energy": 14165.0,
+    "intensity": 0.558213,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 14098.0,
+    "intensity": 0.290157,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 13889.0,
+    "intensity": 0.000388181,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 15835.0,
+    "intensity": 0.0879408,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 16083.4,
+    "intensity": 0.0167464,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 15824.7,
+    "intensity": 0.0455533,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 15969.0,
+    "intensity": 0.00100121,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1805.8,
+    "intensity": 0.86152,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1804.0,
+    "intensity": 0.0947672,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1581.3,
+    "intensity": 0.0420501,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1648.3,
+    "intensity": 0.0481229,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1871.0,
+    "intensity": 0.951877,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 1946.0,
+    "intensity": 0.488767,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 1935.7,
+    "intensity": 0.34507,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 1901.1,
+    "intensity": 0.00166273,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 2194.4,
+    "intensity": 0.0747814,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 2195.9,
+    "intensity": 0.0913816,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 114.4,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "39": {
+   "Ka1": {
+    "energy": 14958.0,
+    "intensity": 0.556124,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 14882.0,
+    "intensity": 0.289708,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 14665.0,
+    "intensity": 0.000396906,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 16739.2,
+    "intensity": 0.0883514,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 17013.6,
+    "intensity": 0.0186302,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 16727.4,
+    "intensity": 0.045766,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 16880.3,
+    "intensity": 0.00102371,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 1924.2,
+    "intensity": 0.862363,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 1922.3,
+    "intensity": 0.0948599,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1688.0,
+    "intensity": 0.0408459,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1764.0,
+    "intensity": 0.0464339,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 1998.3,
+    "intensity": 0.953566,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 2074.2,
+    "intensity": 0.487896,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 2062.4,
+    "intensity": 0.344455,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 2036.2,
+    "intensity": 0.00193169,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 2348.6,
+    "intensity": 0.0753799,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 2349.9,
+    "intensity": 0.0922695,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 133.3,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "40": {
+   "Ka1": {
+    "energy": 15775.0,
+    "intensity": 0.554048,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 15691.0,
+    "intensity": 0.289266,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 15466.0,
+    "intensity": 0.000405563,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 17668.2,
+    "intensity": 0.0887584,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 17969.5,
+    "intensity": 0.0204998,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 17654.5,
+    "intensity": 0.0459769,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 17816.9,
+    "intensity": 0.00104604,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2044.2,
+    "intensity": 0.862321,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2041.9,
+    "intensity": 0.0957923,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1792.7,
+    "intensity": 0.0396873,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1876.7,
+    "intensity": 0.0448073,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 2125.9,
+    "intensity": 0.955193,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 2202.2,
+    "intensity": 0.487008,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 2188.5,
+    "intensity": 0.343827,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 2172.4,
+    "intensity": 0.00219892,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 2503.5,
+    "intensity": 0.0759732,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 2504.9,
+    "intensity": 0.0931916,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 152.6,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "41": {
+   "Ka1": {
+    "energy": 16615.0,
+    "intensity": 0.55244,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 16521.0,
+    "intensity": 0.289072,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 16288.0,
+    "intensity": 0.000414496,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 18625.4,
+    "intensity": 0.0892356,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 18953.4,
+    "intensity": 0.0215452,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 18609.9,
+    "intensity": 0.0462241,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 18781.0,
+    "intensity": 0.00106908,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2168.7,
+    "intensity": 0.862712,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2166.0,
+    "intensity": 0.0958479,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 1904.4,
+    "intensity": 0.0389731,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 1998.4,
+    "intensity": 0.0432426,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 2260.0,
+    "intensity": 0.956757,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 2337.4,
+    "intensity": 0.486103,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 2321.9,
+    "intensity": 0.343188,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 2314.6,
+    "intensity": 0.00246735,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 2665.4,
+    "intensity": 0.0765612,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 2667.2,
+    "intensity": 0.0941478,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 172.4,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "42": {
+   "Ka1": {
+    "energy": 17480.0,
+    "intensity": 0.550837,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 17375.0,
+    "intensity": 0.288884,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 17134.0,
+    "intensity": 0.000423374,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 19606.0,
+    "intensity": 0.0897094,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 19962.4,
+    "intensity": 0.0225843,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 19588.4,
+    "intensity": 0.0464695,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 19768.9,
+    "intensity": 0.00109198,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2292.1,
+    "intensity": 0.863051,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2288.9,
+    "intensity": 0.0958978,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2013.7,
+    "intensity": 0.0383151,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 2118.7,
+    "intensity": 0.0417393,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 2393.9,
+    "intensity": 0.958261,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 2472.0,
+    "intensity": 0.485613,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 2454.4,
+    "intensity": 0.341952,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 2456.8,
+    "intensity": 0.00273587,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 2828.4,
+    "intensity": 0.0772124,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 2830.5,
+    "intensity": 0.0952223,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 193.5,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "43": {
+   "Ka1": {
+    "energy": 18367.0,
+    "intensity": 0.54924,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 18251.0,
+    "intensity": 0.288703,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 18001.0,
+    "intensity": 0.000432197,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 20626.3,
+    "intensity": 0.0901797,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 21001.7,
+    "intensity": 0.0236173,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 20596.4,
+    "intensity": 0.0467131,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 20786.4,
+    "intensity": 0.00111474,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2423.1,
+    "intensity": 0.863341,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2419.4,
+    "intensity": 0.0959422,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2133.0,
+    "intensity": 0.0377123,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 2249.0,
+    "intensity": 0.0402969,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 2535.4,
+    "intensity": 0.959703,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 2625.3,
+    "intensity": 0.487847,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 2595.4,
+    "intensity": 0.336978,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 2607.5,
+    "intensity": 0.00300443,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 3000.7,
+    "intensity": 0.0782994,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 3003.1,
+    "intensity": 0.0968764,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 215.3,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "44": {
+   "Ka1": {
+    "energy": 19279.0,
+    "intensity": 0.547647,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 19150.0,
+    "intensity": 0.288529,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 18893.0,
+    "intensity": 0.000440965,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 21655.5,
+    "intensity": 0.0906465,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 22070.7,
+    "intensity": 0.0246441,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 21633.7,
+    "intensity": 0.0469549,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb5": {
+    "energy": 21832.8,
+    "intensity": 0.00113735,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2558.0,
+    "intensity": 0.863582,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2553.8,
+    "intensity": 0.0959813,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2251.9,
+    "intensity": 0.0371637,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 2380.9,
+    "intensity": 0.0389147,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 2682.8,
+    "intensity": 0.961085,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb3": {
+    "energy": 2762.5,
+    "intensity": 0.489877,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 2740.7,
+    "intensity": 0.332221,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 2763.0,
+    "intensity": 0.00327298,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg2": {
+    "energy": 3177.7,
+    "intensity": 0.0793601,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 3180.8,
+    "intensity": 0.0985423,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mz": {
+    "energy": 237.9,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "45": {
+   "Ka1": {
+    "energy": 20216.0,
+    "intensity": 0.54603,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 20074.0,
+    "intensity": 0.288348,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 19808.0,
+    "intensity": 0.000449656,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 22723.5,
+    "intensity": 0.0911051,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 23169.5,
+    "intensity": 0.0253904,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 22698.7,
+    "intensity": 0.0471925,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 23218.0,
+    "intensity": 0.000324342,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 22908.1,
+    "intensity": 0.00115977,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2696.8,
+    "intensity": 0.792807,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2692.1,
+    "intensity": 0.0881263,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2375.9,
+    "intensity": 0.0336554,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 2517.9,
+    "intensity": 0.0348076,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 2834.1,
+    "intensity": 0.89112,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 3002.0,
+    "intensity": 0.0821606,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 2915.5,
+    "intensity": 0.491698,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 2890.7,
+    "intensity": 0.327692,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 2922.6,
+    "intensity": 0.00325051,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 3144.0,
+    "intensity": 0.0740723,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 3361.5,
+    "intensity": 0.0803926,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 3364.7,
+    "intensity": 0.100218,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mg": {
+    "energy": 494.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 261.4,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "46": {
+   "Ka1": {
+    "energy": 21177.0,
+    "intensity": 0.54459,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 21020.0,
+    "intensity": 0.288266,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 20746.0,
+    "intensity": 0.000458436,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 23817.7,
+    "intensity": 0.0915892,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 24294.3,
+    "intensity": 0.0261403,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 23790.1,
+    "intensity": 0.0474432,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 24348.0,
+    "intensity": 0.000330675,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 24009.5,
+    "intensity": 0.00118241,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2837.8,
+    "intensity": 0.783768,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2832.5,
+    "intensity": 0.0871326,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2501.4,
+    "intensity": 0.0328635,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 2658.4,
+    "intensity": 0.0333907,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 2989.5,
+    "intensity": 0.885741,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 3171.0,
+    "intensity": 0.0927798,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 3071.7,
+    "intensity": 0.493304,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 3044.1,
+    "intensity": 0.3234,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 3085.9,
+    "intensity": 0.00345642,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 3328.0,
+    "intensity": 0.0808684,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 3548.3,
+    "intensity": 0.0813952,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 3553.1,
+    "intensity": 0.1019,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mg": {
+    "energy": 530.3,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 284.8,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "47": {
+   "Ka1": {
+    "energy": 22163.0,
+    "intensity": 0.542857,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 21990.0,
+    "intensity": 0.288034,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 21708.0,
+    "intensity": 0.000466912,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 24941.0,
+    "intensity": 0.0920198,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 25450.3,
+    "intensity": 0.0274143,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 24910.2,
+    "intensity": 0.0476662,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 25510.0,
+    "intensity": 0.000336789,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 25140.0,
+    "intensity": 0.00120427,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 2982.7,
+    "intensity": 0.775657,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 2977.0,
+    "intensity": 0.086242,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2632.0,
+    "intensity": 0.0321671,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 2805.0,
+    "intensity": 0.0320642,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 3150.0,
+    "intensity": 0.880841,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 3347.0,
+    "intensity": 0.102272,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 3233.0,
+    "intensity": 0.494692,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 3202.2,
+    "intensity": 0.319354,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 3254.0,
+    "intensity": 0.0036611,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 3520.0,
+    "intensity": 0.0870948,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 3742.3,
+    "intensity": 0.0823662,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 3747.7,
+    "intensity": 0.103588,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mg": {
+    "energy": 569.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 310.3,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "48": {
+   "Ka1": {
+    "energy": 23173.0,
+    "intensity": 0.541041,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 22984.0,
+    "intensity": 0.287764,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 22693.0,
+    "intensity": 0.00047525,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 26092.6,
+    "intensity": 0.0924314,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 26647.1,
+    "intensity": 0.0286752,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 26058.4,
+    "intensity": 0.0480446,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 26699.3,
+    "intensity": 0.000342803,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 26299.1,
+    "intensity": 0.00122578,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 3132.8,
+    "intensity": 0.7684,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 3126.1,
+    "intensity": 0.085446,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2766.0,
+    "intensity": 0.0315593,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 2955.0,
+    "intensity": 0.0308225,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 3315.1,
+    "intensity": 0.876377,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 3526.3,
+    "intensity": 0.11073,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 3399.6,
+    "intensity": 0.495856,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 3365.4,
+    "intensity": 0.315563,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 3428.2,
+    "intensity": 0.00386505,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 3715.3,
+    "intensity": 0.0928004,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 3954.1,
+    "intensity": 0.0833038,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 3954.1,
+    "intensity": 0.105278,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mg": {
+    "energy": 607.7,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 348.0,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "49": {
+   "Ka1": {
+    "energy": 24210.0,
+    "intensity": 0.539772,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 24002.0,
+    "intensity": 0.287792,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 23702.0,
+    "intensity": 0.000484013,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 27274.7,
+    "intensity": 0.0929325,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 27866.5,
+    "intensity": 0.0291477,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 27236.8,
+    "intensity": 0.0482742,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 27922.3,
+    "intensity": 0.000349124,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 27488.6,
+    "intensity": 0.00124838,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 3286.1,
+    "intensity": 0.761928,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 3278.6,
+    "intensity": 0.084737,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 2902.8,
+    "intensity": 0.0310338,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 3110.8,
+    "intensity": 0.0296609,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 3486.6,
+    "intensity": 0.872309,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 3712.3,
+    "intensity": 0.118233,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 3572.7,
+    "intensity": 0.496793,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 3534.8,
+    "intensity": 0.312033,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 3607.1,
+    "intensity": 0.00406869,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 3920.3,
+    "intensity": 0.0980306,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 4164.5,
+    "intensity": 0.0842065,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 4164.5,
+    "intensity": 0.106968,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mg": {
+    "energy": 648.4,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 377.9,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "50": {
+   "Ka1": {
+    "energy": 25271.0,
+    "intensity": 0.538502,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 25044.0,
+    "intensity": 0.287827,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 24735.0,
+    "intensity": 0.000492729,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 28485.4,
+    "intensity": 0.0934301,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 29116.4,
+    "intensity": 0.0296176,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 28443.5,
+    "intensity": 0.0485038,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 29175.1,
+    "intensity": 0.000355411,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 28706.8,
+    "intensity": 0.00127087,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 3444.1,
+    "intensity": 0.756179,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 3435.8,
+    "intensity": 0.0841084,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 3044.3,
+    "intensity": 0.0305854,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 3271.3,
+    "intensity": 0.0285748,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 3662.8,
+    "intensity": 0.8686,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 3904.1,
+    "intensity": 0.124855,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 3750.4,
+    "intensity": 0.497501,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 3708.5,
+    "intensity": 0.308771,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 3791.9,
+    "intensity": 0.00427241,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 4131.1,
+    "intensity": 0.102826,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 4381.4,
+    "intensity": 0.0850726,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 4381.4,
+    "intensity": 0.108655,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Mg": {
+    "energy": 690.7,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 409.6,
+    "intensity": 1.0,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "51": {
+   "Ka1": {
+    "energy": 26359.0,
+    "intensity": 0.537087,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 26111.0,
+    "intensity": 0.287793,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 25793.0,
+    "intensity": 0.000501263,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 29724.6,
+    "intensity": 0.0938989,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 30395.4,
+    "intensity": 0.0303454,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 29678.3,
+    "intensity": 0.0487202,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 30457.7,
+    "intensity": 0.000361567,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 29953.5,
+    "intensity": 0.00129288,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 3603.8,
+    "intensity": 0.7511,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 3594.5,
+    "intensity": 0.0835541,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 3192.0,
+    "intensity": 0.0302093,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 3440.0,
+    "intensity": 0.0275601,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 3842.5,
+    "intensity": 0.865215,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 4098.7,
+    "intensity": 0.13066,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 3931.6,
+    "intensity": 0.497976,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 3885.3,
+    "intensity": 0.305785,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 3978.8,
+    "intensity": 0.00447656,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 4346.7,
+    "intensity": 0.107225,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 4602.4,
+    "intensity": 0.0859009,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 4602.4,
+    "intensity": 0.110338,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 528.2,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 537.5,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 734.3,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 441.9,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "52": {
+   "Ka1": {
+    "energy": 27473.0,
+    "intensity": 0.535672,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 27202.0,
+    "intensity": 0.287767,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 26875.0,
+    "intensity": 0.000509745,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 30993.2,
+    "intensity": 0.0943639,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 31710.7,
+    "intensity": 0.031069,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 30943.2,
+    "intensity": 0.0489366,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 31772.1,
+    "intensity": 0.000367685,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 31230.6,
+    "intensity": 0.00131475,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 3768.0,
+    "intensity": 0.746641,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 3757.6,
+    "intensity": 0.0830686,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 3335.0,
+    "intensity": 0.0299013,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 3606.0,
+    "intensity": 0.0266132,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 4028.6,
+    "intensity": 0.862125,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 4299.1,
+    "intensity": 0.135708,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 4118.2,
+    "intensity": 0.498218,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 4068.2,
+    "intensity": 0.303079,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 4171.6,
+    "intensity": 0.00468144,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 4570.1,
+    "intensity": 0.111262,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 4835.7,
+    "intensity": 0.0866899,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 4835.7,
+    "intensity": 0.112014,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 573.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 583.4,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 780.4,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 480.1,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "53": {
+   "Ka1": {
+    "energy": 28612.0,
+    "intensity": 0.533828,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 28317.0,
+    "intensity": 0.287519,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 27981.0,
+    "intensity": 0.00051776,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 32294.0,
+    "intensity": 0.0947492,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 33046.0,
+    "intensity": 0.0325635,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 32238.0,
+    "intensity": 0.0491136,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 33118.4,
+    "intensity": 0.000373466,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 32538.2,
+    "intensity": 0.00133543,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 3937.7,
+    "intensity": 0.742758,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 3926.2,
+    "intensity": 0.0826471,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 3485.0,
+    "intensity": 0.0296576,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 3780.0,
+    "intensity": 0.0257307,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 4221.2,
+    "intensity": 0.859299,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 4506.4,
+    "intensity": 0.14005,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 4313.0,
+    "intensity": 0.498224,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 4257.0,
+    "intensity": 0.300658,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 4371.0,
+    "intensity": 0.0048873400000000004,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 4801.4,
+    "intensity": 0.114971,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 5065.0,
+    "intensity": 0.0874384,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 5065.0,
+    "intensity": 0.11368,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 619.3,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 630.8,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 826.1,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 507.8,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "54": {
+   "Ka1": {
+    "energy": 29775.0,
+    "intensity": 0.53199,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 29454.0,
+    "intensity": 0.287281,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 29108.0,
+    "intensity": 0.000525713,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 33620.4,
+    "intensity": 0.0951305,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 34414.3,
+    "intensity": 0.0340474,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 33558.9,
+    "intensity": 0.0492904,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 34491.5,
+    "intensity": 0.000379203,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 33872.0,
+    "intensity": 0.00135594,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 4109.6,
+    "intensity": 0.739409,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 4097.0,
+    "intensity": 0.0822849,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 3637.3,
+    "intensity": 0.0294749,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 3958.3,
+    "intensity": 0.0249094,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 4418.0,
+    "intensity": 0.85671,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 4716.5,
+    "intensity": 0.143737,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 4512.4,
+    "intensity": 0.497996,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 4450.9,
+    "intensity": 0.298526,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 4572.8,
+    "intensity": 0.00509452,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 5037.5,
+    "intensity": 0.118381,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 5306.3,
+    "intensity": 0.0881452,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 5307.5,
+    "intensity": 0.115333,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 676.4,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 689.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 873.1,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 542.3,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "55": {
+   "Ka1": {
+    "energy": 30973.0,
+    "intensity": 0.530156,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 30626.0,
+    "intensity": 0.287054,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 30271.0,
+    "intensity": 0.000533602,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 34982.0,
+    "intensity": 0.0955077,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 35812.6,
+    "intensity": 0.0355205,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 34914.0,
+    "intensity": 0.0494671,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 35905.2,
+    "intensity": 0.000384894,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 35244.5,
+    "intensity": 0.00137629,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 4285.4,
+    "intensity": 0.736557,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 4271.5,
+    "intensity": 0.081978,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 3801.0,
+    "intensity": 0.0293504,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 4148.0,
+    "intensity": 0.0241467,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 4618.5,
+    "intensity": 0.854332,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 4932.2,
+    "intensity": 0.146811,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 4711.0,
+    "intensity": 0.497532,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 4643.0,
+    "intensity": 0.296686,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 4779.7,
+    "intensity": 0.00530321,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 5279.2,
+    "intensity": 0.121521,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 5541.6,
+    "intensity": 0.0888095,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 5552.7,
+    "intensity": 0.116972,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 726.6,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 740.5,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 925.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 568.1,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "56": {
+   "Ka1": {
+    "energy": 32194.0,
+    "intensity": 0.528327,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 31817.0,
+    "intensity": 0.286837,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 31452.0,
+    "intensity": 0.00054143,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 36378.0,
+    "intensity": 0.0958808,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 37249.0,
+    "intensity": 0.0369829,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 36304.0,
+    "intensity": 0.0496437,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 37348.4,
+    "intensity": 0.000390539,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 36645.3,
+    "intensity": 0.00139647,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 4466.5,
+    "intensity": 0.734168,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 4451.3,
+    "intensity": 0.0817226,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 3954.0,
+    "intensity": 0.0292812,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 4331.0,
+    "intensity": 0.0234397,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 4828.3,
+    "intensity": 0.852142,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 5154.4,
+    "intensity": 0.149314,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 4926.0,
+    "intensity": 0.496835,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 4852.0,
+    "intensity": 0.295141,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 4993.5,
+    "intensity": 0.0055136,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 5531.4,
+    "intensity": 0.124419,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 5797.0,
+    "intensity": 0.0894302,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 5810.4,
+    "intensity": 0.118594,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 780.5,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 795.7,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 973.1,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 603.7,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "57": {
+   "Ka1": {
+    "energy": 33442.0,
+    "intensity": 0.526502,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 33034.0,
+    "intensity": 0.286632,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 32659.0,
+    "intensity": 0.000549194,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 37797.0,
+    "intensity": 0.0962498,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 38719.2,
+    "intensity": 0.0384346,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 37716.0,
+    "intensity": 0.0498202,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 38819.7,
+    "intensity": 0.00039614,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 38072.0,
+    "intensity": 0.0014165,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 4647.0,
+    "intensity": 0.73221,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 4630.0,
+    "intensity": 0.081515,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 4121.0,
+    "intensity": 0.0292651,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 4529.0,
+    "intensity": 0.022786,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 5038.0,
+    "intensity": 0.850117,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 5377.7,
+    "intensity": 0.151284,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 5138.0,
+    "intensity": 0.495905,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 5057.0,
+    "intensity": 0.293892,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 5208.3,
+    "intensity": 0.00572588,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 5785.7,
+    "intensity": 0.127097,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 6060.2,
+    "intensity": 0.0900067,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 6070.0,
+    "intensity": 0.120197,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 836.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 853.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1025.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 647.2,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "58": {
+   "Ka1": {
+    "energy": 34720.0,
+    "intensity": 0.52468,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 34279.0,
+    "intensity": 0.286437,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 33895.0,
+    "intensity": 0.000556896,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 39256.0,
+    "intensity": 0.0966147,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 40219.8,
+    "intensity": 0.0398757,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 39169.0,
+    "intensity": 0.0499967,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 40334.0,
+    "intensity": 0.000401695,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 39540.6,
+    "intensity": 0.00143637,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 4839.2,
+    "intensity": 0.730653,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 4820.6,
+    "intensity": 0.081352,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 4287.0,
+    "intensity": 0.0292998,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 4728.0,
+    "intensity": 0.0221835,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 5261.6,
+    "intensity": 0.848236,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 5614.0,
+    "intensity": 0.152755,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 5361.0,
+    "intensity": 0.494745,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 5274.0,
+    "intensity": 0.292939,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 5432.0,
+    "intensity": 0.00594021,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 6055.0,
+    "intensity": 0.12958,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 6324.8,
+    "intensity": 0.0905383,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 6341.5,
+    "intensity": 0.121778,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 883.7,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 902.3,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1078.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 679.2,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "59": {
+   "Ka1": {
+    "energy": 36027.0,
+    "intensity": 0.522726,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 35551.0,
+    "intensity": 0.28618,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 35156.0,
+    "intensity": 0.000564387,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 40749.0,
+    "intensity": 0.09695,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 41754.7,
+    "intensity": 0.0415567,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 40654.0,
+    "intensity": 0.05016,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 41875.9,
+    "intensity": 0.000407099,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 41042.7,
+    "intensity": 0.00145569,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 5035.2,
+    "intensity": 0.729469,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 5015.7,
+    "intensity": 0.0812304,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 4453.0,
+    "intensity": 0.0293836,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 4929.0,
+    "intensity": 0.0216299,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 5491.7,
+    "intensity": 0.846481,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 5848.9,
+    "intensity": 0.153761,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 5593.0,
+    "intensity": 0.493358,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 5498.0,
+    "intensity": 0.292282,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 5659.5,
+    "intensity": 0.00615672,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 6324.9,
+    "intensity": 0.13189,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 6598.7,
+    "intensity": 0.0910245,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 6617.4,
+    "intensity": 0.123335,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 926.8,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 946.3,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1126.9,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 712.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "60": {
+   "Ka1": {
+    "energy": 37361.0,
+    "intensity": 0.521044,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 36847.0,
+    "intensity": 0.286081,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 36443.0,
+    "intensity": 5.91489e-05,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 42272.0,
+    "intensity": 0.0973311,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 43325.7,
+    "intensity": 0.0432467,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 42166.0,
+    "intensity": 0.0503491,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 43448.5,
+    "intensity": 0.000412667,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 42565.7,
+    "intensity": 0.0014756,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 5227.6,
+    "intensity": 0.728745,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 5204.7,
+    "intensity": 0.0811602,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 4633.0,
+    "intensity": 0.0295191,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 5147.0,
+    "intensity": 0.0211231,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 5718.7,
+    "intensity": 0.844831,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 6087.5,
+    "intensity": 0.154357,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 5829.0,
+    "intensity": 0.491747,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 5723.0,
+    "intensity": 0.291921,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 5888.8,
+    "intensity": 0.00621882,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 6601.5,
+    "intensity": 0.134045,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 6882.7,
+    "intensity": 0.0914649,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 6901.4,
+    "intensity": 0.124867,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 978.9,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1001.8,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1176.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 760.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "61": {
+   "Ka1": {
+    "energy": 38725.0,
+    "intensity": 0.519639,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 38171.0,
+    "intensity": 0.286145,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 37756.0,
+    "intensity": 6.67739e-05,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 43827.0,
+    "intensity": 0.0977597,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 44942.0,
+    "intensity": 0.0439095,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 43712.6,
+    "intensity": 0.0505649,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 45064.0,
+    "intensity": 0.000418414,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 44132.0,
+    "intensity": 0.00149615,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 5432.0,
+    "intensity": 0.728221,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 5407.0,
+    "intensity": 0.0811122,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 4809.0,
+    "intensity": 0.0296954,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 5363.0,
+    "intensity": 0.0206615,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 5961.0,
+    "intensity": 0.843271,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 6339.0,
+    "intensity": 0.154523,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 6071.0,
+    "intensity": 0.489916,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 5956.6,
+    "intensity": 0.291853,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 6128.0,
+    "intensity": 0.00644786,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 6893.0,
+    "intensity": 0.136067,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 7186.0,
+    "intensity": 0.0918593,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 7186.0,
+    "intensity": 0.126371,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1023.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1048.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1237.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 810.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "62": {
+   "Ka1": {
+    "energy": 40118.0,
+    "intensity": 0.518232,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 39522.0,
+    "intensity": 0.28622,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 39097.0,
+    "intensity": 7.43095e-05,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 45414.2,
+    "intensity": 0.0981843,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 46568.4,
+    "intensity": 0.044568,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 45293.0,
+    "intensity": 0.0507808,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 46705.0,
+    "intensity": 0.000424121,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 45723.1,
+    "intensity": 0.00151655,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 5632.6,
+    "intensity": 0.727994,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 5605.1,
+    "intensity": 0.0810972,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 4993.0,
+    "intensity": 0.0299157,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 5589.0,
+    "intensity": 0.020243,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 6201.1,
+    "intensity": 0.841785,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 6587.0,
+    "intensity": 0.154314,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 6317.2,
+    "intensity": 0.487871,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 6196.0,
+    "intensity": 0.292076,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 6368.8,
+    "intensity": 0.00667929,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 7183.0,
+    "intensity": 0.137972,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 7471.4,
+    "intensity": 0.0922077,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 7489.6,
+    "intensity": 0.127845,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1078.2,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1105.7,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1290.8,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 845.3,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "63": {
+   "Ka1": {
+    "energy": 41542.0,
+    "intensity": 0.516823,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 40902.0,
+    "intensity": 0.286305,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 40467.0,
+    "intensity": 8.19248e-05,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 47038.0,
+    "intensity": 0.0986047,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 48235.0,
+    "intensity": 0.045222,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 46905.0,
+    "intensity": 0.0509968,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 48386.0,
+    "intensity": 0.00042979,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 47360.4,
+    "intensity": 0.00153682,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 5849.5,
+    "intensity": 0.72804,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 5818.4,
+    "intensity": 0.0811125,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 5177.0,
+    "intensity": 0.0301787,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 5817.0,
+    "intensity": 0.019866,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 6458.4,
+    "intensity": 0.840356,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 6844.0,
+    "intensity": 0.153756,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 6571.0,
+    "intensity": 0.485616,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 6438.0,
+    "intensity": 0.292586,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 6617.0,
+    "intensity": 0.00691316,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 7484.0,
+    "intensity": 0.139778,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 7768.0,
+    "intensity": 0.0925099,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 7795.0,
+    "intensity": 0.129288,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1121.5,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1152.6,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1353.3,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 874.6,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "64": {
+   "Ka1": {
+    "energy": 42996.0,
+    "intensity": 0.516144,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 42309.0,
+    "intensity": 0.286809,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 41863.0,
+    "intensity": 8.99129e-05,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 48695.0,
+    "intensity": 0.0982171,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 49953.0,
+    "intensity": 0.0459368,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 48551.0,
+    "intensity": 0.0507971,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 50096.4,
+    "intensity": 0.000442581,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 49017.1,
+    "intensity": 0.00156358,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 6053.4,
+    "intensity": 0.728335,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 6021.1,
+    "intensity": 0.0811557,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 5362.0,
+    "intensity": 0.0304831,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 6049.0,
+    "intensity": 0.0195289,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 6708.1,
+    "intensity": 0.838972,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 7100.4,
+    "intensity": 0.152877,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 6832.0,
+    "intensity": 0.482936,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 6688.0,
+    "intensity": 0.293244,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 6864.4,
+    "intensity": 0.00714951,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 7787.4,
+    "intensity": 0.141499,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 8090.0,
+    "intensity": 0.0931822,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 8105.0,
+    "intensity": 0.130638,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1181.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1213.3,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1401.4,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 935.9,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "65": {
+   "Ka1": {
+    "energy": 44482.0,
+    "intensity": 0.514122,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 43744.0,
+    "intensity": 0.286579,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 43288.0,
+    "intensity": 9.80819e-05,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 50385.0,
+    "intensity": 0.099743,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 51673.6,
+    "intensity": 0.0457569,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 50228.0,
+    "intensity": 0.0515893,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 51845.5,
+    "intensity": 0.000450928,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 50719.1,
+    "intensity": 0.00166062,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 6272.9,
+    "intensity": 0.728857,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 6237.1,
+    "intensity": 0.0812242,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 5546.0,
+    "intensity": 0.0308277,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 6284.0,
+    "intensity": 0.0192301,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 6975.1,
+    "intensity": 0.837619,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 7363.5,
+    "intensity": 0.151703,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 7097.0,
+    "intensity": 0.480439,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 6940.0,
+    "intensity": 0.294412,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 7118.0,
+    "intensity": 0.00738835,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 8101.5,
+    "intensity": 0.143151,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 8385.6,
+    "intensity": 0.0930923,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 8423.9,
+    "intensity": 0.132056,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1233.4,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1269.2,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1460.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 954.5,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "66": {
+   "Ka1": {
+    "energy": 45999.0,
+    "intensity": 0.512204,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 45208.0,
+    "intensity": 0.286417,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 44743.0,
+    "intensity": 0.000106827,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 52113.0,
+    "intensity": 0.101146,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 53455.5,
+    "intensity": 0.0455862,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 51947.0,
+    "intensity": 0.0523203,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 53635.4,
+    "intensity": 0.000461832,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 52456.0,
+    "intensity": 0.0017572,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 6498.0,
+    "intensity": 0.729584,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 6457.0,
+    "intensity": 0.0813156,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 5743.0,
+    "intensity": 0.0312112,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 6534.0,
+    "intensity": 0.018968,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 7248.0,
+    "intensity": 0.836285,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 7636.4,
+    "intensity": 0.15026,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 7370.0,
+    "intensity": 0.477673,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 7204.0,
+    "intensity": 0.295806,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 7375.8,
+    "intensity": 0.00762967,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 8427.4,
+    "intensity": 0.144747,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 8712.5,
+    "intensity": 0.0931021,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 8752.8,
+    "intensity": 0.133418,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1284.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1325.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1522.4,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 999.5,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "67": {
+   "Ka1": {
+    "energy": 47547.0,
+    "intensity": 0.510513,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 46700.0,
+    "intensity": 0.286395,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 46224.0,
+    "intensity": 0.000116342,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 53877.0,
+    "intensity": 0.102459,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 55274.5,
+    "intensity": 0.0451804,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 53695.0,
+    "intensity": 0.053007,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 55458.0,
+    "intensity": 0.000475417,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 54226.0,
+    "intensity": 0.00185384,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 6720.0,
+    "intensity": 0.730494,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 6679.0,
+    "intensity": 0.0814274,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 5943.0,
+    "intensity": 0.0316326,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 6790.0,
+    "intensity": 0.0187411,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 7526.0,
+    "intensity": 0.834959,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 7911.0,
+    "intensity": 0.148573,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 7653.0,
+    "intensity": 0.47464,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 7471.0,
+    "intensity": 0.297416,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 7638.6,
+    "intensity": 0.00787342,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 8758.0,
+    "intensity": 0.1463,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 9050.5,
+    "intensity": 0.0932251,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 9085.8,
+    "intensity": 0.134719,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1342.4,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1383.4,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1581.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1048.5,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "68": {
+   "Ka1": {
+    "energy": 49128.0,
+    "intensity": 0.508912,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 48222.0,
+    "intensity": 0.286435,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 47735.0,
+    "intensity": 0.000126764,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 55674.0,
+    "intensity": 0.103661,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 57119.8,
+    "intensity": 0.0447842,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 55480.0,
+    "intensity": 0.0536393,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 57318.4,
+    "intensity": 0.000491573,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 56033.0,
+    "intensity": 0.00195014,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 6949.0,
+    "intensity": 0.731565,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 6905.0,
+    "intensity": 0.0815571,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 6152.0,
+    "intensity": 0.0320908,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 7058.0,
+    "intensity": 0.0185481,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 7811.0,
+    "intensity": 0.833631,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 8190.4,
+    "intensity": 0.146668,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 7939.0,
+    "intensity": 0.471341,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 7745.0,
+    "intensity": 0.299229,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 7908.2,
+    "intensity": 0.00811955,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 9096.4,
+    "intensity": 0.147821,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 9384.8,
+    "intensity": 0.0934733,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 9430.8,
+    "intensity": 0.135957,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1404.3,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1448.3,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1644.4,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1086.8,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "69": {
+   "Ka1": {
+    "energy": 50742.0,
+    "intensity": 0.507393,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 49773.0,
+    "intensity": 0.286535,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 49274.0,
+    "intensity": 0.000138253,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 57505.0,
+    "intensity": 0.10476,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 59004.1,
+    "intensity": 0.0443969,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 57300.0,
+    "intensity": 0.0542205,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 59214.5,
+    "intensity": 0.000510306,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 57875.0,
+    "intensity": 0.00204613,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 7180.0,
+    "intensity": 0.732774,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 7133.0,
+    "intensity": 0.0817023,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 6341.0,
+    "intensity": 0.0325845,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 7310.0,
+    "intensity": 0.0183875,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 8102.0,
+    "intensity": 0.832292,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 8472.5,
+    "intensity": 0.144571,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 8231.0,
+    "intensity": 0.467781,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 8026.0,
+    "intensity": 0.301233,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 8177.1,
+    "intensity": 0.00836794,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 9441.5,
+    "intensity": 0.14932,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 9730.1,
+    "intensity": 0.0938586,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 9783.4,
+    "intensity": 0.137127,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1463.4,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1510.4,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1709.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1129.1,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "70": {
+   "Ka1": {
+    "energy": 52388.0,
+    "intensity": 0.505952,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 51354.0,
+    "intensity": 0.286692,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 50846.0,
+    "intensity": 0.000150968,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 59382.0,
+    "intensity": 0.10576,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 60943.3,
+    "intensity": 0.0440178,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 59159.0,
+    "intensity": 0.0547534,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 61140.8,
+    "intensity": 0.000531626,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 59756.0,
+    "intensity": 0.00214185,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 7416.0,
+    "intensity": 0.733749,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 7368.0,
+    "intensity": 0.0818213,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 6546.0,
+    "intensity": 0.0330969,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 7580.0,
+    "intensity": 0.018258,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 8402.0,
+    "intensity": 0.830934,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 8752.8,
+    "intensity": 0.142719,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 8536.0,
+    "intensity": 0.463965,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 8313.0,
+    "intensity": 0.303417,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 8463.5,
+    "intensity": 0.00861436,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 9786.8,
+    "intensity": 0.150808,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 10097.3,
+    "intensity": 0.0943913,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 10146.3,
+    "intensity": 0.138227,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1525.5,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1573.5,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1767.6,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1187.3,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "71": {
+   "Ka1": {
+    "energy": 54070.0,
+    "intensity": 0.50471,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 52965.0,
+    "intensity": 0.286977,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 52444.0,
+    "intensity": 0.000165109,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 61290.0,
+    "intensity": 0.106695,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 62901.6,
+    "intensity": 0.043405,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 61050.0,
+    "intensity": 0.0552548,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 63107.9,
+    "intensity": 0.000555682,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 61675.0,
+    "intensity": 0.00223786,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 7655.0,
+    "intensity": 0.727887,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 7605.0,
+    "intensity": 0.081178,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 6753.0,
+    "intensity": 0.0333249,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 7858.0,
+    "intensity": 0.0181582,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 8710.0,
+    "intensity": 0.829548,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 9037.9,
+    "intensity": 0.148831,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 8846.0,
+    "intensity": 0.459899,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 8606.0,
+    "intensity": 0.305766,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 8737.2,
+    "intensity": 0.00877894,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 10142.9,
+    "intensity": 0.152294,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 10457.6,
+    "intensity": 0.0950812,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 10510.8,
+    "intensity": 0.139253,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1580.1,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1630.1,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1827.7,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1226.6,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "72": {
+   "Ka1": {
+    "energy": 55790.0,
+    "intensity": 0.503533,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 54612.0,
+    "intensity": 0.287314,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 54080.0,
+    "intensity": 0.0001808,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 63244.0,
+    "intensity": 0.107542,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 64912.8,
+    "intensity": 0.0428003,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 62986.0,
+    "intensity": 0.0557139,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 65131.0,
+    "intensity": 0.000582359,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 63635.0,
+    "intensity": 0.00233368,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 7899.0,
+    "intensity": 0.722919,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 7845.0,
+    "intensity": 0.0806342,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 6960.0,
+    "intensity": 0.0336129,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 8138.0,
+    "intensity": 0.0180868,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 9023.0,
+    "intensity": 0.828129,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 9341.0,
+    "intensity": 0.153883,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 9164.0,
+    "intensity": 0.45559,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 8906.0,
+    "intensity": 0.308268,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 9023.0,
+    "intensity": 0.00895083,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 10519.0,
+    "intensity": 0.153784,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 10832.8,
+    "intensity": 0.0959372,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 10890.3,
+    "intensity": 0.140204,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1646.1,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1700.1,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1895.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1277.8,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "73": {
+   "Ka1": {
+    "energy": 57535.0,
+    "intensity": 0.502037,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 56280.0,
+    "intensity": 0.287485,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 55734.0,
+    "intensity": 0.000198048,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 65222.0,
+    "intensity": 0.108226,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 66952.6,
+    "intensity": 0.0429242,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 64947.0,
+    "intensity": 0.0560909,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 67178.1,
+    "intensity": 0.000611209,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 65623.0,
+    "intensity": 0.00242749,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 8146.0,
+    "intensity": 0.718706,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 8088.0,
+    "intensity": 0.0801745,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 7173.0,
+    "intensity": 0.0339554,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 8428.0,
+    "intensity": 0.0180424,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 9343.0,
+    "intensity": 0.826671,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 9643.1,
+    "intensity": 0.158035,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 9488.0,
+    "intensity": 0.451047,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 9213.0,
+    "intensity": 0.310909,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 9317.6,
+    "intensity": 0.00912914,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 10898.1,
+    "intensity": 0.155287,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 11218.6,
+    "intensity": 0.0969666,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 11281.1,
+    "intensity": 0.141077,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1711.5,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1769.5,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 1967.6,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1329.6,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "74": {
+   "Ka1": {
+    "energy": 59318.0,
+    "intensity": 0.500601,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 57981.0,
+    "intensity": 0.287705,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 57425.0,
+    "intensity": 0.00021713,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 67244.0,
+    "intensity": 0.108831,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 69034.6,
+    "intensity": 0.0430517,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 66950.0,
+    "intensity": 0.0564303,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 69269.1,
+    "intensity": 0.000642663,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 67653.0,
+    "intensity": 0.002521,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 8398.0,
+    "intensity": 0.715129,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 8335.0,
+    "intensity": 0.0797856,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 7387.0,
+    "intensity": 0.0343474,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 8724.0,
+    "intensity": 0.0180238,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 9672.0,
+    "intensity": 0.825169,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 9951.1,
+    "intensity": 0.161425,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 9819.0,
+    "intensity": 0.446279,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 9525.0,
+    "intensity": 0.313674,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 9612.9,
+    "intensity": 0.00931302,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 11288.1,
+    "intensity": 0.156807,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 11609.6,
+    "intensity": 0.0981765,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 11676.4,
+    "intensity": 0.141871,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1775.4,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1838.4,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2037.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1381.6,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "75": {
+   "Ka1": {
+    "energy": 61141.0,
+    "intensity": 0.499218,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 59717.0,
+    "intensity": 0.28797,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 59149.0,
+    "intensity": 0.000238197,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 69309.0,
+    "intensity": 0.109365,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 71157.3,
+    "intensity": 0.0431824,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 68994.0,
+    "intensity": 0.0567349,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 71402.1,
+    "intensity": 0.000676731,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 69727.0,
+    "intensity": 0.00261421,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 8652.0,
+    "intensity": 0.712078,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 8586.0,
+    "intensity": 0.0794553,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 7603.0,
+    "intensity": 0.0347842,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 9027.0,
+    "intensity": 0.0180298,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 10010.0,
+    "intensity": 0.823619,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 10261.1,
+    "intensity": 0.16418,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 10160.0,
+    "intensity": 0.441295,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 9845.0,
+    "intensity": 0.31655,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 9909.6,
+    "intensity": 0.00950162,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 11685.1,
+    "intensity": 0.158351,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 12008.3,
+    "intensity": 0.0995718,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 12080.2,
+    "intensity": 0.142584,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1840.1,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1906.1,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2106.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1430.3,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "76": {
+   "Ka1": {
+    "energy": 63000.0,
+    "intensity": 0.497885,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 61486.0,
+    "intensity": 0.28828,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 60903.0,
+    "intensity": 0.000261399,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 71414.0,
+    "intensity": 0.10983,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 73321.9,
+    "intensity": 0.043316,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 71079.0,
+    "intensity": 0.0570071,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 73577.9,
+    "intensity": 0.000713421,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 71840.0,
+    "intensity": 0.00270713,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 8911.0,
+    "intensity": 0.709457,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 8840.0,
+    "intensity": 0.0791729,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 7822.0,
+    "intensity": 0.0352618,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 9336.0,
+    "intensity": 0.018059,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 10354.0,
+    "intensity": 0.822018,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 10577.9,
+    "intensity": 0.166414,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 10511.0,
+    "intensity": 0.436106,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 10176.0,
+    "intensity": 0.319522,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 10212.8,
+    "intensity": 0.00969414,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 12091.9,
+    "intensity": 0.159923,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 12418.9,
+    "intensity": 0.101158,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 12497.3,
+    "intensity": 0.143214,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1906.6,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 1977.6,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2178.5,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1481.9,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "77": {
+   "Ka1": {
+    "energy": 64896.0,
+    "intensity": 0.496225,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 63287.0,
+    "intensity": 0.288416,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 62692.0,
+    "intensity": 0.00028667,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 73560.0,
+    "intensity": 0.110151,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 75533.2,
+    "intensity": 0.044164,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 73202.0,
+    "intensity": 0.0572068,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 75799.1,
+    "intensity": 0.000752183,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 73995.0,
+    "intensity": 0.00279768,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 9175.0,
+    "intensity": 0.707178,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 9099.0,
+    "intensity": 0.0789286,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 8041.0,
+    "intensity": 0.0357761,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 9650.0,
+    "intensity": 0.0181103,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 10708.0,
+    "intensity": 0.820364,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 10903.1,
+    "intensity": 0.168227,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 10868.0,
+    "intensity": 0.430725,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 10510.0,
+    "intensity": 0.322577,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 10523.9,
+    "intensity": 0.00988976,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 12512.1,
+    "intensity": 0.161526,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 12841.2,
+    "intensity": 0.102936,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 12923.2,
+    "intensity": 0.143762,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 1976.2,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2052.2,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2254.7,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1538.2,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "78": {
+   "Ka1": {
+    "energy": 66831.0,
+    "intensity": 0.494609,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 65122.0,
+    "intensity": 0.288593,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 64515.0,
+    "intensity": 0.000314331,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 75750.0,
+    "intensity": 0.110414,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 77785.9,
+    "intensity": 0.0450094,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 75368.0,
+    "intensity": 0.0573791,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 78063.4,
+    "intensity": 0.000793528,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 76193.0,
+    "intensity": 0.00288781,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 9442.0,
+    "intensity": 0.705173,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 9362.0,
+    "intensity": 0.0787148,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 8268.0,
+    "intensity": 0.0363241,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 9977.0,
+    "intensity": 0.0181825,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 11071.0,
+    "intensity": 0.818656,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 11232.4,
+    "intensity": 0.1697,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 11235.0,
+    "intensity": 0.425163,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 10853.0,
+    "intensity": 0.3257,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb6": {
+    "energy": 10838.6,
+    "intensity": 0.0100878,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 12941.4,
+    "intensity": 0.163162,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 13270.9,
+    "intensity": 0.104911,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 13360.6,
+    "intensity": 0.144227,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Ma1": {
+    "energy": 2047.5,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2127.5,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2330.4,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1592.9,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "79": {
+   "Ka1": {
+    "energy": 68806.0,
+    "intensity": 0.49291,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 66991.0,
+    "intensity": 0.288737,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 66372.0,
+    "intensity": 0.000344437,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 77982.0,
+    "intensity": 0.110596,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 80082.3,
+    "intensity": 0.0460871,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 77577.0,
+    "intensity": 0.0575121,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 80371.8,
+    "intensity": 0.000837254,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 78434.0,
+    "intensity": 0.0029768,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 9713.0,
+    "intensity": 0.692087,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 9628.0,
+    "intensity": 0.0772639,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 8494.0,
+    "intensity": 0.0363102,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 10309.0,
+    "intensity": 0.0178699,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 11443.0,
+    "intensity": 0.798815,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 11565.8,
+    "intensity": 0.168163,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 11610.0,
+    "intensity": 0.419432,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 11205.0,
+    "intensity": 0.328877,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 11914.0,
+    "intensity": 0.016053,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 11156.9,
+    "intensity": 0.0101226,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 13380.8,
+    "intensity": 0.161187,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 13710.3,
+    "intensity": 0.107082,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 13806.7,
+    "intensity": 0.144608,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 13729.0,
+    "intensity": 0.022128,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2118.4,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2203.4,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2407.9,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1648.3,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "80": {
+   "Ka1": {
+    "energy": 70818.0,
+    "intensity": 0.491246,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 68893.0,
+    "intensity": 0.288916,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 68263.0,
+    "intensity": 0.000377197,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 80255.0,
+    "intensity": 0.11073,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 82421.8,
+    "intensity": 0.0471596,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 79823.0,
+    "intensity": 0.0576225,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 82723.8,
+    "intensity": 0.000883547,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 80717.0,
+    "intensity": 0.00306533,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 9989.0,
+    "intensity": 0.689099,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 9899.0,
+    "intensity": 0.07694,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 8722.0,
+    "intensity": 0.0368332,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 10647.0,
+    "intensity": 0.0179318,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 11824.0,
+    "intensity": 0.795004,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 11905.8,
+    "intensity": 0.16882,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 11992.0,
+    "intensity": 0.413547,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 11560.0,
+    "intensity": 0.332096,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 12274.4,
+    "intensity": 0.0180081,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 11481.8,
+    "intensity": 0.0102998,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 13830.8,
+    "intensity": 0.162443,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 14158.8,
+    "intensity": 0.109451,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 14262.4,
+    "intensity": 0.144907,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 14199.4,
+    "intensity": 0.0246215,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2191.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2281.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2488.2,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1704.8,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "81": {
+   "Ka1": {
+    "energy": 72872.0,
+    "intensity": 0.489493,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 70832.0,
+    "intensity": 0.289059,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 70183.0,
+    "intensity": 0.000412643,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 82573.0,
+    "intensity": 0.110792,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 84809.5,
+    "intensity": 0.0484598,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 82114.0,
+    "intensity": 0.0576985,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 85124.3,
+    "intensity": 0.000932181,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 83045.0,
+    "intensity": 0.00315261,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 10269.0,
+    "intensity": 0.686267,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 10173.0,
+    "intensity": 0.0766335,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 8954.0,
+    "intensity": 0.0373809,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 10994.0,
+    "intensity": 0.0180142,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 12213.0,
+    "intensity": 0.791335,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 12252.3,
+    "intensity": 0.169342,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 12390.0,
+    "intensity": 0.407519,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 11931.0,
+    "intensity": 0.335342,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 12643.3,
+    "intensity": 0.0198992,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 11811.8,
+    "intensity": 0.0104776,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 14292.3,
+    "intensity": 0.163764,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 14626.5,
+    "intensity": 0.112015,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 14737.5,
+    "intensity": 0.145123,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 14683.3,
+    "intensity": 0.0268873,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2266.8,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2362.8,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2572.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1764.5,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "82": {
+   "Ka1": {
+    "energy": 74970.0,
+    "intensity": 0.487769,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 72805.0,
+    "intensity": 0.289233,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 72144.0,
+    "intensity": 0.000450992,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 84939.0,
+    "intensity": 0.110815,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 87243.1,
+    "intensity": 0.0497524,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 84451.0,
+    "intensity": 0.0577565,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 87570.7,
+    "intensity": 0.00098336,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 85419.0,
+    "intensity": 0.00323938,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 10551.0,
+    "intensity": 0.683544,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 10449.0,
+    "intensity": 0.0763391,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 9184.0,
+    "intensity": 0.0379508,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 11349.0,
+    "intensity": 0.0181159,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 12614.0,
+    "intensity": 0.787801,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 12600.7,
+    "intensity": 0.169784,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 12795.0,
+    "intensity": 0.401364,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 12307.0,
+    "intensity": 0.338604,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 13014.3,
+    "intensity": 0.0217267,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 12143.2,
+    "intensity": 0.0106552,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 14765.7,
+    "intensity": 0.165149,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 15099.1,
+    "intensity": 0.114773,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 15217.5,
+    "intensity": 0.145259,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 15179.3,
+    "intensity": 0.0289336,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2342.3,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2444.3,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2653.8,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1824.1,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "83": {
+   "Ka1": {
+    "energy": 77107.0,
+    "intensity": 0.486067,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 74815.0,
+    "intensity": 0.289437,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 74138.0,
+    "intensity": 0.000492369,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 87349.0,
+    "intensity": 0.110804,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 89720.8,
+    "intensity": 0.0510371,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 86830.0,
+    "intensity": 0.057799,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 90062.0,
+    "intensity": 0.00103708,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 87838.0,
+    "intensity": 0.00332562,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 10839.0,
+    "intensity": 0.680896,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 10731.0,
+    "intensity": 0.076053,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 9420.0,
+    "intensity": 0.0385407,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 11712.0,
+    "intensity": 0.0182354,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 13023.0,
+    "intensity": 0.784398,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 12955.0,
+    "intensity": 0.170187,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 13211.0,
+    "intensity": 0.395094,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 12692.0,
+    "intensity": 0.341869,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 13392.1,
+    "intensity": 0.0234911,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 12480.0,
+    "intensity": 0.0108322,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 15247.0,
+    "intensity": 0.166598,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 15582.8,
+    "intensity": 0.117723,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 15709.2,
+    "intensity": 0.145314,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 15684.1,
+    "intensity": 0.030769,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2417.7,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2525.7,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2736.9,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1882.8,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "84": {
+   "Ka1": {
+    "energy": 79291.0,
+    "intensity": 0.484385,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 76861.0,
+    "intensity": 0.289669,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 76166.0,
+    "intensity": 0.000536899,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 89803.0,
+    "intensity": 0.110762,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 92254.0,
+    "intensity": 0.0523136,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 89251.0,
+    "intensity": 0.0578282,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 92605.0,
+    "intensity": 0.00109334,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 90307.0,
+    "intensity": 0.0034113,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 11131.0,
+    "intensity": 0.678302,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 11016.0,
+    "intensity": 0.0757729,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 9665.0,
+    "intensity": 0.0391492,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 12095.0,
+    "intensity": 0.0183717,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 13446.0,
+    "intensity": 0.78112,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 13314.0,
+    "intensity": 0.170575,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 13637.0,
+    "intensity": 0.388723,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 13085.0,
+    "intensity": 0.345126,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 13783.0,
+    "intensity": 0.0251926,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 12819.0,
+    "intensity": 0.0110085,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 15744.0,
+    "intensity": 0.168107,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 16088.0,
+    "intensity": 0.12086,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 16234.0,
+    "intensity": 0.145291,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 16213.0,
+    "intensity": 0.0324015,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2499.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2614.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2829.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 1947.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "85": {
+   "Ka1": {
+    "energy": 81516.0,
+    "intensity": 0.482835,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 78945.0,
+    "intensity": 0.289996,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 78237.0,
+    "intensity": 0.000584849,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 92304.0,
+    "intensity": 0.110721,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 94844.0,
+    "intensity": 0.0533533,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 91722.0,
+    "intensity": 0.0578602,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 95197.0,
+    "intensity": 0.0011524,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 92821.0,
+    "intensity": 0.00349727,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 11427.0,
+    "intensity": 0.675742,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 11305.0,
+    "intensity": 0.0754965,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 9897.0,
+    "intensity": 0.039775,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 12468.0,
+    "intensity": 0.0185236,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 13876.0,
+    "intensity": 0.777965,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 13681.0,
+    "intensity": 0.170971,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 14067.0,
+    "intensity": 0.382266,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 13485.0,
+    "intensity": 0.348363,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 14174.0,
+    "intensity": 0.0268316,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 13172.0,
+    "intensity": 0.0111836,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 16252.0,
+    "intensity": 0.169672,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 16607.0,
+    "intensity": 0.12418,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 16753.0,
+    "intensity": 0.145191,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 16745.0,
+    "intensity": 0.0338389,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2577.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2699.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2919.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2023.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "86": {
+   "Ka1": {
+    "energy": 83785.0,
+    "intensity": 0.481294,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 81067.0,
+    "intensity": 0.290345,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 80355.0,
+    "intensity": 0.000636216,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 94866.0,
+    "intensity": 0.110658,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 97475.0,
+    "intensity": 0.0543862,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 94245.0,
+    "intensity": 0.0578832,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 97837.0,
+    "intensity": 0.00121402,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 95382.0,
+    "intensity": 0.00358269,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 11727.0,
+    "intensity": 0.673207,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 11597.0,
+    "intensity": 0.0752228,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 10137.0,
+    "intensity": 0.0404172,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 12855.0,
+    "intensity": 0.01869,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 14315.0,
+    "intensity": 0.77493,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 14052.0,
+    "intensity": 0.171387,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 14511.0,
+    "intensity": 0.375735,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 13890.0,
+    "intensity": 0.351569,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 14571.0,
+    "intensity": 0.0284084,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 13522.0,
+    "intensity": 0.0113575,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 16770.0,
+    "intensity": 0.171291,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 17120.0,
+    "intensity": 0.127679,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 17281.0,
+    "intensity": 0.145017,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 17289.0,
+    "intensity": 0.0350889,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2654.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2784.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 2997.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2093.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "87": {
+   "Ka1": {
+    "energy": 86106.0,
+    "intensity": 0.479874,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 83230.0,
+    "intensity": 0.290785,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 82498.0,
+    "intensity": 0.000691286,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 97474.0,
+    "intensity": 0.110604,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 100157.0,
+    "intensity": 0.0551855,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 96810.0,
+    "intensity": 0.0579133,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 100534.0,
+    "intensity": 0.00127849,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 98001.0,
+    "intensity": 0.0036684,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 12031.0,
+    "intensity": 0.670688,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 11895.0,
+    "intensity": 0.0749509,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 10379.0,
+    "intensity": 0.041075,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 13255.0,
+    "intensity": 0.0188698,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 14771.0,
+    "intensity": 0.772012,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 14428.0,
+    "intensity": 0.171832,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 14976.0,
+    "intensity": 0.369144,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 14312.0,
+    "intensity": 0.354736,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 14973.0,
+    "intensity": 0.0299236,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 13878.0,
+    "intensity": 0.0115301,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 17304.0,
+    "intensity": 0.172959,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 17659.0,
+    "intensity": 0.13135,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 17829.0,
+    "intensity": 0.14477,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 17849.0,
+    "intensity": 0.0361586,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2732.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2868.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 3086.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2156.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "88": {
+   "Ka1": {
+    "energy": 88478.0,
+    "intensity": 0.478454,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 85438.0,
+    "intensity": 0.291243,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 84685.0,
+    "intensity": 0.000750037,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 100130.0,
+    "intensity": 0.110536,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 102864.0,
+    "intensity": 0.0559791,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 99432.0,
+    "intensity": 0.0579387,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 103286.0,
+    "intensity": 0.00134552,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 100674.0,
+    "intensity": 0.00375355,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 12339.0,
+    "intensity": 0.668184,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 12196.0,
+    "intensity": 0.0746805,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 10622.0,
+    "intensity": 0.0417481,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 13662.0,
+    "intensity": 0.0190621,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 15236.0,
+    "intensity": 0.769212,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 14808.0,
+    "intensity": 0.172308,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 15445.0,
+    "intensity": 0.362506,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 14747.0,
+    "intensity": 0.357854,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 15376.0,
+    "intensity": 0.0313775,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 14236.0,
+    "intensity": 0.0117013,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 17848.0,
+    "intensity": 0.174671,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 18179.0,
+    "intensity": 0.135187,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 18358.0,
+    "intensity": 0.144453,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 18416.0,
+    "intensity": 0.0370552,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2806.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 2949.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 3189.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2190.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "89": {
+   "Ka1": {
+    "energy": 90884.0,
+    "intensity": 0.477143,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 87672.0,
+    "intensity": 0.291787,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 86915.0,
+    "intensity": 0.000812774,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 102846.0,
+    "intensity": 0.110486,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 105675.0,
+    "intensity": 0.0565415,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 102099.0,
+    "intensity": 0.0579754,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 106080.0,
+    "intensity": 0.00141544,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 103385.0,
+    "intensity": 0.00383902,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 12652.0,
+    "intensity": 0.665705,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 12501.0,
+    "intensity": 0.0744128,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 10869.0,
+    "intensity": 0.0424369,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 14081.0,
+    "intensity": 0.0192658,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 15713.0,
+    "intensity": 0.766527,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 15196.0,
+    "intensity": 0.172802,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 15931.0,
+    "intensity": 0.355834,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 15184.0,
+    "intensity": 0.360914,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 15791.0,
+    "intensity": 0.0327714,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 14602.0,
+    "intensity": 0.0118713,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 18408.0,
+    "intensity": 0.176421,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 18760.0,
+    "intensity": 0.139184,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 18950.0,
+    "intensity": 0.144068,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 19003.0,
+    "intensity": 0.0377857,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2900.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 3051.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 3270.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2290.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "90": {
+   "Ka1": {
+    "energy": 93351.0,
+    "intensity": 0.475825,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 89958.0,
+    "intensity": 0.292344,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 89179.0,
+    "intensity": 0.000879446,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 105605.0,
+    "intensity": 0.110429,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 108483.0,
+    "intensity": 0.057099,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 104821.0,
+    "intensity": 0.0580115,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 108939.0,
+    "intensity": 0.00148793,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 106160.0,
+    "intensity": 0.00392389,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 12968.0,
+    "intensity": 0.663263,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 12809.0,
+    "intensity": 0.0741493,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 11118.0,
+    "intensity": 0.043142,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 14511.0,
+    "intensity": 0.01948,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 16202.0,
+    "intensity": 0.76396,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 15587.9,
+    "intensity": 0.173298,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 16426.0,
+    "intensity": 0.34914,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 15642.0,
+    "intensity": 0.363908,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 16207.5,
+    "intensity": 0.0341068,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 14970.0,
+    "intensity": 0.0120405,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 18980.9,
+    "intensity": 0.178203,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 19304.0,
+    "intensity": 0.143332,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 19505.6,
+    "intensity": 0.143619,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 19600.5,
+    "intensity": 0.0383568,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 2989.6,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 3148.6,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 3370.8,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2323.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "91": {
+   "Ka1": {
+    "energy": 95868.0,
+    "intensity": 0.474494,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 92287.0,
+    "intensity": 0.292914,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 91496.0,
+    "intensity": 0.000950156,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 108427.0,
+    "intensity": 0.110371,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 111377.0,
+    "intensity": 0.057651,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 107600.0,
+    "intensity": 0.0580492,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 111858.0,
+    "intensity": 0.00156298,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 108990.0,
+    "intensity": 0.00400813,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 13291.0,
+    "intensity": 0.660875,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 13122.0,
+    "intensity": 0.0738917,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 11366.0,
+    "intensity": 0.0438642,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 14947.0,
+    "intensity": 0.0197038,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 16703.0,
+    "intensity": 0.761511,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 15990.0,
+    "intensity": 0.173775,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 16931.0,
+    "intensity": 0.342435,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 16104.0,
+    "intensity": 0.36683,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 16639.0,
+    "intensity": 0.0353852,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 15346.0,
+    "intensity": 0.012209,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 19571.0,
+    "intensity": 0.18001,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 19881.0,
+    "intensity": 0.147626,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 20098.0,
+    "intensity": 0.143108,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 20220.0,
+    "intensity": 0.038775,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 3071.0,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 3240.0,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 3466.0,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2387.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  },
+  "92": {
+   "Ka1": {
+    "energy": 98440.0,
+    "intensity": 0.473147,
+    "initial": "K",
+    "final": "L3"
+   },
+   "Ka2": {
+    "energy": 94658.0,
+    "intensity": 0.293492,
+    "initial": "K",
+    "final": "L2"
+   },
+   "Ka3": {
+    "energy": 93849.0,
+    "intensity": 0.00102501,
+    "initial": "K",
+    "final": "L1"
+   },
+   "Kb1": {
+    "energy": 111303.0,
+    "intensity": 0.110315,
+    "initial": "K",
+    "final": "M3"
+   },
+   "Kb2": {
+    "energy": 114335.0,
+    "intensity": 0.0581971,
+    "initial": "K",
+    "final": "N2,3"
+   },
+   "Kb3": {
+    "energy": 110424.0,
+    "intensity": 0.0580906,
+    "initial": "K",
+    "final": "M2"
+   },
+   "Kb4": {
+    "energy": 114828.0,
+    "intensity": 0.00164057,
+    "initial": "K",
+    "final": "N4,5"
+   },
+   "Kb5": {
+    "energy": 111878.0,
+    "intensity": 0.00409169,
+    "initial": "K",
+    "final": "M4,5"
+   },
+   "La1": {
+    "energy": 13614.0,
+    "intensity": 0.658568,
+    "initial": "L3",
+    "final": "M5"
+   },
+   "La2": {
+    "energy": 13438.0,
+    "intensity": 0.073643,
+    "initial": "L3",
+    "final": "M4"
+   },
+   "Ll": {
+    "energy": 11618.0,
+    "intensity": 0.0446055,
+    "initial": "L3",
+    "final": "M1"
+   },
+   "Ln": {
+    "energy": 15400.0,
+    "intensity": 0.0199364,
+    "initial": "L2",
+    "final": "M1"
+   },
+   "Lb1": {
+    "energy": 17220.0,
+    "intensity": 0.759182,
+    "initial": "L2",
+    "final": "M4"
+   },
+   "Lb2": {
+    "energy": 16387.7,
+    "intensity": 0.174197,
+    "initial": "L3",
+    "final": "N4,5"
+   },
+   "Lb3": {
+    "energy": 17454.0,
+    "intensity": 0.335732,
+    "initial": "L1",
+    "final": "M3"
+   },
+   "Lb4": {
+    "energy": 16575.0,
+    "intensity": 0.369674,
+    "initial": "L1",
+    "final": "M2"
+   },
+   "Lb5": {
+    "energy": 17063.2,
+    "intensity": 0.036609,
+    "initial": "L3",
+    "final": "O4,5"
+   },
+   "Lb6": {
+    "energy": 15727.0,
+    "intensity": 0.0123776,
+    "initial": "L3",
+    "final": "N1"
+   },
+   "Lg1": {
+    "energy": 20169.7,
+    "intensity": 0.181835,
+    "initial": "L2",
+    "final": "N4"
+   },
+   "Lg2": {
+    "energy": 20486.0,
+    "intensity": 0.152055,
+    "initial": "L1",
+    "final": "N2"
+   },
+   "Lg3": {
+    "energy": 20714.0,
+    "intensity": 0.142538,
+    "initial": "L1",
+    "final": "N3"
+   },
+   "Lg6": {
+    "energy": 20845.2,
+    "intensity": 0.039047,
+    "initial": "L2",
+    "final": "O4"
+   },
+   "Ma1": {
+    "energy": 3163.8,
+    "intensity": 1.0,
+    "initial": "M5",
+    "final": "N6,7"
+   },
+   "Mb": {
+    "energy": 3339.8,
+    "intensity": 0.997068,
+    "initial": "M4",
+    "final": "N6"
+   },
+   "Mg": {
+    "energy": 3566.8,
+    "intensity": 1.0,
+    "initial": "M3",
+    "final": "N5"
+   },
+   "Mz": {
+    "energy": 2457.0,
+    "intensity": 0.00293255,
+    "initial": "M4,5",
+    "final": "N2,3"
+   }
+  }
+ }
+}

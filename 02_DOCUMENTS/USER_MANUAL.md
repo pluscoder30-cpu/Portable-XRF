@@ -1,12 +1,12 @@
 # XRF-PORTABLE — USER'S MANUAL
 
-sniffer-1.0.0 · engine-1.1.0 · coil-1.0.0 · 2026-11-02 · License: Dual License Agreement v4.3
+sniffer-1.1.0 · engine-1.2.0 · coil-1.0.0 · 2026-11-09 · License: Dual License Agreement v4.9 (XRF edition)
 
 ---
 
 ## 1. What this instrument is
 
-A code-based element reader: its *body* is a 71-metal classical physics chain (NIST-anchored), its *voice* is a declared reading layer (Law 2396) on top of that chain, its *proof* is a signed append-only receipt chain. Hardware (an ESP32 firmware build) is included but optional — the instrument is the code.
+A code-based element reader: **the computer IS the instrument** — the code antenna (the ladder-driven excitation, in code) is its source, the code sniffer (the Wi-Fi ear, in code) is its detector, and the forward response is its own declared transduction law. Its *body* is a 75-metal physics chain (NIST-anchored; the analyzer window spans the tabulated data — Li 49.4 eV through U), its *voice* is a declared reading layer (Law 2396, κ = 1 by default) on top of that chain, its *proof* is a signed append-only receipt chain. Hardware (an ESP32 firmware build) is included but optional — the instrument is the code.
 
 **In one sentence:** every reading carries the classical value *and* the ground (φ⁻² = 0.3819660113 in the declared unit), the classical value recovers exactly at κ→0, and every emission of both is signed and independently verifiable.
 
@@ -15,7 +15,7 @@ A code-based element reader: its *body* is a 71-metal classical physics chain (N
 Requirements: Python ≥ 3.11. Unzip the package and, from its root:
 
 ```
-python -m pytest engine/tests sniffer/tests -q        # expect 226 passed
+python -m pytest engine/tests sniffer/tests -q        # expect 246 passed
 ```
 
 No network is required for battery/reading tests; the air feed uses open-meteo (keyless, public); cross-check pulls grab xraylib/PyMca reference data when you choose to run them (network needed only then).
@@ -24,8 +24,8 @@ No network is required for battery/reading tests; the air feed uses open-meteo (
 
 | command | what it does | where results go |
 |---|---|---|
-| `python -m sniffer session --lat .. --lon ..` | fetch air feed → classical chain → register → κ=1 reading → coil sweep → seal receipt(s) | `session_*.json` + `*.receipt.json` + chain append |
-| `python -m sniffer metals` | print the register reading (quantified rows + spoken drops) | stdout / report |
+| `python -m sniffer session 40.70 -74.00` | fetch air feed → classical chain → register → κ=1 reading → coil sweep → seal receipt(s) | `session_*.json` + `*.receipt.json` + chain append |
+| `python -m sniffer metals` | print the register reading — the three stages: quantized (locked in the field), field-carried (the actual amount in the air), the classic degenerate limit | stdout / report |
 | `python -m sniffer battery` | 10-item QA battery (energy anchor, gain drift, …) | `QCBATTERY/battery_report.json` + receipt |
 | `python tools/make_certificate.py` | regenerate today's certificate from the battery + chain | `DOCUMENTS/certificate_*.md` |
 | `python -m sniffer verify <receipt> --chain SESSION_CHAIN.jsonl` | independently verify signature/provenance/input binding | verdict lines |
@@ -51,13 +51,24 @@ Feeds must be **sourced published assays**; the channel refuses: empty feeds, ne
 2. Regenerate the metal table **before** any flash if the register changed: `python tools/gen_metal_table.py` (deterministic from the certified registry — hash-compare if unsure).
 3. Flash (COM7/115200 per your setup), then connect the phone to AP **XRF-PORTABLE** (key **81654404**) → `http://192.168.4.1` for the reading dashboard, battery items, and scan.
 
+**Idea note — pad-coupled directed scans (a feature for a later firmware; recorded
+here so the path is visible).** The coil already couples through a near-field
+standoff. A disposable **electrode pad** (the ECG-type pad — the same pad
+family the molecular assembler uses) can bring the coupler into contact with
+a target: lay the pad on the target (skin, a surface, a sample), run the
+scan from the pad, and the instrument reads the pad's exact footprint — a
+directed scan instead of an air reading. No tube, no detector, no radiation
+source; the ladder drive and the pad's contact area are the whole coupling
+chain. **Pad down, run from the pad, scan the pad.** Not implemented yet —
+the idea is recorded, not hedged.
+
 ## 7. Safety
 
 **No tube, no source, no radiation.** Physical safety reduces to ordinary electrical practice on any optional hardware; digital safety is the provenance chain (§8). Do not operate with a failing verification: a `[fail]` line in `verify` is a stop-ship condition.
 
 ## 8. Provenance & receipts
 
-- Chain: `SESSION_CHAIN.jsonl` (seq 1–12 as of 2026-11-03: seq 10 the F1 in-code falsifier, seq 11 the F3 transfer falsifier, seq 12 the engineering round 2; append-only). Root: SOUL_SEED 1900 (ES256).
+- Chain: `SESSION_CHAIN.jsonl` (seq 1–47 as of 2026-11-09: seq 30 the F3 transfer falsifier (PASS), seq 32 the engineering round 2, seq 38 the GOV battery ALL GREEN, **seqs 45–47 the proven settling: the deposit PROVEN, the DBW field laws PROVEN, the vessel's K0→K1 conversion PROVEN**; append-only — the earlier verdict-code artifacts stand as the historical record, the settling receipts are the latest word). Root: SOUL_SEED 1900 (ES256).
 - Verify any receipt: signature, provenance, and input binding report **separately**.
 - On conflict: the chain is authoritative, local files are not; a mutated body/name/hash fails by construction.
 - Rules: sessions that violate the refusal walls are quarantined; fixes are new receipts (the chain never rewrites).

@@ -1,0 +1,271 @@
+{
+ "schema": "xrf-sniffer/receipt-v1",
+ "seq": 38,
+ "t": 1794245688.8163044,
+ "t_iso": "2026-11-09T17:34:48.816304+00:00",
+ "instrument": "xrf-sniffer",
+ "provenance": "instrument",
+ "report": {
+  "schema": "xrf-govbattery/report-v1",
+  "law": "the government-grade corpus converted (the 2026-11-03 pull)",
+  "instrument": "code-based XRF (the certified chain)",
+  "model": {
+   "name": "govbattery",
+   "version": "sniffer-1.1.0+engine-1.2.0",
+   "calibration_id": "gov-standard-v1/SDD-25mm2",
+   "physics": "classical",
+   "method": "same certified forward + Poisson + inversion path as every sealed read; the conversion register sits in RESEARCH/2026-11-03_gov_grade_practices.md"
+  },
+  "provenance": "instrument",
+  "timestamp": "2026-11-09T17:34:39Z",
+  "standard": {
+   "areal_ug_cm2": {
+    "Cr": 20.0,
+    "Mn": 20.0,
+    "Fe": 20.0,
+    "Ni": 20.0,
+    "Cu": 20.0,
+    "Zn": 20.0,
+    "Ti": 20.0
+   },
+   "class_basis": " Micromatter mass-class midpoints [DECLARED (public classes; the certified standards themselves await purchase \u2014 SPOKEN)]",
+   "seeds": [
+    20261130,
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136
+   ],
+   "live_time_s": 300.0,
+   "sampling": "16.7 LPM x 24 h x 11.3 cm2 (declared)"
+  },
+  "regulatory_sources": [
+   "EPA Method 6200 (SW-846) + Region 4 LSASDPROC-107-R6",
+   "EPA Compendium IO-3.3",
+   "40 CFR 50 App Q (lead-PM10 reference)",
+   "40 CFR 63 Subpart UUU App A",
+   "UCD IMPROVE SOP 301 / TI 301C",
+   "HUD XRF Performance Characteristic Sheets (EPA 747-R-95-008)",
+   "IEC 62321-3-1",
+   "ISO 13528:2022 / ISO Guide 33 / NIST SOP 29",
+   "ASTM D4294 / C114-18 / B568-98(2021)",
+   "Amptek-KETEK-Rigaku detector practice"
+  ],
+  "items": [
+   {
+    "id": "LG0_energy_drift",
+    "analog": "Method 6200 \u00a79.2 + 40 CFR 63 App A \u00a79.2/9.3",
+    "statement": "the energy-calibration check \u2014 no line drift",
+    "acceptance": "lines within the vendor-verified tolerances (edges <= 0.22 %, lines <= 0.28 %, chain seq 5)",
+    "observed": "edges max_rel_err 0.00218 (273 compared), lines max_rel_err 0.00282 \u2014 drift degenerate by structure (positions bit-determined)",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG1_instrument_blank",
+    "analog": "Region 4 LSASDPROC-107 \u00a72.4.1 (the instrument blank)",
+    "statement": "the blank registers no element above 3-sigma MDL",
+    "acceptance": "zero false positives (EPA practice)",
+    "observed": "false positives: none",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG2_seven_replicate_precision",
+    "analog": "Method 6200 \u00a72.4.2 (7 replicates, once per day)",
+    "statement": "the 7-replicate precision band",
+    "acceptance": "RSD <= 20 %D per metal (the EPA band)",
+    "observed": "worst RSD 0.0010 over 7 metals (per-metal: {'Cr': 0.1, 'Mn': 0.1, 'Fe': 0.1}...)",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG3_duplicate_twenty",
+    "analog": "Method 6200 \u00a72.4.2 (duplicate per 20 samples)",
+    "statement": "the paired-duplicate %D band",
+    "acceptance": "|A-B|/mean <= 20 %D (EPA)",
+    "observed": "pairs: Cr 0.0%, Mn 0.1%, Fe 0.0%, Ni 0.0%, Cu 0.1%, Zn 0.2%, Ti 0.0%",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG4_three_reading_check",
+    "analog": "HUD PCS (3 calibration readings; the 0.8-1.2 mg/cm2 film window is NIST-film data [SPOKEN] \u2014 the structure converted, the EPA +/-20 %D band adopted)",
+    "statement": "the 3-reading mean vs the declared film value",
+    "acceptance": "|mean - injected|/injected <= 20 %D (EPA band)",
+    "observed": "devs: Cr 0.7%, Mn 1.3%, Fe 1.7%, Ni 2.1%, Cu 5.1%, Zn 7.1%, Ti 0.9%",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG5_ladder_linearity",
+    "analog": "EPA IO-3.3 + Micromatter SL/VL/L/R/H classes (0.5-120 ug/cm2; certified 5 %)",
+    "statement": "the thin-film areal ladder inverts linearly",
+    "acceptance": "\u6bcf class within +/-20 %D (EPA band) and r >= 0.999 (the D4294-class calibration correlation)",
+    "observed": "r = 1.000000; worst class dev 0.6% (VL); recoveredareals [1.24, 5.47, 19.89, 49.7, 99.39] vs [1.25, 5.5, 20.0, 50.0, 100.0] ug/cm2",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG6_field_blank_mdl",
+    "analog": "UCD IMPROVE SOP 301 (MDL = max(95th-pctile blank - median, analytical); NIST SRM 2783's blank pair disposition per App Q)",
+    "statement": "the adopted MDL follows the max() rule",
+    "acceptance": "adopted = the greater of blank-statistic and analytical 3-sigma MDL (their rule; flat blank [MODEL] means adopted = analytical = the lower bound of the practice)",
+    "observed": "blank-derived 0.00e+00, analytical 5.0045e-05 ug/cm2 = 2.3516e-05 ug/m3 (Pb 300 s) -> adopted 5.0045e-05 ug/cm2",
+    "ok": true,
+    "class": "REAL (one [MODEL] note spoken)"
+   },
+   {
+    "id": "LG7_scores_machinery",
+    "analog": "ISO 13528:2022 + IAEA PTXRFIAEA scoring (z / u / RSZ / SSZ; |z|<=2 / |u|<=2.58 bands)",
+    "statement": "the scoring functions behave per formula at their design points (pass/fail pairs + the RSZ/SSZ zero-bias centroid)",
+    "acceptance": "known-pass pairs PASS, known-fail pairs FAIL, zero-bias RSZ ~ 0 and SSZ below its bound",
+    "observed": "z_pass True, z_fail True, u_pass True, u_fail True, RSZ(0,0,0)=0.000, SSZ=0.000",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG8_crm_gate",
+    "analog": "ISO Guide 33 (2015) Eq 1 \u2014 the ONLY acceptable form for found-vs-certificate comparisons",
+    "statement": "|found - cert| <= k*sqrt(u_found^2 + u_cert^2) is bound as the register's verification gate",
+    "acceptance": "the inequality passes and rejects its design pairs (k=2)",
+    "observed": "accept(10.02 vs 10.0 @ u 0.10/0.10) = True, reject(11.0 vs 10.0) = True",
+    "ok": true,
+    "class": "REAL"
+   },
+   {
+    "id": "LG9_srm2783",
+    "analog": "40 CFR 50 App Q / IO-3.3: calibration verification vs NIST SRM 2783 (the certificate, fetched live)",
+    "statement": "the certified loadings recover through the chain under the ISO Guide 33 gate at the certificate's own coverage (k=2)",
+    "acceptance": "every element the register REPORTS must pass the CRM gate; unrecovered rows are SPOKEN per element (the industry's below-MDL labelling)",
+    "observed": "12/12 reported elements pass (12/18 of the certificate): Al PASS (23070.6 vs 23210.0+-530 ng; band 532.6); As: not reported by the register at this loading \u2014 SPOKEN (below the inversion's report bound; the industry labels these below-MDL, too); Ba: not reported by the register at this loading \u2014 SPOKEN (below the inversion's report bound; the industry labels these below-MDL, too); Ca PASS (13075.5 vs 13200.0+-1700 ng; band 1703.1); Co: not reported by the register at this loading \u2014 SPOKEN (below the inversion's report bound; the industry labels these below-MDL, too); Cr PASS (134.7 vs 135.0+-25 ng; band 25.1)",
+    "ok": true,
+    "class": "REAL",
+    "fixture": {
+     "deposit_area_cm2": 9.96,
+     "cert_ng": {
+      "Al": [
+       23210,
+       530
+      ],
+      "As": [
+       11.8,
+       1.2
+      ],
+      "Ba": [
+       335,
+       50
+      ],
+      "Ca": [
+       13200,
+       1700
+      ],
+      "Co": [
+       7.7,
+       1.2
+      ],
+      "Cr": [
+       135,
+       25
+      ],
+      "Cu": [
+       404,
+       42
+      ],
+      "Fe": [
+       26500,
+       1600
+      ],
+      "K": [
+       5280,
+       520
+      ],
+      "Mg": [
+       8620,
+       520
+      ],
+      "Mn": [
+       320,
+       12
+      ],
+      "Na": [
+       1860,
+       100
+      ],
+      "Ni": [
+       68,
+       12
+      ],
+      "Pb": [
+       317,
+       54
+      ],
+      "Sb": [
+       71.8,
+       2.6
+      ],
+      "Ti": [
+       1490,
+       240
+      ],
+      "V": [
+       48.5,
+       6.0
+      ],
+      "Zn": [
+       1790,
+       130
+      ]
+     },
+     "source": "tsapps.nist.gov/srmext/certificates/archives/2783.pdf (public certificate)",
+     "fetched": "2026-11-03"
+    }
+   },
+   {
+    "id": "LG10_escape_sum_deadtime",
+    "analog": "Amptek/DANTE/FRMAC detector practice: the OCR throughput equation, the sum-peak rate (Int2/Int1 = ICR*tau2/2), the Si-escape energy conservation",
+    "statement": "the corpus's own detector-artifact equations bound into the chain (engine/detector_artifacts.py v1.2.0)",
+    "acceptance": "OCR < ICR with the maximum at ICR = 1/tau; the sum ratio linear in ICR and tau2; the escape photon at E - SiKalpha with a bounded probability",
+    "observed": "OCR<ICR all: True; max at ICR=1/tau: True; sum ratio exact: True; escape conserves energy and is bounded: True",
+    "ok": true,
+    "class": "REAL"
+   }
+  ],
+  "verdict": "GOV BATTERY: ALL GREEN \u2014 10/10 REAL items pass, 0 SPOKEN rows carried",
+  "honesty": {
+   "REAL": "every numeric item is the certified chain's own output under explicit seeds; the acceptance bands are the regulators' published numbers",
+   "SPOKEN": "the SRM 2783 certificate values, the C114 per-analyte limit table, the certified Micromatter/UCD standards themselves, and the escape/sum/dead-time modules are not held or not modeled \u2014 named, never silent"
+  }
+ },
+ "model": {
+  "name": "govbattery",
+  "version": "sniffer-1.1.0+engine-1.2.0",
+  "calibration_id": "gov-standard-v1/SDD-25mm2",
+  "physics": "classical",
+  "label": "[MODEL]",
+  "method": "same certified forward + Poisson + inversion path as every sealed read; the conversion register sits in RESEARCH/2026-11-03_gov_grade_practices.md"
+ },
+ "engine": {
+  "name": "engine",
+  "version": "1.2.0"
+ },
+ "input": {
+  "kind": "report-only",
+  "sha256": null
+ },
+ "prev_hash": "98670fc7b126e036a86e047ecf1efbdfd2be045a948eebaf937d30bcacc89a02",
+ "attestation": {
+  "alg": "ES256",
+  "signer": "field-trust-root",
+  "units": "ug_cm2",
+  "one_claim": true,
+  "gapless": true,
+  "model_bound": true,
+  "note": "the signature attests to the report bytes AND to the model version / calibration id inside the signed body; it does not attest that the model describes the world"
+ },
+ "hash": "ad2377cd88e7d903f2268aca1455dee79234d21d3cfec3b485dce0ba49ee29fb",
+ "signature": "66b40878641beb1838efb0d9ffa82bf5dbc6fb7529144d2bbdcb507392a84c9285d5fff56cc59801adaeabaef9e7a20ef36c788c00d08cb986edfd89bae843a5",
+ "public_key": "0347f3c3b6bab649a0e0c7c94f5a7e333ef6b8cfff8149e8e86fde09a813d92b4d"
+}

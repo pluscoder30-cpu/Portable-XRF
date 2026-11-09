@@ -1,0 +1,76 @@
+{
+  "assumptions": [
+    "dust mass was zero or not reported; mineral_dust fraction is the coarse-mode proxy with a 0.10 floor [MODEL/NORMATIVE]",
+    "element composition was not in the feed; the endmember mix is mineral_dust=0.10, sulfate=0.30, sea_salt=0.05, soot=0.55 [MODEL/NORMATIVE]. 'soot' is the engine's carbonaceous endmember and stands in for unmeasured organic carbon."
+  ],
+  "cached": false,
+  "dust_ug_m3": 0.0,
+  "elements_ug_m3": {
+    "Al": 0.09291421905328529,
+    "C": 7.8100000000000005,
+    "Ca": 0.31387182211654935,
+    "Cl": 0.4307054076806724,
+    "H": 0.21453966611139375,
+    "K": 0.02992143731757057,
+    "N": 0.6322275838477164,
+    "Na": 0.2917443397244477,
+    "O": 2.8873627990704107,
+    "S": 0.9615262585698785,
+    "Si": 0.5351864665080759
+  },
+  "estimated_total_pm_ug_m3": 14.2,
+  "feed": {
+    "dust_ug_m3": 0.0,
+    "pm10_ug_m3": 14.2,
+    "pm2_5_ug_m3": 14.2,
+    "source": "open-meteo",
+    "source_url": "https://air-quality-api.open-meteo.com/v1/air-quality",
+    "time": "2026-11-01T04:00",
+    "units": {
+      "dust": "μg/m³",
+      "interval": "seconds",
+      "pm10": "μg/m³",
+      "pm2_5": "μg/m³",
+      "time": "iso8601",
+      "us_aqi": "USAQI"
+    },
+    "us_aqi": 42.0
+  },
+  "location": {
+    "latitude": 40.7128,
+    "longitude": -74.006
+  },
+  "mineral_mass_fractions": {
+    "albite": 0.01,
+    "ammonium_sulfate": 0.21,
+    "anorthite": 0.008,
+    "gypsum": 0.09,
+    "halite": 0.05,
+    "kaolinite": 0.012,
+    "orthoclase": 0.015000000000000001,
+    "quartz": 0.05500000000000001,
+    "soot": 0.55
+  },
+  "minerals_ug_m3": {
+    "albite": 0.142,
+    "ammonium_sulfate": 2.9819999999999998,
+    "anorthite": 0.11359999999999999,
+    "gypsum": 1.2779999999999998,
+    "halite": 0.71,
+    "kaolinite": 0.1704,
+    "orthoclase": 0.213,
+    "quartz": 0.781,
+    "soot": 7.8100000000000005
+  },
+  "mode": "feed",
+  "notes": [],
+  "pm10_ug_m3": 14.2,
+  "pm2_5_ug_m3": 14.2,
+  "provenance": "feed",
+  "schema": "xrf-sniffer/air-v1",
+  "source": "open-meteo",
+  "stale": false,
+  "status": "ok",
+  "timestamp": "2026-11-01T04:00",
+  "visible_element_mass_ug_m3": null
+}

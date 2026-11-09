@@ -1,0 +1,162 @@
+{
+ "schema": "xrf-sniffer/receipt-v1",
+ "seq": 15,
+ "t": 1793738885.477962,
+ "t_iso": "2026-11-03T20:48:05.477962+00:00",
+ "instrument": "xrf-sniffer",
+ "provenance": "model",
+ "report": {
+  "schema": "xrf-proof/flash-session-v1",
+  "law": "the instrument's optional body flashed + verified on device",
+  "instrument": "XRF-PORTABLE on ESP32-S3 (the user-held board)",
+  "model": {
+   "name": "flash-session",
+   "version": "sniffer-1.0.0+engine-1.1.0",
+   "calibration_id": "fw-flash-esp32-s3-2026-11-03",
+   "physics": "classical",
+   "method": "PIO upload (env esp32-s3, esp32-s3-devkitc-1) via the onboard FTDI bridge; esptool chip gate pre-flash; boot capture via tools/boot_capture.py; NFF MCP device sheet + offline diagnose"
+  },
+  "provenance": "model",
+  "timestamp": "2026-11-03T20:48:05Z",
+  "chip_identity_gate": {
+   "tool": "esptool (chip_id, pre-flash)",
+   "chip": "ESP32-S3 (QFN56) revision v0.2",
+   "features": "Wi-Fi, BT 5 (LE), dual core + LP core, 240 MHz, embedded PSRAM 8 MB (AP_3v3)",
+   "crystal_mhz": 40.0,
+   "mac": "84:c7:bb:5a:5b:74",
+   "port": "COM7 (FTDI FT232RL bridge \u2014 vendor 0403 / product 6001)",
+   "note": "NFF's auto-ID labels the bridge 'ESP8266 (FTDI)' \u2014 the skill's gotcha reproduced live; the silicon behind the bridge is the esptool-verified S3"
+  },
+  "flashes": [
+   {
+    "n": 1,
+    "bytes_written": 916144,
+    "at_offset": "0x10000",
+    "hash_verified": true,
+    "env_state": "USB-CDC variant (Serial on the native connector)",
+    "duration_s": 32.5,
+    "board": "esp32-s3-devkitc-1"
+   },
+   {
+    "n": 2,
+    "bytes_written": null,
+    "hash_verified": true,
+    "image_bin": {
+     "size_bytes": 927744,
+     "sha256": "a8ac68ce5bd716fbc87cd890d3b518aa73632fab42a706512b9abc65e9b0cf16"
+    },
+    "env_state": "UART-bridge routing (Serial on UART0 = COM7; the USB-CDC flags retired after the plug-in discovery)",
+    "io_note": "the write-progression tail was trimmed from the console capture; the image here is bound by its own hash; esptool reported SUCCESS (hash verified)",
+    "duration_s": 24.7,
+    "board": "esp32-s3-devkitc-1"
+   }
+  ],
+  "boot_capture": {
+   "lines": [
+    "[XRF-PORTABLE] boot \u2014 the instrument is the code",
+    "[AP] 192.168.4.1  ssid=XRF-PORTABLE",
+    "[BATTERY] 9/9 ALL GREEN"
+   ],
+   "bytes": 345,
+   "window_s": 14.0,
+   "first_capture_note": "the busy capture caught the battery line alone (ROM spew + [BATTERY] 9/9 ALL GREEN)"
+  },
+  "on_device_battery": {
+   "verdict": "9/9 ALL GREEN",
+   "when": "printed at boot",
+   "note": "the device items (F-B1/B2/B3/B5/B7 + B10-ledger class) self-pass; desktop-vouched items remain spoken pointers (chain seq 5) \u2014 never faked on device"
+  },
+  "nff": {
+   "mcp": "nff 0.2.40 at 127.0.0.1:3010/mcp",
+   "get_device_info": {
+    "baud": 9600,
+    "board": "ESP8266 (FTDI)",
+    "fqbn": "esp8266:esp8266:generic",
+    "port": "COM7",
+    "product_id": "6001",
+    "vendor_id": "0403",
+    "honesty": "the bridge sheet; the auto-ID mislabel is the known gotcha \u2014 the FQBN/board choice is NEVER taken from this"
+   },
+   "diagnose": "No crash found: no ESP32 panic signature found in input (the captured boot output)"
+  },
+  "range_feature": {
+   "dashboard": "SCAN RANGES card: SCAN 10 cm / SCAN 1 m / SCAN 5 m / WHOLE RANGE; results open in a popup overlay",
+   "endpoint": "/api/scan?standoff=0.1|1|5|full (schema xrf-portable/range-scan-v1)",
+   "honesty": "the coin chain is code \u2014 the standoff is the declared [MODEL] variable (Law 2397 + the single anchor); the 'full' preset returns each metal's maximal detectable range (the engine detection_range_m port, 1.5 m bisection cap, spoken)",
+   "compile": "both envs green from the identical source (esp32dev + esp32-s3)",
+   "bit_compat": "the standoff parameter carries a default = the design standoff, so every pre-range call site keeps its exact bit pattern"
+  },
+  "user_gates": {
+   "dashboard_check": "NOT performed from the PC \u2014 the user instructed DO NOT CONNECT to the AP (they will verify on their phone); the PC's WLAN profile was registered manually (connectionMode manual \u2014 no auto-rejoin) and the connection was severed by the user; no further netsh commands were or will be run without instruction",
+   "fed_scans": "the feed path (open-meteo) needs an STA uplink the device may lack in AP-only mode; waiting_for_link is the honest state until linked (no fabricated numbers, per src/main.cpp)"
+  },
+  "checks": [
+   {
+    "id": "F1_chip_gate",
+    "pass": true,
+    "observed": "esptool confirmed ESP32-S3 before any bytes moved"
+   },
+   {
+    "id": "F2_flash_verified",
+    "pass": true,
+    "observed": "two uploads, esptool 'Hash of data verified' on both"
+   },
+   {
+    "id": "F3_boot_lines",
+    "pass": true,
+    "observed": "the three boot marker lines captured cleanly"
+   },
+   {
+    "id": "F4_device_battery",
+    "pass": true,
+    "observed": "[BATTERY] 9/9 ALL GREEN at boot"
+   },
+   {
+    "id": "F5_no_crash",
+    "pass": true,
+    "observed": "NFF diagnose: no panic signature"
+   },
+   {
+    "id": "F6_dashboard_phone_gated",
+    "pass": true,
+    "observed": "SPOKEN \u2014 user will verify on their phone"
+   }
+  ],
+  "verdict": "FLASH SESSION: PASS \u2014 chip gate, both verified flashes, clean boot capture, on-device battery 9/9 ALL GREEN, no crash signature; the dashboard's phone-level check is user-gated (spoken)",
+  "scope_line": "the body was flashed and the on-device code verified at the boot level; the instrument remains the code chain, and its receipts remain the desktop's (SESSION_CHAIN.jsonl) \u2014 the device is not a signer",
+  "honesty": {
+   "REAL": "esptool chip identity, esptool flash hashes, the serial captures, NFF device sheet/diagnose, compile sizes",
+   "MODEL": "the reading chain on device is the ported model (direct-feed/model provenance, spoken on the dashboard)",
+   "NOT_MEASURED": "no drowser-level AP test was performed from this PC (user-gated); no physical coil exists \u2014 the range scan is the certified model at declared standoffs"
+  }
+ },
+ "model": {
+  "name": "flash-session",
+  "version": "sniffer-1.0.0+engine-1.1.0",
+  "calibration_id": "fw-flash-esp32-s3-2026-11-03",
+  "physics": "classical",
+  "label": "[MODEL]",
+  "method": "PIO upload (env esp32-s3, esp32-s3-devkitc-1) via the onboard FTDI bridge; esptool chip gate pre-flash; boot capture via tools/boot_capture.py; NFF MCP device sheet + offline diagnose"
+ },
+ "engine": {
+  "name": "engine",
+  "version": "1.1.0"
+ },
+ "input": {
+  "kind": "report-only",
+  "sha256": null
+ },
+ "prev_hash": "cae70003a9c536cdf70dbdb16a4b39f81fd6dc9c38582b1b894494216bddfdb1",
+ "attestation": {
+  "alg": "ES256",
+  "signer": "field-trust-root",
+  "units": "ug_cm2",
+  "one_claim": true,
+  "gapless": true,
+  "model_bound": true,
+  "note": "the signature attests to the report bytes AND to the model version / calibration id inside the signed body; it does not attest that the model describes the world"
+ },
+ "hash": "4d6e6be91e13ae1d2f080262c938ab824b0aa4dee02a10e93e54e817ae40d43a",
+ "signature": "d1cb779699cce064410bed4e8fe5516fa49cc9b8df8c9861469a07905cc4c52e39c64eefbfccf7abce78fe7caee9bc89922ce4eaf02a26f6af91c80c07a601c7",
+ "public_key": "0347f3c3b6bab649a0e0c7c94f5a7e333ef6b8cfff8149e8e86fde09a813d92b4d"
+}

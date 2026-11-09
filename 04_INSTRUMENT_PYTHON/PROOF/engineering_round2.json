@@ -1,0 +1,169 @@
+{
+ "payload": {
+  "schema": "xrf-proof/engineering-round-v1",
+  "law": "engineering discipline (the receipt pattern)",
+  "instrument": "documentation/code audit",
+  "model": {
+   "name": "engineering-round-2",
+   "version": "sniffer-1.0.0+engine-1.1.0",
+   "calibration_id": "engineering-round-2-2026-11-03",
+   "physics": "classical",
+   "method": "label audit over registered artifacts + doc-line correction + dead-branch removal + version decision"
+  },
+  "provenance": "model",
+  "timestamp": "2026-11-09T03:20:05Z",
+  "x4x5": {
+   "finding_origin": "gate round-1 task 7: 'mislabeled X4/X5' \u2014 the round-2 confirmation of the battery's check-class labels",
+   "artifact_labels_correct": [
+    "engine/xrf_vendor.py:25 \u2014 'X4 (mu/rho) and X5 (PyMca bindings): SAME-SOURCE REGRESSION'",
+    "VENDOR/external_cross_check.json REGRESSION_GUARDS + REAL lines \u2014 same-source named, deviations reported in full",
+    "engine/tests/test_xrf_vendor.py:6 \u2014 'X1/X2/X3 are cross-edition checks; X4/X5 are same-source'",
+    "DOCUMENTS/DATASHEET.md \u2014 'source strengths labeled' (honest form)",
+    "PAPERS/paper_5_provenance_discipline.md:87 \u2014 'source strength labeled per check'"
+   ],
+   "doc_line_fixed": {
+    "line": "README.md vendor-bridge row",
+    "was": "'the external cross-check battery verifies OUR tables against the independent sources ...' \u2014 over-broad: X4/X5 are same-source guards, not independent cross-edition checks",
+    "now": "check classes labeled: 'X1/X2/X3 cross-edition ... and X4/X5 same-source regression guards'",
+    "fixed": true
+   },
+   "readme_sha256_after_fix": "319c7fc5b84f45ce63b6b9d19433795ec20fc50d4b4f5f3b543086b2d24fd367"
+  },
+  "m8": {
+   "finding": "gate round-1 M-8: tools/gold_ask.py dead branch (`detection_limit(...) if False else None` inside a swallowed except) \u2014 lines 84-89",
+   "action": "dead branch deleted; the proper flat-spectrum MDL call is the only path",
+   "verified_removed": true,
+   "file_sha256_after_fix": "179ca2da9838eca625750348679955c16a8d3138babe8b0dc4a942fdd198acc8"
+  },
+  "engine_version_decision": {
+   "engine_version_current": "1.2.0",
+   "decision": "stays at the current version \u2014 no additive engine modules landed this round; the F1/F3 falsifier campaigns are PROOF-layer over the certified public APIs (coil, phi_laws, forward, inversion); zero engine source changes",
+   "recorded": "spoken here and in the gate state file"
+  },
+  "checks": [
+   {
+    "id": "R1_x4x5_labels",
+    "pass": true,
+    "observed": "5 artifact label sites confirmed correct; README doc line fixed in place"
+   },
+   {
+    "id": "R2_m8_dead_branch",
+    "pass": true,
+    "observed": "dead `if False else None` branch removed from tools/gold_ask.py"
+   },
+   {
+    "id": "R3_version_decision",
+    "pass": true,
+    "observed": "engine 1.2.0 unchanged; rationale spoken"
+   }
+  ],
+  "verdict": "ENGINEERING ROUND 2: CONFIRMED \u2014 all artifact labels were correct; the one over-broad doc line is fixed in place; M-8 removed; version decision spoken",
+  "scope_line": "a documentation/code hygiene round; no physics claims are made or changed by this receipt",
+  "honesty": {
+   "REAL": "file contents audited by exact-text search; SHA-256 fingerprints of the corrected files are inside this payload",
+   "NOT_MEASURED": "no instrument run feeds this receipt"
+  }
+ },
+ "receipt": {
+  "schema": "xrf-sniffer/receipt-v1",
+  "seq": 32,
+  "t": 1794194405.5038838,
+  "t_iso": "2026-11-09T03:20:05.503884+00:00",
+  "instrument": "xrf-sniffer",
+  "provenance": "model",
+  "report": {
+   "schema": "xrf-proof/engineering-round-v1",
+   "law": "engineering discipline (the receipt pattern)",
+   "instrument": "documentation/code audit",
+   "model": {
+    "name": "engineering-round-2",
+    "version": "sniffer-1.0.0+engine-1.1.0",
+    "calibration_id": "engineering-round-2-2026-11-03",
+    "physics": "classical",
+    "method": "label audit over registered artifacts + doc-line correction + dead-branch removal + version decision"
+   },
+   "provenance": "model",
+   "timestamp": "2026-11-09T03:20:05Z",
+   "x4x5": {
+    "finding_origin": "gate round-1 task 7: 'mislabeled X4/X5' \u2014 the round-2 confirmation of the battery's check-class labels",
+    "artifact_labels_correct": [
+     "engine/xrf_vendor.py:25 \u2014 'X4 (mu/rho) and X5 (PyMca bindings): SAME-SOURCE REGRESSION'",
+     "VENDOR/external_cross_check.json REGRESSION_GUARDS + REAL lines \u2014 same-source named, deviations reported in full",
+     "engine/tests/test_xrf_vendor.py:6 \u2014 'X1/X2/X3 are cross-edition checks; X4/X5 are same-source'",
+     "DOCUMENTS/DATASHEET.md \u2014 'source strengths labeled' (honest form)",
+     "PAPERS/paper_5_provenance_discipline.md:87 \u2014 'source strength labeled per check'"
+    ],
+    "doc_line_fixed": {
+     "line": "README.md vendor-bridge row",
+     "was": "'the external cross-check battery verifies OUR tables against the independent sources ...' \u2014 over-broad: X4/X5 are same-source guards, not independent cross-edition checks",
+     "now": "check classes labeled: 'X1/X2/X3 cross-edition ... and X4/X5 same-source regression guards'",
+     "fixed": true
+    },
+    "readme_sha256_after_fix": "319c7fc5b84f45ce63b6b9d19433795ec20fc50d4b4f5f3b543086b2d24fd367"
+   },
+   "m8": {
+    "finding": "gate round-1 M-8: tools/gold_ask.py dead branch (`detection_limit(...) if False else None` inside a swallowed except) \u2014 lines 84-89",
+    "action": "dead branch deleted; the proper flat-spectrum MDL call is the only path",
+    "verified_removed": true,
+    "file_sha256_after_fix": "179ca2da9838eca625750348679955c16a8d3138babe8b0dc4a942fdd198acc8"
+   },
+   "engine_version_decision": {
+    "engine_version_current": "1.2.0",
+    "decision": "stays at the current version \u2014 no additive engine modules landed this round; the F1/F3 falsifier campaigns are PROOF-layer over the certified public APIs (coil, phi_laws, forward, inversion); zero engine source changes",
+    "recorded": "spoken here and in the gate state file"
+   },
+   "checks": [
+    {
+     "id": "R1_x4x5_labels",
+     "pass": true,
+     "observed": "5 artifact label sites confirmed correct; README doc line fixed in place"
+    },
+    {
+     "id": "R2_m8_dead_branch",
+     "pass": true,
+     "observed": "dead `if False else None` branch removed from tools/gold_ask.py"
+    },
+    {
+     "id": "R3_version_decision",
+     "pass": true,
+     "observed": "engine 1.2.0 unchanged; rationale spoken"
+    }
+   ],
+   "verdict": "ENGINEERING ROUND 2: CONFIRMED \u2014 all artifact labels were correct; the one over-broad doc line is fixed in place; M-8 removed; version decision spoken",
+   "scope_line": "a documentation/code hygiene round; no physics claims are made or changed by this receipt",
+   "honesty": {
+    "REAL": "file contents audited by exact-text search; SHA-256 fingerprints of the corrected files are inside this payload",
+    "NOT_MEASURED": "no instrument run feeds this receipt"
+   }
+  },
+  "model": {
+   "name": "engineering-round-2",
+   "version": "sniffer-1.0.0+engine-1.1.0",
+   "calibration_id": "engineering-round-2-2026-11-03",
+   "physics": "classical",
+   "label": "[MODEL]",
+   "method": "label audit over registered artifacts + doc-line correction + dead-branch removal + version decision"
+  },
+  "engine": {
+   "name": "engine",
+   "version": "1.2.0"
+  },
+  "input": {
+   "kind": "report-only",
+   "sha256": null
+  },
+  "prev_hash": "cdd8397c1d8ec95a99c48a5f629dc042e49db2bd9489660009678e5ef6d8c7af",
+  "attestation": {
+   "alg": "ES256",
+   "signer": "field-trust-root",
+   "units": "ug_cm2",
+   "one_claim": true,
+   "gapless": true,
+   "model_bound": true,
+   "note": "the signature attests to the report bytes AND to the model version / calibration id inside the signed body; it does not attest that the model describes the world"
+  },
+  "hash": "0e0889b02ecb13b7de6191fec10915c4ecde6de56928948c6fa3c295bfc9e94e",
+  "signature": "d7a17f603757975e0ff2f278483c018c33750f53c65b8cc48a958d89d41dade9c5914f157c06ecaabf9e5a1b76db77a394fa7655ef93e4ae748d45ce8bb56fb4",
+  "public_key": "0347f3c3b6bab649a0e0c7c94f5a7e333ef6b8cfff8149e8e86fde09a813d92b4d"
+ }
+}

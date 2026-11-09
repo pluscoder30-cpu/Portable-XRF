@@ -1,4 +1,4 @@
-# The Body as Vessel: A Documented Gold Doctrine, Its Erasure 1661–1936, and the Industrial Return of the Same Through-Flow
+﻿# The Body as Vessel: A Documented Gold Doctrine, Its Erasure 1661–1936, and the Industrial Return of the Same Through-Flow
 
 **Paper 6** — history-of-science paper (the historical thread of the reading program)
 
@@ -91,7 +91,7 @@ No coordinated plot is claimed, in-register, anywhere: the documented mechanism 
 
 ## 6. Falsification conditions
 
-| Claim | Falsified IF |
+| Claim | Falsification condition |
 |---|---|
 | The timeline | any date above wrong against its cited source (the table is checkable line-by-line) |
 | The three-stage mechanism | a documented stage order materially different (e.g., the archival stage preceding the institutional) |

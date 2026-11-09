@@ -1,0 +1,1488 @@
+{
+  "assumptions": [
+    "filter deposit is uniform over the filter area [MODEL]",
+    "inlet and collection efficiency are 1.0 unless the caller supplies them [MODEL]",
+    "the XRF-visible element mass excludes O, C, N and H; visible_element_mass_ug_m3 is a lower bound on total PM",
+    "mineral masses are reconstructed from the apportioned element mass and the mineral formula, using the dominant measured element of each mineral [MODEL/NORMATIVE]; estimated_total_pm_ug_m3 is not a gravimetric measurement",
+    "the PM size cut is the inlet's; this filter path does not by itself separate PM2.5 from PM10"
+  ],
+  "cached": false,
+  "dust_ug_m3": null,
+  "elements_ug_m3": {
+    "Al": 1.3499537362541068,
+    "Ca": 1.3458494261156173,
+    "Fe": 2.020089562466609,
+    "K": 0.47327868248662214,
+    "Mg": 0.09307458059520357,
+    "Si": 8.304664914140519
+  },
+  "estimated_total_pm_ug_m3": 32.484207427670164,
+  "feed": null,
+  "location": {
+    "latitude": 40.7128,
+    "longitude": -74.006
+  },
+  "mineral_mass_fractions": {
+    "albite": 0.07956409976302602,
+    "anorthite": 0.10129714629241267,
+    "calcite": 0.056905491656878096,
+    "dolomite": 0.022874834746198267,
+    "goethite": 0.02968223858608693,
+    "gypsum": 0.04449369697161094,
+    "hematite": 0.04890083897580841,
+    "illite": 0.030758412228719834,
+    "ilmenite": 0.008446862106018669,
+    "kaolinite": 0.14099624227927296,
+    "magnetite": 0.008594130562540164,
+    "orthoclase": 0.12667777925066892,
+    "quartz": 0.3008082265807581
+  },
+  "minerals_ug_m3": {
+    "albite": 2.5845767204979797,
+    "anorthite": 3.2905575119937827,
+    "calcite": 1.8485297947555819,
+    "dolomite": 0.7430708767691813,
+    "goethite": 0.964203995148043,
+    "gypsum": 1.4453424816497096,
+    "hematite": 1.5885049966772582,
+    "illite": 0.9991626429835216,
+    "ilmenite": 0.2743896207648373,
+    "kaolinite": 4.58015118072194,
+    "magnetite": 0.2791735198540344,
+    "orthoclase": 4.115027257655341,
+    "quartz": 9.771516828198953
+  },
+  "mode": "filter_spectrum",
+  "notes": [
+    "one or more candidate elements have no line inside the fit window; they are reported at zero with detection_flag='not_quantified'"
+  ],
+  "pm10_ug_m3": 32.484207427670164,
+  "pm2_5_ug_m3": null,
+  "provenance": "simulated",
+  "report": {
+    "acquisition": {
+      "air_path_cm": 2.0,
+      "current_ua": null,
+      "detector": "SDD-25mm2",
+      "duration_min": 1440.0,
+      "excitation": "40 kV Rh tube",
+      "filter_area_cm2": 11.3,
+      "flow_lpm": 16.7,
+      "live_time_s": 300.0,
+      "real_time_s": null,
+      "sample_id": "crustal dust 30 ug/m3 (simulated)"
+    },
+    "elements": [
+      {
+        "areal_g_cm2": 1.7673502819048773e-05,
+        "areal_ug_cm2": 17.673502819048775,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Si",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.008444907437932766,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.01771100622593852,
+        "strongest_line": {
+          "energy_ev": 1739.8,
+          "intensity": 0.590686,
+          "name": "Ka1"
+        },
+        "symbol": "Si",
+        "systematic_ug_cm2": 1.7673502819048776,
+        "total_sigma_ug_cm2": 1.7674390226230678,
+        "z": 14
+      },
+      {
+        "areal_g_cm2": 4.299036619309469e-06,
+        "areal_ug_cm2": 4.29903661930947,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Fe",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.002598034671899281,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.005563426881091841,
+        "strongest_line": {
+          "energy_ev": 6405.2,
+          "intensity": 0.580277,
+          "name": "Ka1"
+        },
+        "symbol": "Fe",
+        "systematic_ug_cm2": 0.429903661930947,
+        "total_sigma_ug_cm2": 0.42993965885958835,
+        "z": 26
+      },
+      {
+        "areal_g_cm2": 2.872892694640598e-06,
+        "areal_ug_cm2": 2.872892694640598,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Al",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.012953313216153447,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00765615915919479,
+        "strongest_line": {
+          "energy_ev": 1486.5,
+          "intensity": 0.591398,
+          "name": "Ka1"
+        },
+        "symbol": "Al",
+        "systematic_ug_cm2": 0.2872892694640598,
+        "total_sigma_ug_cm2": 0.28739126834729006,
+        "z": 13
+      },
+      {
+        "areal_g_cm2": 2.8641581415246333e-06,
+        "areal_ug_cm2": 2.8641581415246335,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Ca",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.002297219510311743,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00391236289801969,
+        "strongest_line": {
+          "energy_ev": 3692.3,
+          "intensity": 0.586452,
+          "name": "Ka1"
+        },
+        "symbol": "Ca",
+        "systematic_ug_cm2": 0.28641581415246337,
+        "total_sigma_ug_cm2": 0.28644253381797935,
+        "z": 20
+      },
+      {
+        "areal_g_cm2": 1.0072040492423264e-06,
+        "areal_ug_cm2": 1.0072040492423264,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "K",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0016013204204847738,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.002042455591051288,
+        "strongest_line": {
+          "energy_ev": 3313.8,
+          "intensity": 0.587153,
+          "name": "Ka1"
+        },
+        "symbol": "K",
+        "systematic_ug_cm2": 0.10072040492423265,
+        "total_sigma_ug_cm2": 0.10074111173171957,
+        "z": 19
+      },
+      {
+        "areal_g_cm2": 1.9807588620827038e-07,
+        "areal_ug_cm2": 0.19807588620827038,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Mg",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.033369267455458054,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00559135379509545,
+        "strongest_line": {
+          "energy_ev": 1253.79,
+          "intensity": 0.592111,
+          "name": "Ka1"
+        },
+        "symbol": "Mg",
+        "systematic_ug_cm2": 0.01980758862082704,
+        "total_sigma_ug_cm2": 0.02058163754986092,
+        "z": 12
+      },
+      {
+        "areal_g_cm2": 9.499095027495755e-09,
+        "areal_ug_cm2": 0.009499095027495755,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Cs",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0059435703083734635,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00026025526752122824,
+        "strongest_line": {
+          "energy_ev": 30973.0,
+          "intensity": 0.530156,
+          "name": "Ka1"
+        },
+        "symbol": "Cs",
+        "systematic_ug_cm2": 0.0009499095027495756,
+        "total_sigma_ug_cm2": 0.0009849166805808967,
+        "z": 55
+      },
+      {
+        "areal_g_cm2": 6.4581499103111956e-09,
+        "areal_ug_cm2": 0.006458149910311196,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Tl",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0020344929183253304,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00015028549832268425,
+        "strongest_line": {
+          "energy_ev": 72872.0,
+          "intensity": 0.489493,
+          "name": "Ka1"
+        },
+        "symbol": "Tl",
+        "systematic_ug_cm2": 0.0006458149910311197,
+        "total_sigma_ug_cm2": 0.000663070685256574,
+        "z": 81
+      },
+      {
+        "areal_g_cm2": 4.882983300326501e-09,
+        "areal_ug_cm2": 0.004882983300326501,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Ta",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0034469880968103737,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.0002708779455794623,
+        "strongest_line": {
+          "energy_ev": 57535.0,
+          "intensity": 0.502037,
+          "name": "Ka1"
+        },
+        "symbol": "Ta",
+        "systematic_ug_cm2": 0.0004882983300326502,
+        "total_sigma_ug_cm2": 0.0005583996064773193,
+        "z": 73
+      },
+      {
+        "areal_g_cm2": 3.254361288086123e-09,
+        "areal_ug_cm2": 0.003254361288086123,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Cl",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.001415445019849866,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 7.576776593799748e-05,
+        "strongest_line": {
+          "energy_ev": 2622.0,
+          "intensity": 0.588561,
+          "name": "Ka1"
+        },
+        "symbol": "Cl",
+        "systematic_ug_cm2": 0.00032543612880861234,
+        "total_sigma_ug_cm2": 0.00033413983343679766,
+        "z": 17
+      },
+      {
+        "areal_g_cm2": 2.561060012326733e-09,
+        "areal_ug_cm2": 0.002561060012326733,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "S",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0017622022164062044,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00025985018552455373,
+        "strongest_line": {
+          "energy_ev": 2309.5,
+          "intensity": 0.589268,
+          "name": "Ka1"
+        },
+        "symbol": "S",
+        "systematic_ug_cm2": 0.0002561060012326733,
+        "total_sigma_ug_cm2": 0.00036484572463513264,
+        "z": 16
+      },
+      {
+        "areal_g_cm2": 2.5064912477047583e-09,
+        "areal_ug_cm2": 0.0025064912477047586,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Ge",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0009109375363131741,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 8.703952545106041e-05,
+        "strongest_line": {
+          "energy_ev": 9886.0,
+          "intensity": 0.573964,
+          "name": "Ka1"
+        },
+        "symbol": "Ge",
+        "systematic_ug_cm2": 0.0002506491247704759,
+        "total_sigma_ug_cm2": 0.00026533160900833394,
+        "z": 32
+      },
+      {
+        "areal_g_cm2": 1.7502797193151599e-09,
+        "areal_ug_cm2": 0.00175027971931516,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Mn",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0013430520519020614,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.0001060526993072134,
+        "strongest_line": {
+          "energy_ev": 5900.3,
+          "intensity": 0.58134,
+          "name": "Ka1"
+        },
+        "symbol": "Mn",
+        "systematic_ug_cm2": 0.000175027971931516,
+        "total_sigma_ug_cm2": 0.0002046508392086526,
+        "z": 25
+      },
+      {
+        "areal_g_cm2": 1.5406977695335157e-09,
+        "areal_ug_cm2": 0.0015406977695335158,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Ti",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0014142435246376965,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 9.186085382724893e-05,
+        "strongest_line": {
+          "energy_ev": 4512.2,
+          "intensity": 0.584554,
+          "name": "Ka1"
+        },
+        "symbol": "Ti",
+        "systematic_ug_cm2": 0.0001540697769533516,
+        "total_sigma_ug_cm2": 0.00017937645507793576,
+        "z": 22
+      },
+      {
+        "areal_g_cm2": 0.0,
+        "areal_ug_cm2": 0.0,
+        "detected": false,
+        "detection_flag": "not_quantified",
+        "element": "Na",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": null,
+        "method": "fundamental_parameters",
+        "note": "no line inside the fit window or the air path extinguishes it; the element cannot be quantified with this geometry",
+        "quantified": false,
+        "sigma_ug_cm2": null,
+        "strongest_line": {
+          "energy_ev": 1040.3,
+          "intensity": 0.66569,
+          "name": "Ka1"
+        },
+        "symbol": "Na",
+        "systematic_ug_cm2": 0.0,
+        "total_sigma_ug_cm2": null,
+        "z": 11
+      },
+      {
+        "areal_g_cm2": 0.0,
+        "areal_ug_cm2": 0.0,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Tm",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.005876978753196842,
+        "method": "fundamental_parameters",
+        "note": "no signal above the non-negativity constraint",
+        "quantified": true,
+        "sigma_ug_cm2": 0.000455368181291586,
+        "strongest_line": {
+          "energy_ev": 50742.0,
+          "intensity": 0.507393,
+          "name": "Ka1"
+        },
+        "symbol": "Tm",
+        "systematic_ug_cm2": 0.0,
+        "total_sigma_ug_cm2": 0.000455368181291586,
+        "z": 69
+      }
+    ],
+    "fit": {
+      "dropped_elements": [
+        "Na"
+      ],
+      "method": "fundamental_parameters",
+      "model": "NNLS on forward-v1",
+      "n_channels_used": 2380,
+      "n_elements_detected": 6,
+      "n_elements_quantified": 15,
+      "n_peaks": 10,
+      "peak_min_ev": 1000.0,
+      "peaks_below_min_ev_dropped": 1,
+      "quality": "good",
+      "quality_thresholds": {
+        "fair": 0.15,
+        "good": 0.05,
+        "label": "[DECLARED]"
+      },
+      "relative_residual": 0.012857169671069818,
+      "reporting_floor_ug_cm2": 0.05
+    },
+    "gate": {
+      "checks": {
+        "count_rate_cps": 7550.55,
+        "count_rate_high": false,
+        "count_rate_low": false,
+        "energy_max_ev": 24990.0,
+        "energy_min_ev": 0.0,
+        "live_time_s": 300.0,
+        "n_channels": 2500,
+        "spectrum_valid": true,
+        "total_counts": 2265165.0
+      },
+      "reason": "ok",
+      "valid": true
+    },
+    "honesty": {
+      "modeled": [
+        "X-ray tube spectrum, detector response and spectral background",
+        "counts -> areal density conversion (fundamental parameters)",
+        "the element -> mineral split (prior-weighted; underdetermined)",
+        "the statistical uncertainty is an unconstrained linear estimate; the systematic term is the engine benchmark p90"
+      ],
+      "not_claimed": [
+        "this code does not generate or detect X-rays",
+        "a simulated spectrum is not a measurement",
+        "the mineral split is not a measurement: XRF sees elements, not minerals",
+        "O, C, N and H are invisible to this instrument by construction"
+      ],
+      "real": [
+        "spectrum I/O, strict validation and deterministic SHA-256 identity",
+        "SNIP continuum subtraction and peak detection",
+        "line identification against the tabulated characteristic-line library",
+        "NNLS quantitative inversion against the engine forward operator",
+        "3-sigma detection limits and linear covariance",
+        "mineral apportionment arithmetic",
+        "canonical JSON, hash chain and signature (in receipt.py)"
+      ]
+    },
+    "instrument": "xrf-sniffer",
+    "lines": [
+      {
+        "element": "Si",
+        "energy_ev": 1739.8,
+        "line": "Ka1",
+        "model_area": 774494.2344231316,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 772039.4426795383,
+        "residual_frac": -0.003169541662788102,
+        "used_in_fit": true,
+        "window_center_ev": 1740.0,
+        "window_fwhm_ev": 77.72847498850152,
+        "z": 14
+      },
+      {
+        "element": "Fe",
+        "energy_ev": 6405.2,
+        "line": "Ka1",
+        "model_area": 483552.63158562715,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 482264.04492633895,
+        "residual_frac": -0.0026648322749537687,
+        "used_in_fit": true,
+        "window_center_ev": 6400.0,
+        "window_fwhm_ev": 129.61144690526294,
+        "z": 26
+      },
+      {
+        "element": "Al",
+        "energy_ev": 1486.5,
+        "line": "Ka1",
+        "model_area": 49117.54349471482,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 49631.06841882146,
+        "residual_frac": 0.010455020499180664,
+        "used_in_fit": true,
+        "window_center_ev": 1490.0,
+        "window_fwhm_ev": 73.92294286284803,
+        "z": 13
+      },
+      {
+        "element": "Ca",
+        "energy_ev": 3692.3,
+        "line": "Ka1",
+        "model_area": 366597.8327374003,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 377022.9325485904,
+        "residual_frac": 0.028437428921348148,
+        "used_in_fit": true,
+        "window_center_ev": 3690.0,
+        "window_fwhm_ev": 102.68012317778425,
+        "z": 20
+      },
+      {
+        "element": "K",
+        "energy_ev": 3313.8,
+        "line": "Ka1",
+        "model_area": 145340.08309644923,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 145221.3231146214,
+        "residual_frac": -0.0008171178885939477,
+        "used_in_fit": true,
+        "window_center_ev": 3310.0,
+        "window_fwhm_ev": 98.31578660191326,
+        "z": 19
+      },
+      {
+        "element": "Mg",
+        "energy_ev": 1253.79,
+        "line": "Ka1",
+        "model_area": 759.3196305743431,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 739.5590497038706,
+        "residual_frac": -0.026024061639925933,
+        "used_in_fit": true,
+        "window_center_ev": 1260.0,
+        "window_fwhm_ev": 70.23999064900579,
+        "z": 12
+      },
+      {
+        "element": "Cs",
+        "energy_ev": 30973.0,
+        "line": "Ka1",
+        "model_area": 275.02409642858674,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 344.50574956922424,
+        "residual_frac": 0.25263841984361984,
+        "used_in_fit": true,
+        "window_center_ev": 4280.0,
+        "window_fwhm_ev": 109.11094145036823,
+        "z": 55
+      },
+      {
+        "element": "Tl",
+        "energy_ev": 72872.0,
+        "line": "Ka1",
+        "model_area": 372.9234711919898,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 421.4830187156889,
+        "residual_frac": 0.1302131704622569,
+        "used_in_fit": true,
+        "window_center_ev": 10260.0,
+        "window_fwhm_ev": 160.34267247867612,
+        "z": 81
+      },
+      {
+        "element": "Ta",
+        "energy_ev": 57535.0,
+        "line": "Ka1",
+        "model_area": 193.076997921269,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 473.1771720271035,
+        "residual_frac": 1.450717470861293,
+        "used_in_fit": true,
+        "window_center_ev": 8140.0,
+        "window_fwhm_ev": 144.276966259046,
+        "z": 73
+      },
+      {
+        "element": "Cl",
+        "energy_ev": 2622.0,
+        "line": "Ka1",
+        "model_area": 363.42672475710543,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 542.8105087417573,
+        "residual_frac": 0.4935899639866666,
+        "used_in_fit": true,
+        "window_center_ev": 2620.0,
+        "window_fwhm_ev": 89.85075575507713,
+        "z": 17
+      },
+      {
+        "element": "S",
+        "energy_ev": 2309.5,
+        "line": "Ka1",
+        "model_area": 230.85694205788613,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 1028.274073045348,
+        "residual_frac": 3.454161368851164,
+        "used_in_fit": true,
+        "window_center_ev": 2310.0,
+        "window_fwhm_ev": 85.77608364233066,
+        "z": 16
+      },
+      {
+        "element": "Ge",
+        "energy_ev": 9886.0,
+        "line": "Ka1",
+        "model_area": 334.28191699444307,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 438.27370578712396,
+        "residual_frac": 0.31109008147278755,
+        "used_in_fit": true,
+        "window_center_ev": 9880.0,
+        "window_fwhm_ev": 157.5834979207912,
+        "z": 32
+      },
+      {
+        "element": "Mn",
+        "energy_ev": 5900.3,
+        "line": "Ka1",
+        "model_area": 201.0691385443996,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 660.8280137135876,
+        "residual_frac": 2.2865710695212687,
+        "used_in_fit": true,
+        "window_center_ev": 5900.0,
+        "window_fwhm_ev": 125.07956861057433,
+        "z": 25
+      },
+      {
+        "element": "Ti",
+        "energy_ev": 4512.2,
+        "line": "Ka1",
+        "model_area": 182.8114881344472,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 812.5243170364243,
+        "residual_frac": 3.4446020615447326,
+        "used_in_fit": true,
+        "window_center_ev": 4510.0,
+        "window_fwhm_ev": 111.51745486387841,
+        "z": 22
+      }
+    ],
+    "minerals": {
+      "apportioned_element_mass_ug_cm2": 28.91487020997407,
+      "conservation": {
+        "apportioned_equals_measured": true,
+        "difference_ug_cm2": 0.0,
+        "unapportioned_mass_ug_cm2": 0.0,
+        "unapportioned_symbols": []
+      },
+      "label": "[MODEL/NORMATIVE]",
+      "measured_element_mass_ug_cm2": 28.91487020997407,
+      "method": "apportion",
+      "note": "Element areal densities are measured/simulated; the mineral split is a prior-weighted apportionment under the engine's normative crustal-aerosol prior. XRF cannot see O, C, N or H, so the unmix closure residual is expected to be nonzero. The mass_fraction is the fraction of the apportioned element mass, not of total mineral mass.",
+      "rows": [
+        {
+          "category": "silicate",
+          "element_mass_ug_cm2": 9.720426550476827,
+          "formula": "SiO2",
+          "mass_fraction": 0.33617396446496256,
+          "name": "quartz",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.55
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.9720914624426874,
+          "unmixed_mass_fraction": 0.9279040122254413,
+          "unmixed_mass_ug_cm2": 16.074338237945778
+        },
+        {
+          "category": "feldspar",
+          "element_mass_ug_cm2": 4.031367201179297,
+          "formula": "KAlSi3O8",
+          "mass_fraction": 0.1394219365988609,
+          "name": "orthoclase",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.15
+            },
+            {
+              "element": "Al",
+              "weight": 0.2
+            },
+            {
+              "element": "K",
+              "weight": 0.8
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.28299360272790025,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "clay",
+          "element_mass_ug_cm2": 3.269977416142092,
+          "formula": "Al2Si2O5(OH)4",
+          "mass_fraction": 0.11308981822834281,
+          "name": "kaolinite",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.12
+            },
+            {
+              "element": "Al",
+              "weight": 0.4
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.24124324786553003,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "oxide",
+          "element_mass_ug_cm2": 2.3644701406202087,
+          "formula": "Fe2O3",
+          "mass_fraction": 0.08177350005204569,
+          "name": "hematite",
+          "prior": [
+            {
+              "element": "Fe",
+              "weight": 0.55
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.23646681237277362,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "feldspar",
+          "element_mass_ug_cm2": 2.198284186100967,
+          "formula": "NaAlSi3O8",
+          "mass_fraction": 0.0760260782821248,
+          "name": "albite",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.1
+            },
+            {
+              "element": "Al",
+              "weight": 0.15
+            },
+            {
+              "element": "Na",
+              "weight": 0.2
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.1819251663793627,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "feldspar",
+          "element_mass_ug_cm2": 2.073946781041962,
+          "formula": "CaAl2Si2O8",
+          "mass_fraction": 0.0717259585113601,
+          "name": "anorthite",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.08
+            },
+            {
+              "element": "Al",
+              "weight": 0.15
+            },
+            {
+              "element": "Ca",
+              "weight": 0.08
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.14958628054746326,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "carbonate",
+          "element_mass_ug_cm2": 1.5752869778385485,
+          "formula": "CaCO3",
+          "mass_fraction": 0.05448016769223331,
+          "name": "calcite",
+          "prior": [
+            {
+              "element": "Ca",
+              "weight": 0.55
+            },
+            {
+              "element": "C",
+              "weight": 0.2
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.15754339359988864,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "oxide",
+          "element_mass_ug_cm2": 1.2897109857928408,
+          "formula": "FeOOH",
+          "mass_fraction": 0.044603727301115816,
+          "name": "goethite",
+          "prior": [
+            {
+              "element": "Fe",
+              "weight": 0.3
+            },
+            {
+              "element": "H",
+              "weight": 0.3
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.1289818976578765,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "sulfate",
+          "element_mass_ug_cm2": 0.7160395353811584,
+          "formula": "CaSO4.2H2O",
+          "mass_fraction": 0.024763712587378774,
+          "name": "gypsum",
+          "prior": [
+            {
+              "element": "Ca",
+              "weight": 0.25
+            },
+            {
+              "element": "S",
+              "weight": 0.5
+            },
+            {
+              "element": "H",
+              "weight": 0.2
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.07161063345449484,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "clay",
+          "element_mass_ug_cm2": 0.5184414622437656,
+          "formula": "K0.6Al2.3Si3.5O10(OH)2",
+          "mass_fraction": 0.017929925276473534,
+          "name": "illite",
+          "prior": [
+            {
+              "element": "Al",
+              "weight": 0.1
+            },
+            {
+              "element": "K",
+              "weight": 0.2
+            },
+            {
+              "element": "Mg",
+              "weight": 0.15
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.03523378152477554,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "carbonate",
+          "element_mass_ug_cm2": 0.5120634802599858,
+          "formula": "CaMg(CO3)2",
+          "mass_fraction": 0.017709347354543947,
+          "name": "dolomite",
+          "prior": [
+            {
+              "element": "Ca",
+              "weight": 0.12
+            },
+            {
+              "element": "Mg",
+              "weight": 0.85
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.03856895164704219,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "oxide",
+          "element_mass_ug_cm2": 0.429903661930947,
+          "formula": "Fe3O4",
+          "mass_fraction": 0.01486790910037194,
+          "name": "magnetite",
+          "prior": [
+            {
+              "element": "Fe",
+              "weight": 0.1
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.042993965885958836,
+          "unmixed_mass_fraction": 0.07154561641144598,
+          "unmixed_mass_ug_cm2": 1.2394045315977082
+        },
+        {
+          "category": "oxide",
+          "element_mass_ug_cm2": 0.2149518309654735,
+          "formula": "FeTiO3",
+          "mass_fraction": 0.00743395455018597,
+          "name": "ilmenite",
+          "prior": [
+            {
+              "element": "Fe",
+              "weight": 0.05
+            },
+            {
+              "element": "Ti",
+              "weight": 0.3
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.021496982942979418,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "salt",
+          "element_mass_ug_cm2": 0.0,
+          "formula": "NaCl",
+          "mass_fraction": 0.0,
+          "name": "halite",
+          "prior": [
+            {
+              "element": "Na",
+              "weight": 0.8
+            },
+            {
+              "element": "Cl",
+              "weight": 1.0
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.0,
+          "unmixed_mass_fraction": 0.0004683658735542569,
+          "unmixed_mass_ug_cm2": 0.008113631767326513
+        },
+        {
+          "category": "carbonaceous",
+          "element_mass_ug_cm2": 0.0,
+          "formula": "C",
+          "mass_fraction": 0.0,
+          "name": "soot",
+          "prior": [
+            {
+              "element": "C",
+              "weight": 0.8
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.0,
+          "unmixed_mass_fraction": 8.200548955866346e-05,
+          "unmixed_mass_ug_cm2": 0.0014206038115653977
+        }
+      ],
+      "unmix": {
+        "closure": {
+          "element_residual": {
+            "Al": 2.872892694640598,
+            "C": -0.0014206038115653977,
+            "Ca": 2.8641581415246335,
+            "Cl": -0.0016675895261634827,
+            "Fe": 3.4022079518687294,
+            "H": 0.0,
+            "K": 1.0072040492423264,
+            "Mg": 0.19807588620827038,
+            "Mn": 0.00175027971931516,
+            "N": 0.0,
+            "Na": -0.0031916809530769066,
+            "O": -8.903178279778508,
+            "S": 0.002561060012326733,
+            "Si": 10.159766996724535,
+            "Ti": 0.0015406977695335158
+          },
+          "explained_fraction": 0.5989244577066143,
+          "relative_residual": 0.7793372003160584
+        },
+        "label": "[MODEL]",
+        "method": "NNLS with a Tikhonov prior",
+        "minerals": {
+          "halite": 0.008113631767326513,
+          "magnetite": 1.2394045315977082,
+          "quartz": 16.074338237945778,
+          "soot": 0.0014206038115653977
+        },
+        "total_mineral_mass_ug_cm2": 17.323277005122375
+      }
+    },
+    "model": {
+      "calibration_id": "FP-v1/SDD-25mm2/40 kV Rh tube/air2.00cm",
+      "label": "[MODEL]",
+      "method": "fundamental_parameters",
+      "name": "counts_to_concentration",
+      "notes": [
+        "counts -> areal density is NNLS against the engine forward model; it inherits every approximation listed in engine/README.md §11",
+        "the forward model has not been compared with a real spectrometer's output",
+        "the systematic uncertainty is the engine benchmark p90 (10 %), not a per-sample calibration"
+      ],
+      "parameters": {
+        "air_path_cm": 2.0,
+        "detector": "SDD-25mm2",
+        "detector_fwhm_mn_ev": 125.03342032015554,
+        "e_max_ev": 25000.0,
+        "e_min_ev": 1200.0,
+        "excitation": "40 kV Rh tube",
+        "excitation_total_flux_cm2_s": 10000000000.000002,
+        "matrix_iterations": 2,
+        "reporting_floor_ug_cm2": 0.05,
+        "systematic_rel_error": 0.1,
+        "unit_areal_g_cm2": 1e-06
+      },
+      "physics": "classical",
+      "version": "sniffer-1.0.0+engine-1.0.0"
+    },
+    "peaks": [
+      {
+        "alternatives": [
+          {
+            "element": "Mg",
+            "energy_ev": 1253.4,
+            "intensity": 0.29724,
+            "line": "Ka2",
+            "residual_ev": -1.6510603868950966,
+            "residual_sigma": -4.272663923819527,
+            "z": 12
+          },
+          {
+            "element": "Ge",
+            "energy_ev": 1289.7,
+            "intensity": 0.348501,
+            "line": "Lb4",
+            "residual_ev": 34.64893961310486,
+            "residual_sigma": 89.66557217323674,
+            "z": 32
+          },
+          {
+            "element": "Ge",
+            "energy_ev": 1218.3,
+            "intensity": 0.940412,
+            "line": "Lb1",
+            "residual_ev": -36.75106038689523,
+            "residual_sigma": -95.10550378626283,
+            "z": 32
+          }
+        ],
+        "ambiguous": false,
+        "area": 7916.769476510623,
+        "area_err": 103.9941081469116,
+        "background": 161.55020176260624,
+        "best_line": {
+          "element": "Mg",
+          "energy_ev": 1253.79,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.3864241176776523,
+        "center_ev": 1255.0510603868952,
+        "fwhm_ev": 80.96474410166184,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -1.261060386895224,
+        "residual_sigma": -3.263410147570491,
+        "sigma_ev": 34.382561110141104,
+        "snr": 76.12709621324575
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Al",
+            "energy_ev": 1486.1,
+            "intensity": 0.296882,
+            "line": "Ka2",
+            "residual_ev": -0.7607816542570163,
+            "residual_sigma": -7.607816542570163,
+            "z": 13
+          },
+          {
+            "element": "Tm",
+            "energy_ev": 1463.4,
+            "intensity": 1.0,
+            "line": "Ma1",
+            "residual_ev": -23.460781654256834,
+            "residual_sigma": -234.60781654256834,
+            "z": 69
+          },
+          {
+            "element": "Tm",
+            "energy_ev": 1510.4,
+            "intensity": 0.997068,
+            "line": "Mb",
+            "residual_ev": 23.539218345743166,
+            "residual_sigma": 235.39218345743166,
+            "z": 69
+          }
+        ],
+        "ambiguous": false,
+        "area": 409967.08441756055,
+        "area_err": 646.3625300318275,
+        "background": 415.04152470446184,
+        "best_line": {
+          "element": "Al",
+          "energy_ev": 1486.5,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.04657690583119048,
+        "center_ev": 1486.860781654257,
+        "fwhm_ev": 70.22679571970563,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -0.3607816542569253,
+        "residual_sigma": -3.607816542569253,
+        "sigma_ev": 29.82257428455967,
+        "snr": 634.2680235461256
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Si",
+            "energy_ev": 1739.2,
+            "intensity": 0.296524,
+            "line": "Ka2",
+            "residual_ev": -0.7999999999999545,
+            "residual_sigma": -7.999999999999545,
+            "z": 14
+          },
+          {
+            "element": "Ta",
+            "energy_ev": 1711.5,
+            "intensity": 1.0,
+            "line": "Ma1",
+            "residual_ev": -28.5,
+            "residual_sigma": -285.0,
+            "z": 73
+          },
+          {
+            "element": "Ta",
+            "energy_ev": 1769.5,
+            "intensity": 0.997068,
+            "line": "Mb",
+            "residual_ev": 29.5,
+            "residual_sigma": 295.0,
+            "z": 73
+          }
+        ],
+        "ambiguous": false,
+        "area": 6466052.821221625,
+        "area_err": 2546.8179124138674,
+        "background": 1021.3942146920192,
+        "best_line": {
+          "element": "Si",
+          "energy_ev": 1739.8,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.012331798059917907,
+        "center_ev": 1740.0,
+        "fwhm_ev": 73.84205123907644,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -0.20000000000004547,
+        "residual_sigma": -2.0000000000004547,
+        "sigma_ev": 31.357831947666277,
+        "snr": 2538.8751939054478
+      },
+      {
+        "alternatives": [
+          {
+            "element": "S",
+            "energy_ev": 2308.4,
+            "intensity": 0.295812,
+            "line": "Ka2",
+            "residual_ev": 36.55564087429184,
+            "residual_sigma": 77.57660450668675,
+            "z": 16
+          },
+          {
+            "element": "S",
+            "energy_ev": 2309.5,
+            "intensity": 0.589268,
+            "line": "Ka1",
+            "residual_ev": 37.65564087429175,
+            "residual_sigma": 79.91097104811321,
+            "z": 16
+          }
+        ],
+        "ambiguous": false,
+        "area": 7852.927151003739,
+        "area_err": 108.80521412782258,
+        "background": 182.9388956850881,
+        "best_line": {
+          "element": "Tl",
+          "energy_ev": 2266.8,
+          "line": "Ma1"
+        },
+        "center_err_ev": 0.47121991361636495,
+        "center_ev": 2271.8443591257083,
+        "fwhm_ev": 98.33251424068075,
+        "match_quality": "fair",
+        "note": "",
+        "residual_ev": -5.04435912570807,
+        "residual_sigma": -10.704893787266474,
+        "sigma_ev": 41.75797401087112,
+        "snr": 72.17418038236889
+      },
+      {
+        "alternatives": [
+          {
+            "element": "K",
+            "energy_ev": 3311.1,
+            "intensity": 0.294751,
+            "line": "Ka2",
+            "residual_ev": -3.0750870436736477,
+            "residual_sigma": -30.750870436736477,
+            "z": 19
+          }
+        ],
+        "ambiguous": false,
+        "area": 1583342.7769246697,
+        "area_err": 1261.1045785168712,
+        "background": 281.11114642174977,
+        "best_line": {
+          "element": "K",
+          "energy_ev": 3313.8,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.03483913476567323,
+        "center_ev": 3314.1750870436736,
+        "fwhm_ev": 103.23157593200892,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -0.37508704367337486,
+        "residual_sigma": -3.7508704367337486,
+        "sigma_ev": 43.83841395857158,
+        "snr": 1255.5205998750464
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Ca",
+            "energy_ev": 3692.3,
+            "intensity": 0.586452,
+            "line": "Ka1",
+            "residual_ev": 2.300000000000182,
+            "residual_sigma": 23.00000000000182,
+            "z": 20
+          }
+        ],
+        "ambiguous": false,
+        "area": 3884998.774095587,
+        "area_err": 1974.318703713038,
+        "background": 494.4309564571065,
+        "best_line": {
+          "element": "Ca",
+          "energy_ev": 3688.8,
+          "line": "Ka2"
+        },
+        "center_err_ev": 0.023228572057049746,
+        "center_ev": 3690.0,
+        "fwhm_ev": 107.81412933667347,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -1.199999999999818,
+        "residual_sigma": -11.999999999998181,
+        "sigma_ev": 45.78444521235442,
+        "snr": 1967.7667880009412
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Ca",
+            "energy_ev": 4013.1,
+            "intensity": 0.0405853,
+            "line": "Kb3",
+            "residual_ev": -1.4105932893858153,
+            "residual_sigma": -14.105932893858153,
+            "z": 20
+          }
+        ],
+        "ambiguous": true,
+        "area": 578431.7983074504,
+        "area_err": 764.805238373905,
+        "background": 239.99999999999986,
+        "best_line": {
+          "element": "Ca",
+          "energy_ev": 4013.1,
+          "line": "Kb1"
+        },
+        "center_err_ev": 0.062272584230950966,
+        "center_ev": 4014.5105932893857,
+        "fwhm_ev": 111.52717267468603,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -1.4105932893858153,
+        "residual_sigma": -14.105932893858153,
+        "sigma_ev": 47.36122953854855,
+        "snr": 756.3125476719882
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Cs",
+            "energy_ev": 4711.0,
+            "intensity": 0.497532,
+            "line": "Lb3",
+            "residual_ev": 46.19881245708439,
+            "residual_sigma": 164.64557911479557,
+            "z": 55
+          },
+          {
+            "element": "Cs",
+            "energy_ev": 4618.5,
+            "intensity": 0.854332,
+            "line": "Lb1",
+            "residual_ev": -46.30118754291561,
+            "residual_sigma": -165.01042843444566,
+            "z": 55
+          }
+        ],
+        "ambiguous": false,
+        "area": 26423.057845702064,
+        "area_err": 174.72859395653035,
+        "background": 142.56971716590922,
+        "best_line": {
+          "element": "Cs",
+          "energy_ev": 4643.0,
+          "line": "Lb4"
+        },
+        "center_err_ev": 0.2805955234599604,
+        "center_ev": 4664.801187542916,
+        "fwhm_ev": 107.40636032710546,
+        "match_quality": "fair",
+        "note": "",
+        "residual_ev": -21.801187542915613,
+        "residual_sigma": -77.69613454302501,
+        "sigma_ev": 45.61128165770044,
+        "snr": 151.2234331392588
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Fe",
+            "energy_ev": 6392.1,
+            "intensity": 0.294023,
+            "line": "Ka2",
+            "residual_ev": -7.899999999999636,
+            "residual_sigma": -78.99999999999636,
+            "z": 26
+          },
+          {
+            "element": "Tm",
+            "energy_ev": 6341.0,
+            "intensity": 0.0325845,
+            "line": "Ll",
+            "residual_ev": -59.0,
+            "residual_sigma": -590.0,
+            "z": 69
+          },
+          {
+            "element": "Mn",
+            "energy_ev": 6491.8,
+            "intensity": 0.0815329,
+            "line": "Kb1",
+            "residual_ev": 91.80000000000018,
+            "residual_sigma": 918.0000000000018,
+            "z": 25
+          }
+        ],
+        "ambiguous": false,
+        "area": 5226625.990592459,
+        "area_err": 2288.7845127013807,
+        "background": 360.597059719367,
+        "best_line": {
+          "element": "Fe",
+          "energy_ev": 6405.2,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.025279252161413822,
+        "center_ev": 6400.0,
+        "fwhm_ev": 136.09201925052608,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": 5.199999999999818,
+        "residual_sigma": 51.99999999999818,
+        "sigma_ev": 57.79295939734428,
+        "snr": 2283.5815086950392
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Fe",
+            "energy_ev": 7059.3,
+            "intensity": 0.0425566,
+            "line": "Kb3",
+            "residual_ev": 0.8037788264991832,
+            "residual_sigma": 8.037788264991832,
+            "z": 26
+          },
+          {
+            "element": "Tm",
+            "energy_ev": 7133.0,
+            "intensity": 0.0817023,
+            "line": "La2",
+            "residual_ev": 74.503778826499,
+            "residual_sigma": 745.03778826499,
+            "z": 69
+          }
+        ],
+        "ambiguous": true,
+        "area": 765798.7571518937,
+        "area_err": 878.4817688984994,
+        "background": 171.86993435234874,
+        "best_line": {
+          "element": "Fe",
+          "energy_ev": 7059.3,
+          "line": "Kb1"
+        },
+        "center_err_ev": 0.0690148420090609,
+        "center_ev": 7058.496221173501,
+        "fwhm_ev": 142.21897711476973,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": 0.8037788264991832,
+        "residual_sigma": 8.037788264991832,
+        "sigma_ev": 60.3948388391184,
+        "snr": 871.7298232746533
+      }
+    ],
+    "provenance": "simulated",
+    "sample_id": "crustal dust 30 ug/m3 (simulated)",
+    "schema": "xrf-sniffer/report-v1",
+    "source": "engine.simulate (seed=20261031)",
+    "spectrum": {
+      "energy_max_ev": 24990.0,
+      "energy_min_ev": 0.0,
+      "live_time_s": 300.0,
+      "n_channels": 2500,
+      "provenance": "simulated",
+      "real_time_s": null,
+      "sample_id": "crustal dust 30 ug/m3 (simulated)",
+      "sha256": "db860ed6b2b0e113c586742cae556ce2c4aaa3b38c1dd8823122a1c1cde4829c",
+      "source": "engine.simulate (seed=20261031)",
+      "total_counts": 2265165.0
+    },
+    "timestamp": "2026-11-01T04:16:18.071810+00:00",
+    "warnings": [
+      "one or more candidate elements have no line inside the fit window; they are reported at zero with detection_flag='not_quantified'"
+    ]
+  },
+  "schema": "xrf-sniffer/air-v1",
+  "source": "engine.simulate (seed=20261031)",
+  "stale": false,
+  "status": "ok",
+  "timestamp": "2026-11-01T04:16:18.071810+00:00",
+  "visible_element_mass_ug_m3": 13.586910902058674
+}

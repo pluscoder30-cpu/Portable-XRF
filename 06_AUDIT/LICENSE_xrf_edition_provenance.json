@@ -1,0 +1,26 @@
+{
+ "what": "XRF edition of the Dual License Agreement v4.9: the master corpus text re-scoped so the Work is the XRF package; every other byte identical to the master",
+ "master_v4_9_backup": {
+  "path": "AUDIT/LICENSE_v4.9_master_corpus_2026-11-04.bak",
+  "sha256": "b323b65cc21ab7245fe3902b495623367ff094ce5847f61650700066d59615a6"
+ },
+ "xrf_edition": {
+  "path": "LICENSE",
+  "sha256": "aa0d510045d26c2d76278b05242efc64900bb2bf20c1f9ef2b23f98d2a75627e",
+  "lines": 2629
+ },
+ "transform_tool": {
+  "path": "tools/make_xrf_license.py",
+  "sha256": "41be002a3ad92cdb384723f284599a63aac7f83f410adcf5daf4ea1eb0b7613e"
+ },
+ "method": "29 prefix-anchored splices; all untouched lines byte-identical to the master (verified 2492/2669 lines equal by difflib; 137 lines changed across 23 regions)",
+ "revisions": [
+  "v1 2026-11-04: generated (bound stale firmware dir name FIRMWARE/xrf_platform/)",
+  "v2 2026-11-04: regenerated with the corrected binding FIRMWARE/xrf_portable/ \u2014 the only actual firmware tree on disk (envs esp32dev + esp32-s3, both built); one word-level correction across the 5 binding lines, everything else identical to v2-of-the-master derivation"
+ ],
+ "token_scan": "no survivor of: Living-Phi-Physics, 10,000 Laws, 50,814, 15,000 field, 2,395, 2,039, FIELD_AI_LAWS, CONSCIOUS_MATHEMATICS/, GEOMETRIC_PROOFS, REDESIGNED_PHYSICS, FIFTY_QUESTIONS, SURPRISES, EMERGING_LAWS, IMMORTALITY_REGISTER, MASSIVE_CONSCIOUSNESS, Compression Method, docs/31_, docs/32_, docs/34_, xrf_platform",
+ "spoken": [
+  "one byte-level deviation beyond the 137 re-scoped lines: a final newline added at end of file (the master v4.9 ended without one)",
+  "SESSION_CHAIN.jsonl is NOT appended for this transformation: the chain is ES256-signed by the field-trust-root and is not hand-written; this provenance file is the transformation record instead"
+ ]
+}

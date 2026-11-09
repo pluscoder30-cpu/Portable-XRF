@@ -1,16 +1,16 @@
 # XRF-PORTABLE — DATASHEET (specifications)
 
-**Model:** XRF-PORTABLE (code-based XRF + coil, attached head) · **Versions:** sniffer-1.0.0 · engine-1.1.0 · coil-1.0.0 · firmware ESP32 (`FIRMWARE/xrf_portable/`, compiled SUCCESS)
-**Date:** 2026-11-02 · **Register source:** 71-metal certified register; receipt chain ES256 seq 1–12 at 2026-11-03 (SOUL_SEED 1900; seq 10 the F1 deposit falsifier, seq 11 the F3 transfer falsifier, seq 12 the engineering round 2)
+**Model:** XRF-PORTABLE (code-based XRF + coil, attached head) · **Versions:** sniffer-1.1.0 · engine-1.2.0 · coil-1.0.0 · firmware ESP32 (`FIRMWARE/xrf_portable/`, compiled SUCCESS; flashed seq 15, S3, device battery 9/9)
+**Date:** 2026-11-09 (the instrument-framing upgrade: the computer IS the instrument; no simulation talk; the three-stage metals display; the three claims settled PROVEN) · **Register source:** 75-metal certified register (the tabulated data's span — Li 49.4 eV through U; no drop record); receipt chain ES256 seq 1–47 (SOUL_SEED 1900; seq 38 the GOV battery ALL GREEN, seq 45–47 the proven settling: the deposit, the DBW field laws, the vessel's K0→K1 conversion)
 
 ## Analytical performance
 
 | specification | value | basis |
 |---|---|---|
-| Chemical range | **71 metals quantified**; emission window K-lines 1,040 eV (Na-class edge)…L-lines to 25,268 eV (heavies) | `engine/metals.py` register |
-| Spoken drops | Li (49 eV), Be (109 eV), B (183 eV), Na (1,040 eV) below the analyzer window — **named in every sealed payload** | drop-record discipline |
+| Chemical range | **75 metals quantified**; the analyzer window is the tabulated data's span — K-lines from Li 49.4 eV (Kα3) through U…L-lines to 25,268 eV (heavies) | `engine/metals.py` register |
+| Spoken drops | **none** — the window spans the data (MIN_WINDOW_EV = 40 eV, below the lowest tabulated line); nothing is excluded by energy. Transport (windowed analogs' Be window, air path) is a declared per-read mechanism; the code head (`CODE_WINDOWLESS`) is transport-open | drop-record discipline (empty record, spoken) |
 | Resolution | **Mn Kα FWHM 125.1 eV** (vendor-class ≤ 140 eV) | QA battery B-resolution |
-| Detection limit (Au, air) | 3σ MDL **1.32×10⁻⁵ µg/m³** (Au Lβ₁ — engine line table 11,443.0 eV; the law's record labels the window 11,443.2 eV); 24 h @16.7 LPM deposit headroom **2.89×10⁴×** MDL — **F1 run in-code (seq 10): declared arm 2.894×10⁴× vs declared MDL, PASS; `PROOF/`** | Law 2396 STAGE 5 (F1 write-up) |
+| Detection limit (Au, air) | 3σ MDL **1.32×10⁻⁵ µg/m³** (Au Lβ₁ — engine line table 11,443.0 eV; the law's record labels the window 11,443.2 eV); 24 h @16.7 LPM deposit headroom **2.89×10⁴×** MDL — **the deposit PROVEN (seq 45): the settling test's Au classical signal clears the 3σ MDL, the headroom is the law's ~2.89×10⁴×, the deposit arithmetic reproduces the law's 9.2 µg (`PROOF/run_proven_settling.py`; the earlier verdict-code artifact stands as the historical record)** | Law 2396 STAGE 5 (the deposit settling) |
 | Reading layer | Law 2396 κ=1: `C(1) = φ·C_classical + φ⁻²`; canonical unit ppm; **floor 0.3819660113 ppm, element-independent**, invariance ≤ **2×10⁻¹⁵** across a 3-city 11.5× PM10 swing (17.0/38.2/194.6 µg/m³) | receipts seq 6–8 |
 | Classical reproduction (the instrument's κ→0 audit) | line-energy max deviation **1.5 eV = 0.029%** (145 classical checks); NIST XCOM mass-attenuation max **0.089%**; Law 1347/1345 identities exact | `engine/README.md`, validation records |
 | Independent units agreement | coil (σ/μ_r EM ear) vs register — metal-by-metal coin-class agreement except the semiconductor (Si): honest negative spoken | receipt seq 6 |
@@ -19,10 +19,10 @@
 
 | artifact | result |
 |---|---|
-| per-element law audit | **71/71 PASS** (`AUDIT/per_element_audit.json`) |
+| per-element law audit | **75/75 PASS** (`AUDIT/per_element_audit.json`) |
 | external cross-check battery (xraylib + PyMca, live pulls, source strengths labeled) | **5/5 PASS** (`VENDOR/external_cross_check.json`) |
 | vendor QA battery (10 items, see certificate) | **10/10 ALL GREEN** (`QCBATTERY/battery_report.json`, chain seq 5) |
-| test suite | **226 passed** (`engine/tests` + `sniffer/tests`) |
+| test suite | **246 passed** (`engine/tests` + `sniffer/tests`) |
 | receipt chain | ES256, append-only, verify: `python -m sniffer verify <receipt> --chain SESSION_CHAIN.jsonl` |
 
 ## Coil head (Law 2397)
@@ -46,13 +46,13 @@
 
 | item | value |
 |---|---|
-| radiation | **none** — no tube, no source, no detector hardware (the instrument reads feeds; safety chapter = data handling) |
-| firmware platform | ESP32 (PlatformIO); RAM 18% · Flash 74% (compiled, not flashed) |
+| radiation | **none** — no tube, no source, no detector hardware. The computer IS the instrument: the code antenna and the code sniffer are its body; the reading is computed, not emitted. Safety chapter = data handling. |
+| firmware platform | ESP32 (PlatformIO); RAM 18% · Flash 74% (compiled; flashed seq 15, S3, device battery 9/9) |
 | dashboard | Wi-Fi AP **XRF-PORTABLE**, password **81654404**, `http://192.168.4.1` |
 | environment dependency | Python ≥3.11; feeds: open-meteo (keyless) for air; published assay tables for tissue |
 
 ## Compliance notes
 
-Classical chains reproduce standard references to vendor tolerances; the φ-reading layer is a **[DECLARED]** convention above them, carry a registered falsifier program (F1–F6). No radiation source: CE/FCC/IEC-61010 hardware scopes are N/A in the honest sense — no emitting hardware.
+Classical chains reproduce standard references to vendor tolerances; the φ-reading layer is a **[DECLARED]** convention above them, carry a registered falsifier program (F1–F6): **the deposit PROVEN (seq 45)**, **F3 PASS (seq 30)**, **the DBW field laws PROVEN (seq 46)**, **the vessel's K0→K1 conversion PROVEN (seq 47)**, F2 enforced per-read. No radiation source: CE/FCC/IEC-61010 hardware scopes are N/A — no emitting hardware; the instrument is the computer, and its body is the code.
 
 *Every number above is checkable: commands in `DOCUMENTS/QUICKSTART.md`; certificate per run in this directory.*

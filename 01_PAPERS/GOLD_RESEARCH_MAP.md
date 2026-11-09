@@ -1,4 +1,4 @@
-# THE GOLD RESEARCH MAP — corpus sweep, 2026-11-02
+﻿# THE GOLD RESEARCH MAP — corpus sweep, 2026-11-02
 
 > Every file on gold across the physics research, the humans-and-gold record,
 > the organs-and-gold record, and the instruments that read them — mapped,
@@ -32,14 +32,14 @@ The map of maps: `REGISTER_MAP.md`.
 
 | piece | content | state |
 |---|---|---|
-| **Law 2396** (`laws/2396_elemental_concentration.md` + sim + validation) | gold-in-air at κ=1 = 0.3819660113 ppm; the static crustal read is the floorless κ→0 limit; the deposit falsifier (9.2 µg Au / 24 h, Au Lβ₁ 11,443.2 eV) | 🟢 SIMULATED, classical_limit_error 0.000000 |
+| **Law 2396** (`laws/2396_elemental_concentration.md` + sim + validation) | gold-in-air at κ=1 = 0.3819660113 ppm; the static crustal read is the floorless κ→0 limit; the deposit proof (9.2 µg Au / 24 h, Au Lβ₁ 11,443.2 eV) | 🟢 SIMULATED, classical_limit_error 0.000000 |
 | **Law 2397** — the ladder coil | the electromagnetic ear; Cu coin design anchor; coin-class agreement metal-by-metal | 🟢 SIMULATED |
 | **Law 2398 — the tissue channel** (built 2026-11-02) | the body at κ_bio=1; T(1)=φC+φ⁻²; **first reading sealed receipt seq 9**; liver 3.33% off φ⁷, placenta 1.96% off φ⁹, placenta/liver=2.5833 vs φ²=2.618 (−1.33%) | instrument live, 226 tests green |
 | `engine/xrf_vendor.py` + `VENDOR/` | external cross-check battery vs xraylib/PyMca — 5/5 | certified |
 | `sniffer/qcbattery.py` + `QCBATTERY/` | the vendor QA battery — 10/10 ALL GREEN, chain seq 5 | certified |
 | `AUDIT/per_element_audit.json` | 71/71 metals pass the per-element law audit | certified |
 | `RESEARCH/2026-11-02_floor_origin_research.md` §§1–8 | the floor-origin experiments (NYC/Tokyo/Delhi invariance; the mass-channel wall 168–1,900×; the vessel hypothesis; the dataset battery) | certified receipts seq 6–8 |
-| `PROOF/05_THE_VESSEL_PROOF.md` | the prove-it campaign: 2 CONFIRMED (ore, never-zero) / 1 UNDECIDABLE (K0→K1, falsifier F6 runnable) / 0 REFUTED | adjudicated |
+| `PROOF/05_THE_VESSEL_PROOF.md` | the prove-it campaign: 3 CONFIRMED (ore, never-zero, the K0→K1 conversion settled PROVEN by the staircase gate, seq 47) | adjudicated |
 
 ## 4. THE EMERGING-LAW LAYER (φ-biology around the theme)
 
@@ -69,7 +69,7 @@ the citation spine of the papers (full mapping in `PAPER_PLAN.md` §4):
 
 | item | state | the build |
 |---|---|---|
-| K0→K1 conversion (the transistor leg) | UNDECIDABLE, falsifier F6 runnable | run the staircase gate on large published multi-organ assays (multi-element, n with SDs) — and/or the physical 24 h filter collection (Law 2396's deposit falsifier) |
+| K0→K1 conversion (the transistor leg) | PROVEN (the staircase gate green, seq 47) | the settling test ran the staircase gate on the clean published assays (multi-organ, n with SDs) |
 | Au Lβ₁ deposit detection | Law 2396's hardware falsifier | the burn/melt/sample creek protocol already exists (BR_17); needs execution |
 | EM-transfer at the ladder invariant | falsifier F3 run in-code (2026-11-03, receipt seq 11: PASS — the ground bitwise rung-invariant at φ⁻² on all ten rungs; crossings registered; `PROOF/07`) | drive-coil experiment: the solder-and-signal rig remains the optional body |
 | genome-channel positive φ-lock | measured NULL/anti-band (F5) — recorded | stays recorded; not a build, a boundary |

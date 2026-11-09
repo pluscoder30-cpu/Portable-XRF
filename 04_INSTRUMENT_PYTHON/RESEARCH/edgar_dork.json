@@ -1,0 +1,1208 @@
+{
+ "fetched": "2026-11-03",
+ "results": [
+  {
+   "query": "\"net losses every year since our inception\" \"water treatment\"",
+   "form": "10-K",
+   "total": 18,
+   "sample": [
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2025-03-31"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2026-03-04"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2014-04-01"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2021-03-30"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2024-04-01"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2019-03-29"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2017-03-30"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2022-03-31"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2013-03-29"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2023-03-31"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"net losses every year since our inception\" \"tailings\"",
+   "form": "10-K",
+   "total": 6,
+   "sample": [
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2012-04-06"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2014-04-01"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2013-03-29"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2020-03-31"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2018-03-16"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2019-03-29"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"net losses every year since our inception\" \"dredging\"",
+   "form": "10-K",
+   "total": 0,
+   "sample": [],
+   "err": null
+  },
+  {
+   "query": "\"net losses every year since our inception\" \"sediment\"",
+   "form": "10-K",
+   "total": 0,
+   "sample": [],
+   "err": null
+  },
+  {
+   "query": "\"never generated any revenue\" \"tailings\"",
+   "form": "10-K",
+   "total": 10,
+   "sample": [
+    {
+     "names": [
+      "ECO VENTURES GROUP, INC.  (CIK 0001354591)"
+     ],
+     "ciks": [
+      "0001354591"
+     ],
+     "sics": [
+      "2860"
+     ],
+     "file_date": "2014-07-21"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2008-03-17"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2009-03-12"
+    },
+    {
+     "names": [
+      "INTERNATIONAL TOWER HILL MINES LTD  (THM)  (CIK 0001134115)"
+     ],
+     "ciks": [
+      "0001134115"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2016-03-16"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2012-03-14"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2014-03-14"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2011-03-15"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2013-03-28"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2010-03-15"
+    },
+    {
+     "names": [
+      "URANERZ ENERGY CORP.  (CIK 0001162324)"
+     ],
+     "ciks": [
+      "0001162324"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2013-04-29"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"net losses every year since our inception\"",
+   "form": "10-K",
+   "total": 150,
+   "sample": [
+    {
+     "names": [
+      "OXIGENE INC  (OTLC)  (CIK 0000908259)"
+     ],
+     "ciks": [
+      "0000908259"
+     ],
+     "sics": [
+      "2836"
+     ],
+     "file_date": "2012-03-28"
+    },
+    {
+     "names": [
+      "MAXIM PHARMACEUTICALS INC  (CIK 0001013351)"
+     ],
+     "ciks": [
+      "0001013351"
+     ],
+     "sics": [
+      "2833"
+     ],
+     "file_date": "2001-12-24"
+    },
+    {
+     "names": [
+      "MAXIM PHARMACEUTICALS INC  (CIK 0001013351)"
+     ],
+     "ciks": [
+      "0001013351"
+     ],
+     "sics": [
+      "2833"
+     ],
+     "file_date": "2001-02-09"
+    },
+    {
+     "names": [
+      "OXIGENE INC  (OTLC)  (CIK 0000908259)"
+     ],
+     "ciks": [
+      "0000908259"
+     ],
+     "sics": [
+      "2836"
+     ],
+     "file_date": "2013-03-15"
+    },
+    {
+     "names": [
+      "OXIGENE INC  (OTLC)  (CIK 0000908259)"
+     ],
+     "ciks": [
+      "0000908259"
+     ],
+     "sics": [
+      "2836"
+     ],
+     "file_date": "2015-03-30"
+    },
+    {
+     "names": [
+      "MAXIM PHARMACEUTICALS INC  (CIK 0001013351)"
+     ],
+     "ciks": [
+      "0001013351"
+     ],
+     "sics": [
+      "2833"
+     ],
+     "file_date": "2002-12-23"
+    },
+    {
+     "names": [
+      "MAXIM PHARMACEUTICALS INC  (CIK 0001013351)"
+     ],
+     "ciks": [
+      "0001013351"
+     ],
+     "sics": [
+      "2833"
+     ],
+     "file_date": "2003-12-19"
+    },
+    {
+     "names": [
+      "MAXIM PHARMACEUTICALS INC  (CIK 0001013351)"
+     ],
+     "ciks": [
+      "0001013351"
+     ],
+     "sics": [
+      "2833"
+     ],
+     "file_date": "2004-12-13"
+    },
+    {
+     "names": [
+      "OXIGENE INC  (OTLC)  (CIK 0000908259)"
+     ],
+     "ciks": [
+      "0000908259"
+     ],
+     "sics": [
+      "2836"
+     ],
+     "file_date": "2014-03-20"
+    },
+    {
+     "names": [
+      "BIOLARGO, INC.  (BLGO)  (CIK 0000880242)"
+     ],
+     "ciks": [
+      "0000880242"
+     ],
+     "sics": [
+      "2800"
+     ],
+     "file_date": "2015-03-31"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"has never generated any revenue\" \"metals\"",
+   "form": "10-K",
+   "total": 22,
+   "sample": [
+    {
+     "names": [
+      "Gold Bag, Inc.  (CIK 0001360564)"
+     ],
+     "ciks": [
+      "0001360564"
+     ],
+     "sics": [
+      "6531"
+     ],
+     "file_date": "2010-06-29"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2019-09-16"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2021-11-17"
+    },
+    {
+     "names": [
+      "Wolverine Exploration Inc.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2014-12-16"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2021-06-28"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2018-10-01"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2016-08-29"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2017-10-05"
+    },
+    {
+     "names": [
+      "Wolverine Exploration Inc.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2012-09-13"
+    },
+    {
+     "names": [
+      "Wolverine Exploration Inc.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2013-09-13"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"has never generated any revenue\" \"precious metals\"",
+   "form": "10-K",
+   "total": 22,
+   "sample": [
+    {
+     "names": [
+      "Gold Bag, Inc.  (CIK 0001360564)"
+     ],
+     "ciks": [
+      "0001360564"
+     ],
+     "sics": [
+      "6531"
+     ],
+     "file_date": "2010-06-29"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2019-09-16"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2021-11-17"
+    },
+    {
+     "names": [
+      "Wolverine Resources Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2023-09-25"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2021-06-28"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2018-10-01"
+    },
+    {
+     "names": [
+      "Wolverine Resources Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2024-10-18"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2016-08-29"
+    },
+    {
+     "names": [
+      "Wolverine Resources Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2024-01-19"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2017-10-05"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"has never generated any revenue\" \"platinum\"",
+   "form": "10-K",
+   "total": 15,
+   "sample": [
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2019-09-16"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2021-11-17"
+    },
+    {
+     "names": [
+      "Wolverine Exploration Inc.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2014-12-16"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2021-06-28"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2016-08-29"
+    },
+    {
+     "names": [
+      "Wolverine Exploration Inc.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2012-09-13"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2018-10-01"
+    },
+    {
+     "names": [
+      "Wolverine Exploration Inc.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2013-09-13"
+    },
+    {
+     "names": [
+      "Wolverine Technologies Corp.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2017-10-05"
+    },
+    {
+     "names": [
+      "Wolverine Exploration Inc.  (WOLV)  (CIK 0001424404)"
+     ],
+     "ciks": [
+      "0001424404"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2011-09-09"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"incurred losses since\" \"wastewater\"",
+   "form": "10-K",
+   "total": 153,
+   "sample": [
+    {
+     "names": [
+      "INTEGRATED ENVIRONMENTAL TECHNOLOGIES, LTD.  (CIK 0001084031)"
+     ],
+     "ciks": [
+      "0001084031"
+     ],
+     "sics": [
+      "3569"
+     ],
+     "file_date": "2011-08-26"
+    },
+    {
+     "names": [
+      "VORNADO OPERATING CO  (CIK 0001050080)"
+     ],
+     "ciks": [
+      "0001050080"
+     ],
+     "sics": [
+      "6798"
+     ],
+     "file_date": "2004-03-03"
+    },
+    {
+     "names": [
+      "FLASHZERO CORP.  (FZRO)  (CIK 0001106861)"
+     ],
+     "ciks": [
+      "0001106861"
+     ],
+     "sics": [
+      "7372"
+     ],
+     "file_date": "2022-11-21"
+    },
+    {
+     "names": [
+      "INFITECH VENTURES INC  (CIK 0001129096)"
+     ],
+     "ciks": [
+      "0001129096"
+     ],
+     "sics": [
+      "2911"
+     ],
+     "file_date": "2011-10-31"
+    },
+    {
+     "names": [
+      "BLACKSANDS PETROLEUM, INC.  (CIK 0001308137)"
+     ],
+     "ciks": [
+      "0001308137"
+     ],
+     "sics": [
+      "1311"
+     ],
+     "file_date": "2014-02-14"
+    },
+    {
+     "names": [
+      "FLASHZERO CORP.  (FZRO)  (CIK 0001106861)"
+     ],
+     "ciks": [
+      "0001106861"
+     ],
+     "sics": [
+      "7372"
+     ],
+     "file_date": "2022-11-21"
+    },
+    {
+     "names": [
+      "Blackhawk Biofuels, LLC  (CIK 0001370552)"
+     ],
+     "ciks": [
+      "0001370552"
+     ],
+     "sics": [
+      "2860"
+     ],
+     "file_date": "2009-04-06"
+    },
+    {
+     "names": [
+      "NIOCORP DEVELOPMENTS LTD  (NB, NIOBW)  (CIK 0001512228)"
+     ],
+     "ciks": [
+      "0001512228"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2020-09-16"
+    },
+    {
+     "names": [
+      "Cornerstone Core Properties REIT, Inc.  (CIK 0001310383)"
+     ],
+     "ciks": [
+      "0001310383"
+     ],
+     "sics": [
+      "6798"
+     ],
+     "file_date": "2006-03-24"
+    },
+    {
+     "names": [
+      "Galenfeha, Inc.  (CIK 0001574676)"
+     ],
+     "ciks": [
+      "0001574676"
+     ],
+     "sics": [
+      "8711"
+     ],
+     "file_date": "2019-05-22"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"has never been profitable\" \"tailings\"",
+   "form": "10-K",
+   "total": 1,
+   "sample": [
+    {
+     "names": [
+      "VALHI INC /DE/  (VHI)  (CIK 0000059255)"
+     ],
+     "ciks": [
+      "0000059255"
+     ],
+     "sics": [
+      "2810"
+     ],
+     "file_date": "2017-03-13"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"has never been profitable\" \"dredging\"",
+   "form": "10-K",
+   "total": 0,
+   "sample": [],
+   "err": null
+  },
+  {
+   "query": "\"has never been profitable\" \"wastewater\"",
+   "form": "10-K",
+   "total": 3,
+   "sample": [
+    {
+     "names": [
+      "GCA I ACQUISITION CORP  (CIK 0001379396)"
+     ],
+     "ciks": [
+      "0001379396"
+     ],
+     "sics": [
+      "5140"
+     ],
+     "file_date": "2009-08-31"
+    },
+    {
+     "names": [
+      "GCA I ACQUISITION CORP  (CIK 0001379396)"
+     ],
+     "ciks": [
+      "0001379396"
+     ],
+     "sics": [
+      "5140"
+     ],
+     "file_date": "2010-09-14"
+    },
+    {
+     "names": [
+      "VALHI INC /DE/  (VHI)  (CIK 0000059255)"
+     ],
+     "ciks": [
+      "0000059255"
+     ],
+     "sics": [
+      "2810"
+     ],
+     "file_date": "2017-03-13"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"has never generated revenue\" \"gold\"",
+   "form": "10-K",
+   "total": 16,
+   "sample": [
+    {
+     "names": [
+      "Contact Minerals Corp.  (MTAM)  (CIK 0001409175)"
+     ],
+     "ciks": [
+      "0001409175"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2015-10-28"
+    },
+    {
+     "names": [
+      "WESTMONT RESOURCES INC.  (CIK 0001377963)"
+     ],
+     "ciks": [
+      "0001377963"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2009-10-16"
+    },
+    {
+     "names": [
+      "Uranium Star Corp.  (NSRCF)  (CIK 0001302084)"
+     ],
+     "ciks": [
+      "0001302084"
+     ],
+     "sics": [
+      "1040"
+     ],
+     "file_date": "2008-09-29"
+    },
+    {
+     "names": [
+      "Contact Minerals Corp.  (MTAM)  (CIK 0001409175)"
+     ],
+     "ciks": [
+      "0001409175"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2014-10-27"
+    },
+    {
+     "names": [
+      "Uranium Star Corp.  (NSRCF)  (CIK 0001302084)"
+     ],
+     "ciks": [
+      "0001302084"
+     ],
+     "sics": [
+      "1040"
+     ],
+     "file_date": "2008-10-24"
+    },
+    {
+     "names": [
+      "Contact Minerals Corp.  (MTAM)  (CIK 0001409175)"
+     ],
+     "ciks": [
+      "0001409175"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2012-10-23"
+    },
+    {
+     "names": [
+      "Contact Minerals Corp.  (MTAM)  (CIK 0001409175)"
+     ],
+     "ciks": [
+      "0001409175"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2011-10-06"
+    },
+    {
+     "names": [
+      "Contact Minerals Corp.  (MTAM)  (CIK 0001409175)"
+     ],
+     "ciks": [
+      "0001409175"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2013-10-22"
+    },
+    {
+     "names": [
+      "Contact Minerals Corp.  (MTAM)  (CIK 0001409175)"
+     ],
+     "ciks": [
+      "0001409175"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2016-10-25"
+    },
+    {
+     "names": [
+      "Contact Minerals Corp.  (MTAM)  (CIK 0001409175)"
+     ],
+     "ciks": [
+      "0001409175"
+     ],
+     "sics": [
+      "1000"
+     ],
+     "file_date": "2008-10-29"
+    }
+   ],
+   "err": null
+  },
+  {
+   "query": "\"experienced net losses from operating activities since inception\" \"water treatment\"",
+   "form": "10-K",
+   "total": 0,
+   "sample": [],
+   "err": null
+  },
+  {
+   "query": "\"we have incurred losses since inception\" \"biosolids\"",
+   "form": "10-K",
+   "total": 0,
+   "sample": [],
+   "err": null
+  }
+ ]
+}

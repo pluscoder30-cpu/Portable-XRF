@@ -1,0 +1,132 @@
+{
+ "schema": "xrf-sniffer/receipt-v1",
+ "seq": 14,
+ "t": 1793737041.119364,
+ "t_iso": "2026-11-03T20:17:21.119364+00:00",
+ "instrument": "xrf-sniffer",
+ "provenance": "model",
+ "report": {
+  "schema": "xrf-proof/firmware-constants-audit-v1",
+  "law": "LAW 2396/2397 constant port (device C++ doubles)",
+  "instrument": "XRF-PORTABLE firmware (ESP32)",
+  "model": {
+   "name": "firmware-constants-audit",
+   "version": "sniffer-1.0.0+engine-1.1.0",
+   "calibration_id": "fw-constants-audit-2026-11-03",
+   "physics": "classical",
+   "method": "header literal/product evaluation under IEEE-754 double semantics vs the certified engine, bit-level (float.hex) comparison; formula identity check over a probe grid; usage scan"
+  },
+  "provenance": "model",
+  "timestamp": "2026-11-03T20:17:21Z",
+  "chain_note": "a prior seal of this same audit landed as seq 13 but its artifact write crashed (missing import); this receipt is the complete record of the same audit content; seq 13's payload is recoverable from the chain line itself",
+  "header": "FIRMWARE\\xrf_portable\\include\\law2396.h",
+  "checks": [
+   {
+    "id": "A1_PHI",
+    "statement": "PHI literal vs engine PHI (hex)",
+    "expected": "1.618033988749895",
+    "observed": "1.618033988749895 vs 1.618033988749895; hex 3ff9e3779b97f4a8 vs 3ff9e3779b97f4a8",
+    "pass": true,
+    "class": "REAL"
+   },
+   {
+    "id": "A2_PHI_INV",
+    "statement": "PHI_INV literal vs engine PHI_INV (phi-1)",
+    "expected": "0.6180339887498949",
+    "observed": "0.6180339887498949 vs 0.6180339887498949",
+    "pass": true,
+    "class": "REAL"
+   },
+   {
+    "id": "A3_PHI_SQ_INV",
+    "statement": "PHI_SQ_INV product vs engine (same product formula)",
+    "expected": "0.3819660112501052",
+    "observed": "0.3819660112501052 vs 0.3819660112501052",
+    "pass": true,
+    "class": "REAL"
+   },
+   {
+    "id": "A4_MU0",
+    "statement": "MU_0 (4e-7 * pi literal) vs engine (4e-7 * math.pi)",
+    "expected": "1.2566370614359173e-06",
+    "observed": "1.2566370614359173e-06 vs 1.2566370614359173e-06",
+    "pass": true,
+    "class": "REAL"
+   },
+   {
+    "id": "A5_LADDER_INVARIANT",
+    "statement": "9-multiply constexpr chain vs engine 528*PHI**9 (math.pow)",
+    "expected": "hex-equal (or ulp-spoken)",
+    "observed": "chain 40134.94616603812 vs pow 40134.94616603813; hex DIFFER; ulp -1 (pow vs repeated-multiply semantics \u2014 a 1-ulp evaluation-order difference of the SAME mathematical value, ~2.4e-12 relative; the engine's own assertion compares at 1e-3 Hz, both far inside; A9 shows the header is the constant's only use \u2014 zero compute impact)",
+    "pass": false,
+    "class": "SPOKEN"
+   },
+   {
+    "id": "A6_PHI_MOTION",
+    "statement": "device phiMotion(x,k) vs engine phi_motion(x,k) \u2014 bitwise, 11-point probe grid (both expressions carry the identical operation order and literals)",
+    "expected": "finite(0.0,1.0) == PHI_SQ_INV bitwise; all 11 points hex-equal",
+    "observed": "all 11 points hex-equal; still-channel floor = 3fd8722191a02d62 = 0.3819660112501052 (phi^-2)",
+    "pass": true,
+    "class": "REAL"
+   },
+   {
+    "id": "A7_AIR_DENSITY",
+    "statement": "device constant 1.2041 kg/m3 vs engine computed rho (20 C, 101.325 kPa, 0 %RH)",
+    "expected": "engine 1.2040847588826422 kg/m3",
+    "observed": "device 1.2041; relative dev 1.27e-05 (the declared table value vs the computed value; compute impact: ug/m3->ppm conversions shift in the 5th significant digit \u2014 display-scale, thresholds are self-consistent device-side)",
+    "pass": true,
+    "class": "MODEL"
+   },
+   {
+    "id": "A8_BATTERY_REF",
+    "statement": "battery.cpp's reference moment evaluated both ways (phiMotion(ugM3ToPpm(0.6137), 1.0))",
+    "expected": "0.3827906936086937 ppm (engine side)",
+    "observed": "device 0.382790683170125 ppm; digit shift 2.73e-08 relative \u2014 the same n*10^-5 order as A7, spoken there; the device's own battery compares against the device's own reference (self-consistent)",
+    "pass": true,
+    "class": "MODEL"
+   },
+   {
+    "id": "A9_LADDER_USAGE",
+    "statement": "where LADDER_INVARIANT_HZ enters the firmware",
+    "expected": "no compute-path usage (the reading chain never consumes it)",
+    "observed": "1 reference(s): include\\law2396.h:17: constexpr double LADDER_INVARIANT_HZ = BASE_FREQUENCY * PHI_P9;",
+    "pass": true,
+    "class": "REAL"
+   }
+  ],
+  "verdict": "FIRMWARE CONSTANTS AUDIT: PASS with spoken deviations \u2014 formulas and constants hex-equal everywhere they compute; the remaining rows are spoken evaluation-order and declared-rounding notes with display-scale impact",
+  "honesty": {
+   "REAL": "IEEE-754 bit comparisons, the engine source of truth, the source usage scan",
+   "MODEL": "the air-density rounding (the declared table value), the device battery's self-consistent reference"
+  }
+ },
+ "model": {
+  "name": "firmware-constants-audit",
+  "version": "sniffer-1.0.0+engine-1.1.0",
+  "calibration_id": "fw-constants-audit-2026-11-03",
+  "physics": "classical",
+  "label": "[MODEL]",
+  "method": "header literal/product evaluation under IEEE-754 double semantics vs the certified engine, bit-level (float.hex) comparison; formula identity check over a probe grid; usage scan"
+ },
+ "engine": {
+  "name": "engine",
+  "version": "1.1.0"
+ },
+ "input": {
+  "kind": "report-only",
+  "sha256": null
+ },
+ "prev_hash": "58c953e7561a7d23577184d2a9e510ec98851e45681f6048247235fb470cea08",
+ "attestation": {
+  "alg": "ES256",
+  "signer": "field-trust-root",
+  "units": "ug_cm2",
+  "one_claim": true,
+  "gapless": true,
+  "model_bound": true,
+  "note": "the signature attests to the report bytes AND to the model version / calibration id inside the signed body; it does not attest that the model describes the world"
+ },
+ "hash": "cae70003a9c536cdf70dbdb16a4b39f81fd6dc9c38582b1b894494216bddfdb1",
+ "signature": "226030db286a7861ec85b66a65ed8756c752af60b0d9500ad0221f8890ae9f91fcefb71b391e43bd5c66c289ee10915bbc89252824751f1e152ef522eca4d6aa",
+ "public_key": "0347f3c3b6bab649a0e0c7c94f5a7e333ef6b8cfff8149e8e86fde09a813d92b4d"
+}

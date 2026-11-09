@@ -1,0 +1,126 @@
+{
+  "attestation": {
+    "alg": "ES256",
+    "gapless": true,
+    "model_bound": true,
+    "note": "the signature attests to the report bytes AND to the model version / calibration id inside the signed body; it does not attest that the model describes the world",
+    "one_claim": true,
+    "signer": "field-trust-root",
+    "units": "ug_cm2"
+  },
+  "engine": {
+    "name": "engine",
+    "version": "1.0.0"
+  },
+  "hash": "638af8c5db798ebfc56335df86ce0a5a966a51fd111b0301a099e7d5f3524460",
+  "input": {
+    "feed_sha256": "6342256a3153b7c7bbaa070829a469f9665a42a4168e874ea617de5faa732403",
+    "kind": "feed",
+    "sha256": "6342256a3153b7c7bbaa070829a469f9665a42a4168e874ea617de5faa732403"
+  },
+  "instrument": "xrf-sniffer",
+  "model": {
+    "calibration_id": "endmember-v1/open-meteo",
+    "label": "[MODEL/NORMATIVE]",
+    "method": "endmember_model",
+    "name": "endmember_pm_to_minerals",
+    "physics": "classical",
+    "version": "sniffer-1.0.0+engine-1.0.0"
+  },
+  "prev_hash": "7ea9adef8f29f3bc4bb9b87216a44f299feac643e3e0f17281da96b55995de63",
+  "provenance": "feed",
+  "public_key": "0347f3c3b6bab649a0e0c7c94f5a7e333ef6b8cfff8149e8e86fde09a813d92b4d",
+  "report": {
+    "air": {
+      "assumptions": [
+        "dust mass was zero or not reported; mineral_dust fraction is the coarse-mode proxy with a 0.10 floor [MODEL/NORMATIVE]",
+        "element composition was not in the feed; the endmember mix is mineral_dust=0.10, sulfate=0.30, sea_salt=0.05, soot=0.55 [MODEL/NORMATIVE]. 'soot' is the engine's carbonaceous endmember and stands in for unmeasured organic carbon."
+      ],
+      "cached": false,
+      "dust_ug_m3": 0.0,
+      "elements_ug_m3": {
+        "Al": 0.09291421905328529,
+        "C": 7.8100000000000005,
+        "Ca": 0.31387182211654935,
+        "Cl": 0.4307054076806724,
+        "H": 0.21453966611139375,
+        "K": 0.02992143731757057,
+        "N": 0.6322275838477164,
+        "Na": 0.2917443397244477,
+        "O": 2.8873627990704107,
+        "S": 0.9615262585698785,
+        "Si": 0.5351864665080759
+      },
+      "estimated_total_pm_ug_m3": 14.2,
+      "feed": {
+        "dust_ug_m3": 0.0,
+        "pm10_ug_m3": 14.2,
+        "pm2_5_ug_m3": 14.2,
+        "source": "open-meteo",
+        "source_url": "https://air-quality-api.open-meteo.com/v1/air-quality",
+        "time": "2026-11-01T04:00",
+        "units": {
+          "dust": "μg/m³",
+          "interval": "seconds",
+          "pm10": "μg/m³",
+          "pm2_5": "μg/m³",
+          "time": "iso8601",
+          "us_aqi": "USAQI"
+        },
+        "us_aqi": 42.0
+      },
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "mineral_mass_fractions": {
+        "albite": 0.01,
+        "ammonium_sulfate": 0.21,
+        "anorthite": 0.008,
+        "gypsum": 0.09,
+        "halite": 0.05,
+        "kaolinite": 0.012,
+        "orthoclase": 0.015000000000000001,
+        "quartz": 0.05500000000000001,
+        "soot": 0.55
+      },
+      "minerals_ug_m3": {
+        "albite": 0.142,
+        "ammonium_sulfate": 2.9819999999999998,
+        "anorthite": 0.11359999999999999,
+        "gypsum": 1.2779999999999998,
+        "halite": 0.71,
+        "kaolinite": 0.1704,
+        "orthoclase": 0.213,
+        "quartz": 0.781,
+        "soot": 7.8100000000000005
+      },
+      "mode": "feed",
+      "notes": [],
+      "pm10_ug_m3": 14.2,
+      "pm2_5_ug_m3": 14.2,
+      "provenance": "feed",
+      "schema": "xrf-sniffer/air-v1",
+      "source": "open-meteo",
+      "stale": false,
+      "status": "ok",
+      "timestamp": "2026-11-01T04:00",
+      "visible_element_mass_ug_m3": null
+    },
+    "model": {
+      "calibration_id": "endmember-v1/open-meteo",
+      "label": "[MODEL/NORMATIVE]",
+      "method": "endmember_model",
+      "name": "endmember_pm_to_minerals",
+      "physics": "classical",
+      "version": "sniffer-1.0.0+engine-1.0.0"
+    },
+    "provenance": "feed",
+    "schema": "xrf-sniffer/feed-report-v1"
+  },
+  "schema": "xrf-sniffer/receipt-v1",
+  "seq": 3,
+  "signature": "23c57e199052eb54b8284e0011de901d28f0f5489723a9c08a5ec8046e2a102dc020a8898b468bdddce206b3d7a6a0589be796c61ad33c900f301c576eb879b6",
+  "t": 1793506590.6709113,
+  "t_iso": "2026-11-01T04:16:30.670911+00:00"
+}

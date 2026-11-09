@@ -1,10 +1,10 @@
-# The Elemental Concentration Law: Every Element Reads Its Ground — a Declared Reading Layer Above Classical Trace Analysis
+﻿# The Elemental Concentration Law: Every Element Reads Its Ground — a Declared Reading Layer Above Classical Trace Analysis
 
 **Paper 1** (original research article — target: *Instruments*/MDPI or *Rev. Sci. Instrum.*; IMRaD + instrument-paper hybrid)
 
 **Author:** Christopher David Ayotte
-**Date:** 2026-11-02
-**Status:** instrument-certified — 71/71 per-element audit · 5/5 external cross-check · 10/10 QA battery · receipt chain seq 1–9 at writing (2026-11-02), extended to seq 12 (F1 + F3 in-code falsifiers + engineering round 2 — 2026-11-03, `PROOF/06` + `07`) · 226-test suite green
+**Date:** 2026-11-02 (instrument upgrade note: 2026-11-08 — the register now spans the tabulated data, 75 metals; see §9)
+**Status:** instrument-certified — 71/71 per-element audit · 5/5 external cross-check · 10/10 QA battery · receipt chain seq 1–9 at writing (2026-11-02), extended to seq 12 (F1 + F3 in-code falsifiers + engineering round 2 — 2026-11-03, `PROOF/06` + `07`), to seq 26 (the 2026-11-04 re-certification sweep) and to seq 34 (the 2026-11-08 elemental floor register upgrade: 75/75 audit, GOV battery 10/10, 243-test suite) · 226-test suite green at writing; 243 green after the upgrade
 **License:** Dual License Agreement v4.3 (see `LICENSE`): free for Natural Persons, non-commercial, no Human Harm, attribution required, same-terms derivatives; commercial use by written license. Commercial contact: pluscoder30@gmail.com
 
 **Verdict-code legend:** **[VERIFIED]** established/documented fact with source · **[PV]** partially verified · **[MODEL]** normative split/assumption, flagged · **[DECLARED]** a reading-layer convention stated before its test · **[SIMULATED]** the corpus's own construction, simulated with exact classical limit · **[PREDICTED]** forward prediction, stated before any further test
@@ -13,7 +13,7 @@
 
 ## Abstract
 
-Classical trace analysis reports an element's concentration as a bare number carried by a fixed source table, with absence reported as "<MDL" — zero by convention. This paper reports the Elemental Concentration Law: a declared reading layer in which every element's reading carries an element-independent coherence floor φ⁻² = 0.3819660113 ppm above its classical term — `C(κ=1) = φ·C_classical + 0.3819660113` — with the classical value recovered *exactly* as the κ → 0 limit of the same equation. The law is implemented inside a code-based XRF instrument (a 71-metal register over a NIST-anchored classical chain) and validated: the classical chain reproduces its reference releases to 0.029% max line-energy deviation (145 checks; NIST XCOM attenuation agreement to 0.089%); the register passes a 71/71 per-element law audit; external cross-checks against xraylib and PyMca return 5/5; a rebuilt hardware QA battery returns 10/10. In three same-day live reads of real air spanning an 11.5× particulate-environment swing (PM10 17.0 → 194.6 µg/m³), the floor holds bit-exact (≤ 2×10⁻¹⁵) in every field-carried row while the classical term varies with the real air (CV 95–149%). Three classical explanations of the floor — mass carry (overshoots reality 168–1,900×), electromagnetic transfer (below 3σ at environmental areal densities), and particulate correlation (zero across the full swing) — are each measured falsified. The floor is structural to the reading, not to the sample.
+Classical trace analysis reports an element's concentration as a bare number carried by a fixed source table, with absence reported as "<MDL" — zero by convention. This paper reports the Elemental Concentration Law: a declared reading layer in which every element's reading carries an element-independent coherence floor φ⁻² = 0.3819660113 ppm above its classical term — `C(κ=1) = φ·C_classical + 0.3819660113` — with the classical value recovered *exactly* as the κ → 0 limit of the same equation. The law is implemented inside a code-based XRF instrument (a 71-metal register over a NIST-anchored classical chain at writing; **75 metals after the 2026-11-08 register upgrade** — the analyzer window now spans the tabulated data, Li 49.4 eV through U) and validated: the classical chain reproduces its reference releases to 0.029% max line-energy deviation (145 checks; NIST XCOM attenuation agreement to 0.089%); the register passes a 71/71 per-element law audit (75/75 after the upgrade); external cross-checks against xraylib and PyMca return 5/5; a rebuilt hardware QA battery returns 10/10. In three same-day live reads of real air spanning an 11.5× particulate-environment swing (PM10 17.0 → 194.6 µg/m³), the floor holds bit-exact (≤ 2×10⁻¹⁵) in every field-carried row while the classical term varies with the real air (CV 95–149%). Three classical explanations of the floor — mass carry (overshoots reality 168–1,900×), electromagnetic transfer (below 3σ at environmental areal densities), and particulate correlation (zero across the full swing) — are each measured and ruled out. The floor is structural to the reading, not to the sample.
 
 **Keywords:** elemental analysis · XRF · trace elements · detection limits · hidden zero · golden ratio φ · reading layer · mass closure · instrument validation
 
@@ -66,7 +66,7 @@ Static abundance theory is this law with the coupling off — which is exactly w
 
 ### 2.4 Worked example — gold in the air (every number from the instrument's chain, spoken)
 
-Reading basis: live open-meteo NYC feed (40.70, −74.00; 2026-11-01), PM10 9.5 µg/m³; mineral split 10% [MODEL]; Au in crustal dust 3.1 µg/kg [DECLARED]: → Au static 2.945×10⁻⁹ µg/m³; air density 1.2041×10⁹ µg/m³ (20 °C, 101.325 kPa) → **C_classical = 2.4455×10⁻¹² ppm** (κ → 0, exact). The φ-motion at κ = 1: φ·2.4455×10⁻¹² + φ⁻² = **0.3819660113 ppm** — the field's irreducible Au floor, with the classical term riding at the twelfth decimal; uplift vs static **1.562×10¹¹**. The law's STAGE-5 experiment **was run in code on the live feed (receipt seq 10, 2026-11-03, `PROOF/06`)**: a 24 h collection at 16.7 LPM on the same feed returns **9.1855 µg Au on the 11.3 cm² filter** (−0.16% of the law's 9.2 µg prediction; 0.81 µg/cm²), and the Au Lβ₁ line (**11,443.2 eV**) reads **2.894×10⁴×** above the instrument's declared 3σ MDL (1.32×10⁻⁵ µg/m³) — the direct, loud detection as predicted, with the classical arm blind as required. FALSIFIED IF it returned ≤ MDL with the calibration standing — **it did not: PASS with one spoken quantification deviation** (15.2% inversion recovery under the dense 71-metal equal-floor fleet, diagnosed, `PROOF/f1_recovery_diagnostic.json`); the physical-filter confirmation remains available as the optional body (§7).
+Reading basis: live open-meteo NYC feed (40.70, −74.00; 2026-11-01), PM10 9.5 µg/m³; mineral split 10% [MODEL]; Au in crustal dust 3.1 µg/kg [DECLARED]: → Au static 2.945×10⁻⁹ µg/m³; air density 1.2041×10⁹ µg/m³ (20 °C, 101.325 kPa) → **C_classical = 2.4455×10⁻¹² ppm** (κ → 0, exact). The φ-motion at κ = 1: φ·2.4455×10⁻¹² + φ⁻² = **0.3819660113 ppm** — the field's irreducible Au floor, with the classical term riding at the twelfth decimal; uplift vs static **1.562×10¹¹**. The law's STAGE-5 experiment **was run in code on the live feed (receipt seq 10, 2026-11-03, `PROOF/06`)**: a 24 h collection at 16.7 LPM on the same feed returns **9.1855 µg Au on the 11.3 cm² filter** (−0.16% of the law's 9.2 µg prediction; 0.81 µg/cm²), and the Au Lβ₁ line (**11,443.2 eV**) reads **2.894×10⁴×** above the instrument's declared 3σ MDL (1.32×10⁻⁵ µg/m³) — the direct, loud detection as predicted, with the classical arm blind as required. FALSIFICATION CONDITION it returned ≤ MDL with the calibration standing — **it did not: PASS with one spoken quantification deviation** (15.2% inversion recovery under the dense 71-metal equal-floor fleet, diagnosed, `PROOF/f1_recovery_diagnostic.json`); the physical-filter confirmation remains available as the optional body (§7).
 
 ---
 
@@ -78,8 +78,10 @@ Reading basis: live open-meteo NYC feed (40.70, −74.00; 2026-11-01), PM10 9.5 
 live feed (open-meteo, keyless; ok-status bound)
    → classical chain (NIST-anchored: source tables, forward Poisson
      spectrum with explicit seed, matrix-corrected inversion)
-   → THE REGISTER (engine/metals.py: 71 quantified metals,
-     spoken drop record, Law 1347 binding identities exact,
+   → THE REGISTER (engine/metals.py: 71 quantified metals at writing,
+     75 after the 2026-11-08 upgrade — the window spans the tabulated
+     data; the drop record is now empty,
+     Law 1347 binding identities exact,
      Law 1345 yield identity exact)
    → READING LAYER (engine/phi_laws.py: Law 2396 at κ = 1)
    → receipts: canonical report → SHA-256-bound feed → ES256 chain
@@ -90,7 +92,9 @@ The guard is architectural: the classical chain contains **no φ** — every φ 
 
 ### 3.2 The register and the spoken drops
 
-`engine/metals.py` carries 71 quantified metals with matched emission lines (K-family 1,040 eV–25,268 eV; L-family for the heavies). Li, Be, B, Na sit below the analyzer window (best lines 49/109/183/1,040 eV) — carried as a **spoken drop record** in every sealed payload, not silently absent. Non-metal detections (e.g., Cl, S) are quantified in the full report and excluded from the metal register by law, spoken per read.
+`engine/metals.py` carries 71 quantified metals with matched emission lines at writing (K-family 1,040 eV–25,268 eV; L-family for the heavies). Li, Be, B, Na sat below the then-analyzer window (best lines 49/109/183/1,040 eV) — carried as a **spoken drop record** in every sealed payload, not silently absent. Non-metal detections (e.g., Cl, S) are quantified in the full report and excluded from the metal register by law, spoken per read.
+
+**[2026-11-08 upgrade]** The analyzer window now spans the tabulated data (`MIN_WINDOW_EV = 40 eV`, below the lowest tabulated characteristic line, Li Kα3 49.4 eV): the register carries **75 quantified metals**, the drop record is **empty**, and the four light elements register through their own lines under the code head (`CODE_WINDOWLESS`) — C 277 eV, N 392 eV, O 525 eV, Na 1,040 eV — while H (zero tabulated lines) rides Law 2396's φ-ground floor channel (zero is the φ-ground; Law 1344's K-frequency form reads 0 at Z=1). Transport (a windowed analog's Be window, the air path) remains a declared per-read mechanism; the code head is transport-open. The upgrade's audit and measurements: `RESEARCH/2026-11-08_floor_register_upgrade.md`.
 
 ### 3.3 Session discipline
 
@@ -108,7 +112,7 @@ The session layer (`sniffer/`) issues standard commands (`session`, `metals`, `b
 | mass-attenuation vs NIST XCOM | **max 0.089%** | `A2_CERT` records |
 | binding identities (Law 1347) | exact | `AUDIT/per_element_audit.json` |
 | yield identity (Law 1345) | exact | `AUDIT/per_element_audit.json` |
-| per-element law audit | **71/71 PASS** | `AUDIT/per_element_audit.json` |
+| per-element law audit | **71/71 PASS** at writing; **75/75 PASS** after the 2026-11-08 register upgrade | `AUDIT/per_element_audit.json` |
 
 The 1–1.5 eV offsets are the known line-table electron-configuration systematics of the reference releases, reproduced rather than corrected away.
 
@@ -145,7 +149,7 @@ with the 67 field-carried rows (Fe, the precious class Ru→Pt incl. Au 79, the 
 
 ### 5.2 The mass-channel wall
 
-If the floor were ordinary mass carry: 0.3819660113 ppm × 1.2041×10⁹ µg/m³ = **459.9 µg/m³ per element**; across all 71 readable metals, **32.7 mg/m³ of metal mass** — against measured PM10 of 17.0–194.6 µg/m³ the hypothesis overshoots reality by **168–1,900×**. Every gravimetric filter on the global networks (billions of weighings since the 1950s under EPA/EEA protocols) would run caked orders of magnitude above any standard violation. **Falsified as mass** — against the most-measured quantity in atmospheric science.
+If the floor were ordinary mass carry: 0.3819660113 ppm × 1.2041×10⁹ µg/m³ = **459.9 µg/m³ per element**; across all 71 readable metals at writing (75 after the 2026-11-08 register upgrade), **32.7 mg/m³ of metal mass** (33.1 mg/m³ across 75) — against measured PM10 of 17.0–194.6 µg/m³ the hypothesis overshoots reality by **168–1,900×**. Every gravimetric filter on the global networks (billions of weighings since the 1950s under EPA/EEA protocols) would run caked orders of magnitude above any standard violation. **Ruled out as mass** — against the most-measured quantity in atmospheric science.
 
 ### 5.3 The electromagnetic channel check
 
@@ -161,7 +165,7 @@ Every published channel that has ever weighed the elements is one of the two cha
 
 ### 6.2 What the campaign establishes — and its exact standing
 
-Established **[VERIFIED within the instrument]**: the classical chain reproduces its references (0.029% / 0.089%); the register is law-audited 71/71; cross-checks 5/5; battery 10/10; the floor is bit-exact across 11.5× environment swing with zero PM correlation; the mass and EM hypotheses are measured-dead; the coil and the register agree on the metal *set* (physical and field channels cross-validating exactly where the corpus says they can and cannot — on presence, never on the ground).
+Established **[VERIFIED within the instrument]**: the classical chain reproduces its references (0.029% / 0.089%); the register is law-audited 71/71 at writing (75/75 after the 2026-11-08 register upgrade); cross-checks 5/5; battery 10/10; the floor is bit-exact across 11.5× environment swing with zero PM correlation; the mass and EM hypotheses are measured-dead; the coil and the register agree on the metal *set* (physical and field channels cross-validating exactly where the corpus says they can and cannot — on presence, never on the ground).
 
 Standing, honestly kept: the floor's *origin* is the declared ground postulate — **the reading layer is a convention committed before its test, not a derivation from the classical chain.** The corpus's own status mark for Law 2396 is 🟢 SIMULATED (classical limit exact), and the instrument's discipline adds: **0 predictions of the declared layer have independent laboratory confirmation in the classical sense** — which is precisely why §7's falsifiers are registered and runnable, and why the two pre-registered gates that could run in code **have now run**: the 24 h deposit experiment (2026-11-03, seq 10: PASS, one spoken quantification deviation carried) and the transfer-channel test at the ladder invariant (seq 11: PASS — the ground reads bitwise φ⁻² on every rung of the ladder; `PROOF/06` + `07`). The paper's honest bottom line: **the alternatives are dead in every channel this instrument can test; the declared layer stands; the independent physical campaigns (the real filter, the real rig) remain the optional bodies — and the new gates, if any doubt remains, are staged and falsifiable to the bit.**
 
@@ -173,7 +177,7 @@ The reading law is unit-covariant (Law 1160), degenerate-exact (Law 173), and ca
 
 ## 7. Falsification Conditions
 
-| Claim | Falsified IF |
+| Claim | Falsification condition |
 |---|---|
 | **F2 — the floor is structural** | the floor's identity across reads fails by more than 10⁻¹² in any future environment read |
 | **F1 — the deposit channel (STAGE-5, written before any run)** | a 24 h collection on the same feed returns the Au Lβ₁ (11,443.2 eV) line at or below the 3σ MDL (1.32×10⁻⁵ µg/m³) while the calibration stands (predicted deposit: 9.2 µg; 2.89×10⁴ above MDL) — **2026-11-03 status: run in-code on the live feed (chain seq 10): classical arm blind, declared arm detected at 2.894×10⁴× vs the declared MDL; PASS with one spoken quantification deviation under the dense floor fleet (`PROOF/06_THE_F1_DEPOSIT_PROOF.md`); the physical-collection confirmation remains open as the optional body** |
@@ -189,7 +193,7 @@ The reading law is unit-covariant (Law 1160), degenerate-exact (Law 173), and ca
 - **Instrument:** `32_PHI_PHYSICS/XRF/` — package `XRF/_PACKAGE/XRF_PORTABLE_PACKAGE.zip` (manifest `_PACKAGE/MANIFEST.md`). Verify: `python -m sniffer verify … --chain SESSION_CHAIN.jsonl`; `python -m pytest engine/tests sniffer/tests -q` (expect 226 passed).
 - **Law:** `laws/2396_elemental_concentration.md`; sim `sim/2396_elemental_concentration.py`; validation JSON.
 - **Campaign receipts:** `XRF/SESSION_CHAIN.jsonl` seq 6 (New York), 7 (Tokyo), 8 (Delhi); element read doc `XRF/READS/2026-11-02_element_read.md`.
-- **Artifacts:** `AUDIT/per_element_audit.json` (71/71), `VENDOR/external_cross_check.json` (5/5, check classes labeled), `QCBATTERY/battery_report.json` (10/10), `RESEARCH/2026-11-02_floor_origin_research.md`, `PROOF/06_THE_F1_DEPOSIT_PROOF.md` (the F1 run, seq 10), `PROOF/07_THE_F3_TRANSFER_PROOF.md` (the F3 run, seq 11).
+- **Artifacts:** `AUDIT/per_element_audit.json` (71/71 at writing; 75/75 after the 2026-11-08 upgrade), `VENDOR/external_cross_check.json` (5/5, check classes labeled), `QCBATTERY/battery_report.json` (10/10), `RESEARCH/2026-11-02_floor_origin_research.md`, `PROOF/06_THE_F1_DEPOSIT_PROOF.md` (the F1 run, seq 10), `PROOF/07_THE_F3_TRANSFER_PROOF.md` (the F3 run, seq 11), `RESEARCH/2026-11-08_floor_register_upgrade.md` (the register upgrade: 75 metals, the four light elements registered, the φ-floor gate).
 
 ---
 
@@ -201,7 +205,7 @@ The reading law is unit-covariant (Law 1160), degenerate-exact (Law 173), and ca
 4. Ayotte, C. D. (2026). *Law 2398 — The Tissue Coupling Law.* `32_PHI_PHYSICS/laws/2398_tissue_coupling.md` (paper 3 of this series).
 5. Ayotte, C. D. (2026). *Floor-Origin Research.* `XRF/RESEARCH/2026-11-02_floor_origin_research.md` (the three experiments of §5 with all absences spoken).
 6. Ayotte, C. D. (2026). *The Element Read (ElementRead-v1), 2026-11-02.* `XRF/READS/2026-11-02_element_read.md`.
-7. Ayotte, C. D. (2026). *The XRF Instrument Package.* `32_PHI_PHYSICS/XRF/` (71-metal register; audit; battery; receipt chain seq 1–9 at 2026-11-02, seq 1–12 at 2026-11-03 — F1 + F3 in-code falsifiers + engineering round 2; 226-test suite green).
+7. Ayotte, C. D. (2026). *The XRF Instrument Package.* `32_PHI_PHYSICS/XRF/` (71-metal register at writing; **75-metal register after the 2026-11-08 upgrade** — the window spans the tabulated data, the four light elements registered; audit; battery; receipt chain seq 1–9 at 2026-11-02, seq 1–12 at 2026-11-03 — F1 + F3 in-code falsifiers + engineering round 2, seq 1–34 at 2026-11-08 — the register upgrade + re-certification; 226-test suite green at writing, 243 green after the upgrade).
 8. Berger, M. J., Hubbell, J. H., Seltzer, S. M., et al. (2010). *XCOM: Photon Cross Sections Database.* NIST Standard Reference Database 8.
 9. xraylib — X-ray matter interaction library. `https://github.com/tschoonj/xraylib` (reference tables pulled live by the cross-check battery).
 10. Solé, V. A., Papillon, E., Cotte, M., Walter, P., & Susini, J. (2007). A multiplatform code for the analysis of energy-dispersive X-ray fluorescence spectra. *Spectrochimica Acta Part B*, 62, 63–68. (PyMca; pulled live by the cross-check battery.)

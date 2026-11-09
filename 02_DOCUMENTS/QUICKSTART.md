@@ -3,7 +3,7 @@
 **0. Trust in one command** (run from the package root, after unzipping):
 
 ```
-python -m pytest engine/tests sniffer/tests -q          # expect: 235 passed (the operator's tree); in a copy without the wifi capture: 232 passed + 3 skipped — see SPOKEN_ABSENCES.md
+python -m pytest engine/tests sniffer/tests -q          # expect: 246 passed (the operator's tree); in a copy without the wifi capture: 243 passed + 3 skipped - see SPOKEN_ABSENCES.md
 python -m sniffer verify TISSUE_CHANNEL\first_reading.receipt.json --chain SESSION_CHAIN.jsonl
    [ok] signature · [ok] provenance · [ok] input.sha256
 ```
@@ -11,8 +11,8 @@ python -m sniffer verify TISSUE_CHANNEL\first_reading.receipt.json --chain SESSI
 **1. Read the air** (keyless public feed):
 
 ```
-python -m sniffer session --lat 40.70 --lon -74.00       # seal a session: register + coil + receipts
-python -m sniffer metals                                  # print the 71-metal register reading
+python -m sniffer session 40.70 -74.00                    # seal a session: register + coil + receipts
+python -m sniffer metals                                  # print the 75-metal register reading (three stages)
 ```
 
 **2. Run the QA battery** (the vendor daily-check, rebuilt in code):

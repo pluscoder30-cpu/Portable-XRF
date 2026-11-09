@@ -1,0 +1,18 @@
+{
+  "sample_id": "crustal dust 30 ug/m3 (simulated)",
+  "pm_ug_m3": 30.0,
+  "endmembers": {
+    "mineral_dust": 0.75,
+    "iron_oxide": 0.10,
+    "carbonate": 0.10,
+    "soot": 0.05
+  },
+  "flow_lpm": 16.7,
+  "duration_min": 1440,
+  "filter_area_cm2": 11.3,
+  "air_path_cm": 2.0,
+  "live_time_s": 300.0,
+  "excitation_kv": 40.0,
+  "excitation_anode": "Rh",
+  "excitation_flux": 10000000000.0
+}

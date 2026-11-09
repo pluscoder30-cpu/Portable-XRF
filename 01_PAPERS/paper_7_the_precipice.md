@@ -1,4 +1,4 @@
-# The Precipice: Who Stood at the Wall — and What the Reading Layer Answers Them
+﻿# The Precipice: Who Stood at the Wall — and What the Reading Layer Answers Them
 
 **Paper 7** — the connective paper (gateway to papers 1–6; the credit layer of the program)
 
@@ -142,7 +142,7 @@ None of them crossed. Every one of them, standing where they stood, made the cro
 
 ## 6. Falsification Conditions
 
-| Claim | Falsified IF |
+| Claim | Falsification condition |
 |---|---|
 | The stop-lines | any attributed stop-line shown to be a misquote or materially mischaracterized stance (quote-level checks run in the lookup layer) |
 | The resolutions | any linked resolution's own falsifier (per its paper: F1–F6 and each paper's table) |

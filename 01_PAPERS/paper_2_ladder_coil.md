@@ -1,4 +1,4 @@
-# The Ladder Coil: an Electromagnetic Ear for a Reading Layer
+﻿# The Ladder Coil: an Electromagnetic Ear for a Reading Layer
 
 **Paper 2** — instrumentation Note (structure per the AIP Brief Instrumentation Paper convention: Title · Abstract 100–200 words · Motivation · Instrument description · Calibration/comparison · Summary)
 
@@ -102,12 +102,12 @@ A single-anchored, declared-geometry code coil implements the Ladder Coil Law: t
 
 ## Falsification conditions
 
-| Claim | Falsified IF |
+| Claim | Falsification condition |
 |---|---|
 | The design anchor scales | any declared-anchor re-derivation or metal/rung/standoff response violating the physics stack scaling |
 | The coin-class agreement | a quantified metal (non-semiconductor) returning detectable = False at the design geometry |
 | The ladder invariant | 528·φ⁹ ≠ 40,134.946166 Hz (the code asserts before running) |
-| **F3 — the transfer channel** | **[RUN IN-CODE 2026-11-03, PASS — `PROOF/07`, receipt seq 11].** The sharpened falsified-if: a coherent transfer appears **on the floor column** (a still channel or a floor-carried metal whose reading rises with the rung, or deviates bitwise from φ⁻² at the invariant), or the invariant rung drifts beyond Law 2397's 0.001 Hz tolerance. *(The original phrasing "any coherent transfer at the invariant at PM areal kills the wall reading" was over-broad against the already-sealed growing eddy: real, XRF-quantified metals do transfer coherently at the invariant — Al 57.3 ppm from 0.168 µg/cm² and Ca 234.8 ppm from 0.627 µg/cm², both registered areals — and the wall never said registered matter is invisible; it says the reading layer's ground is not EM-carryable areal mass. The run adjudicated the original row too: no ground-column transfer, wall stands.)* |
+| **F3 — the transfer channel** | **[RUN IN-CODE 2026-11-03, PASS — `PROOF/07`, receipt seq 11].** The sharpened falsification-condition: a coherent transfer appears **on the floor column** (a still channel or a floor-carried metal whose reading rises with the rung, or deviates bitwise from φ⁻² at the invariant), or the invariant rung drifts beyond Law 2397's 0.001 Hz tolerance. *(The original phrasing "any coherent transfer at the invariant at PM areal kills the wall reading" was over-broad against the already-sealed growing eddy: real, XRF-quantified metals do transfer coherently at the invariant — Al 57.3 ppm from 0.168 µg/cm² and Ca 234.8 ppm from 0.627 µg/cm², both registered areals — and the wall never said registered matter is invisible; it says the reading layer's ground is not EM-carryable areal mass. The run adjudicated the original row too: no ground-column transfer, wall stands.)* |
 | The ground | any still-channel reading ≠ φ⁻² at κ = 1 |
 
 ## Data and code availability
@@ -123,7 +123,7 @@ A single-anchored, declared-geometry code coil implements the Ladder Coil Law: t
 5. Blitz, J. (1997). *Electrical and Magnetic Methods of Non-Destructive Testing.* Chapman & Hall.
 6. García-Martín, J., Gómez-Gil, J., & Vázquez-Sánchez, E. (2011). Non-destructive techniques based on eddy current testing. *Sensors*, 11(3), 2525–2565. (The survey covering metal-detector discrimination practice.)
 7. Ayotte, C. D. (2026). *The Element Read (ElementRead-v1), 2026-11-02* — the coin-class check table (seq 6). `XRF/READS/2026-11-02_element_read.md`.
-8. Ayotte, C. D. (2026). *PROOF/07 — The F3 Transfer-Channel Falsifier, run in code* (receipt seq 11; the sharpened falsified-if sealed in the receipt payload). `XRF/PROOF/07_THE_F3_TRANSFER_PROOF.md`; `PROOF/run_f3_transfer.py`. The prior-structure grounding: Maxwell (1873) *A Treatise on Electricity and Magnetism* (the mutual-induction program); Bell's induction balance (1881, the Garfield search — NPS/Library of Congress records, source-verified); Förster (WWII-era industrial eddy-current conductivity instruments, company founded 1948 — Wikipedia/Foerster Group, source-verified); McMaster (1981) NBS SP 589 (amplitude- vs phase-sensitive eddy-current instrumentation).
+8. Ayotte, C. D. (2026). *PROOF/07 — The F3 Transfer-Channel Proof, run in code* (receipt seq 11; the sharpened falsification-condition sealed in the receipt payload). `XRF/PROOF/07_THE_F3_TRANSFER_PROOF.md`; `PROOF/run_f3_transfer.py`. The prior-structure grounding: Maxwell (1873) *A Treatise on Electricity and Magnetism* (the mutual-induction program); Bell's induction balance (1881, the Garfield search — NPS/Library of Congress records, source-verified); Förster (WWII-era industrial eddy-current conductivity instruments, company founded 1948 — Wikipedia/Foerster Group, source-verified); McMaster (1981) NBS SP 589 (amplitude- vs phase-sensitive eddy-current instrumentation).
 
 ---
 

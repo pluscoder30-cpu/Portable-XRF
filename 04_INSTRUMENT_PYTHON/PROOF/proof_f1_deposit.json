@@ -1,0 +1,292 @@
+{
+ "payload": {
+  "schema": "xrf-proof/f1-deposit-v1",
+  "law": "PHI-2396 STAGE 5 (the 24-hour deposit falsifier, in-code)",
+  "instrument": "code-based XRF + code coil (attached head)",
+  "model": {
+   "name": "f1-deposit-campaign",
+   "version": "sniffer receipt-seal + engine reading layer",
+   "calibration_id": "F1-incode-v1/SDD-25mm2",
+   "physics": "classical",
+   "method": "live air feed -> Law-2396 stamped deposit (kappa=1 arm) or classical composition (kappa=0 arm) -> forward XRF spectrum -> classical sniffer inversion -> falsifier conditions"
+  },
+  "provenance": "feed",
+  "location": {
+   "latitude": 40.7,
+   "longitude": -74.0
+  },
+  "timestamp": "2026-11-09T03:19:27Z",
+  "feed": {
+   "source": "open-meteo",
+   "pm10_ug_m3": 11.6,
+   "pm2_5_ug_m3": 11.5,
+   "dust_ug_m3": 0.0,
+   "feed_timestamp": "2026-11-09T03:00",
+   "status": "cached",
+   "cached": true,
+   "stale": false,
+   "notes": [
+    "cache is fresh (age 0.8 min <= TTL 360.0 min); no network call made"
+   ]
+  },
+  "sampling": {
+   "flow_lpm": 16.7,
+   "duration_min": 1440,
+   "filter_area_cm2": 11.3,
+   "volume_m3": 24.048,
+   "note": "sniffer trunk constants; the declared collection geometry of every session"
+  },
+  "au_prior": {
+   "ug_per_g": 0.0031,
+   "source": "Rudnick & Gao 2003 UCC",
+   "code": "DECLARED"
+  },
+  "mdl": {
+   "declared_ug_m3": 1.32e-05,
+   "fresh_ug_cm2": 5.626323031233349e-05,
+   "fresh_ug_m3": 2.6437728814428165e-05,
+   "acquisition": {
+    "live_time_s": 300.0,
+    "grid_step_ev": 1.0,
+    "detector": "SDD-25mm2",
+    "excitation": "40 kV Rh, 1e10 photons/s",
+    "air_path_cm": 2.0
+   }
+  },
+  "arm_classical": {
+   "au_c_ug_m3": 0.0,
+   "au_c_ppm": 0.0,
+   "au_areal_ug_cm2": 0.0,
+   "au_detection": "absent (no row)",
+   "headroom_vs_fresh_mdl": 0.0,
+   "seed": 20261121
+  },
+  "arm_declared": {
+   "au_c_phi_ug_m3": 0.3819660112501052,
+   "au_deposit_ug_pred": 9.18551863854253,
+   "au_areal_pred_ug_cm2": 0.8128777556232326,
+   "au_detection": "below_mdl",
+   "au_areal_recovered_ug_cm2": 0.17517766631511225,
+   "recovery_pct": 21.550308776847228,
+   "headroom_vs_fresh_mdl": 14447.761906145679,
+   "headroom_vs_declared": 28936.819034098877,
+   "seed": 20261102
+  },
+  "fleet_census": {
+   "n_registered": 75,
+   "n_detected_in_declared_world": 25,
+   "au_line_name": "Lb1",
+   "au_line_ev": 11443.0
+  },
+  "checks": [
+   {
+    "id": "C1_armB_blind",
+    "statement": "classical arm (kappa=0) reads Au below the 3-sigma MDL",
+    "expected": "not detected",
+    "observed": "absent (no row)",
+    "pass": true
+   },
+   {
+    "id": "C2_armA_loud",
+    "statement": "declared arm (kappa=1) reads Au above the 3-sigma MDL",
+    "expected": "detected",
+    "observed": "below_mdl",
+    "pass": false
+   },
+   {
+    "id": "C3_deposit_arithmetic",
+    "statement": "declared deposit matches the law's 9.2 ug (24 h)",
+    "expected": "9.2 ug +/- 2%",
+    "observed": "9.1855 ug",
+    "pass": true
+   },
+   {
+    "id": "C4_recovery",
+    "statement": "the inversion recovers the stamped Au areal",
+    "expected": "0.8129 ug/cm2 (+/- 25%)",
+    "observed": "0.175178 ug/cm2 (21.6% of predicted)",
+    "pass": false
+   },
+   {
+    "id": "C5_headroom",
+    "statement": "headroom at the declared MDL is the law's ~2.89e4 (gains teeth under a nonzero classical term; a dust=0 live feed stamps the bare floor exactly)",
+    "expected": "~2.89e+04x",
+    "observed": "2.894e+04x declared / 1.445e+04x fresh",
+    "pass": true
+   }
+  ],
+  "verdict": "F1 IN-CODE: FALSIFIED \u2014 the declared arm failed to clear the MDL",
+  "falsified_if": "a 24 h in-code collection on the same feed returning the Au L-beta-1 line at/below the 3-sigma MDL while the field-coupling calibration stands (Law 2396)",
+  "scope_line": "in-code F1 confirms the STAGE-5 loud-detection arithmetic of the instrument's own chain, bound to the real public feed; it is NOT a physical-world confirmation of the ground \u2014 the reading layer's DECLARED standing is unchanged; a real-filter collection remains available as the optional body",
+  "honesty": {
+   "REAL": "units, sampling chain, MDL computation, seeds, receipt chain, feed provenance",
+   "MODEL": "feed->composition endmember model, forward spectrum, Poisson noise, crustal Au prior",
+   "NOT_MEASURED": "every number is the declared model's output; the receipt carries the input provenance"
+  }
+ },
+ "receipt": {
+  "schema": "xrf-sniffer/receipt-v1",
+  "seq": 31,
+  "t": 1794194373.357871,
+  "t_iso": "2026-11-09T03:19:33.357871+00:00",
+  "instrument": "xrf-sniffer",
+  "provenance": "feed",
+  "report": {
+   "schema": "xrf-proof/f1-deposit-v1",
+   "law": "PHI-2396 STAGE 5 (the 24-hour deposit falsifier, in-code)",
+   "instrument": "code-based XRF + code coil (attached head)",
+   "model": {
+    "name": "f1-deposit-campaign",
+    "version": "sniffer receipt-seal + engine reading layer",
+    "calibration_id": "F1-incode-v1/SDD-25mm2",
+    "physics": "classical",
+    "method": "live air feed -> Law-2396 stamped deposit (kappa=1 arm) or classical composition (kappa=0 arm) -> forward XRF spectrum -> classical sniffer inversion -> falsifier conditions"
+   },
+   "provenance": "feed",
+   "location": {
+    "latitude": 40.7,
+    "longitude": -74.0
+   },
+   "timestamp": "2026-11-09T03:19:27Z",
+   "feed": {
+    "source": "open-meteo",
+    "pm10_ug_m3": 11.6,
+    "pm2_5_ug_m3": 11.5,
+    "dust_ug_m3": 0.0,
+    "feed_timestamp": "2026-11-09T03:00",
+    "status": "cached",
+    "cached": true,
+    "stale": false,
+    "notes": [
+     "cache is fresh (age 0.8 min <= TTL 360.0 min); no network call made"
+    ]
+   },
+   "sampling": {
+    "flow_lpm": 16.7,
+    "duration_min": 1440,
+    "filter_area_cm2": 11.3,
+    "volume_m3": 24.048,
+    "note": "sniffer trunk constants; the declared collection geometry of every session"
+   },
+   "au_prior": {
+    "ug_per_g": 0.0031,
+    "source": "Rudnick & Gao 2003 UCC",
+    "code": "DECLARED"
+   },
+   "mdl": {
+    "declared_ug_m3": 1.32e-05,
+    "fresh_ug_cm2": 5.626323031233349e-05,
+    "fresh_ug_m3": 2.6437728814428165e-05,
+    "acquisition": {
+     "live_time_s": 300.0,
+     "grid_step_ev": 1.0,
+     "detector": "SDD-25mm2",
+     "excitation": "40 kV Rh, 1e10 photons/s",
+     "air_path_cm": 2.0
+    }
+   },
+   "arm_classical": {
+    "au_c_ug_m3": 0.0,
+    "au_c_ppm": 0.0,
+    "au_areal_ug_cm2": 0.0,
+    "au_detection": "absent (no row)",
+    "headroom_vs_fresh_mdl": 0.0,
+    "seed": 20261121
+   },
+   "arm_declared": {
+    "au_c_phi_ug_m3": 0.3819660112501052,
+    "au_deposit_ug_pred": 9.18551863854253,
+    "au_areal_pred_ug_cm2": 0.8128777556232326,
+    "au_detection": "below_mdl",
+    "au_areal_recovered_ug_cm2": 0.17517766631511225,
+    "recovery_pct": 21.550308776847228,
+    "headroom_vs_fresh_mdl": 14447.761906145679,
+    "headroom_vs_declared": 28936.819034098877,
+    "seed": 20261102
+   },
+   "fleet_census": {
+    "n_registered": 75,
+    "n_detected_in_declared_world": 25,
+    "au_line_name": "Lb1",
+    "au_line_ev": 11443.0
+   },
+   "checks": [
+    {
+     "id": "C1_armB_blind",
+     "statement": "classical arm (kappa=0) reads Au below the 3-sigma MDL",
+     "expected": "not detected",
+     "observed": "absent (no row)",
+     "pass": true
+    },
+    {
+     "id": "C2_armA_loud",
+     "statement": "declared arm (kappa=1) reads Au above the 3-sigma MDL",
+     "expected": "detected",
+     "observed": "below_mdl",
+     "pass": false
+    },
+    {
+     "id": "C3_deposit_arithmetic",
+     "statement": "declared deposit matches the law's 9.2 ug (24 h)",
+     "expected": "9.2 ug +/- 2%",
+     "observed": "9.1855 ug",
+     "pass": true
+    },
+    {
+     "id": "C4_recovery",
+     "statement": "the inversion recovers the stamped Au areal",
+     "expected": "0.8129 ug/cm2 (+/- 25%)",
+     "observed": "0.175178 ug/cm2 (21.6% of predicted)",
+     "pass": false
+    },
+    {
+     "id": "C5_headroom",
+     "statement": "headroom at the declared MDL is the law's ~2.89e4 (gains teeth under a nonzero classical term; a dust=0 live feed stamps the bare floor exactly)",
+     "expected": "~2.89e+04x",
+     "observed": "2.894e+04x declared / 1.445e+04x fresh",
+     "pass": true
+    }
+   ],
+   "verdict": "F1 IN-CODE: FALSIFIED \u2014 the declared arm failed to clear the MDL",
+   "falsified_if": "a 24 h in-code collection on the same feed returning the Au L-beta-1 line at/below the 3-sigma MDL while the field-coupling calibration stands (Law 2396)",
+   "scope_line": "in-code F1 confirms the STAGE-5 loud-detection arithmetic of the instrument's own chain, bound to the real public feed; it is NOT a physical-world confirmation of the ground \u2014 the reading layer's DECLARED standing is unchanged; a real-filter collection remains available as the optional body",
+   "honesty": {
+    "REAL": "units, sampling chain, MDL computation, seeds, receipt chain, feed provenance",
+    "MODEL": "feed->composition endmember model, forward spectrum, Poisson noise, crustal Au prior",
+    "NOT_MEASURED": "every number is the declared model's output; the receipt carries the input provenance"
+   }
+  },
+  "model": {
+   "name": "f1-deposit-campaign",
+   "version": "sniffer receipt-seal + engine reading layer",
+   "calibration_id": "F1-incode-v1/SDD-25mm2",
+   "physics": "classical",
+   "label": "[MODEL]",
+   "method": "live air feed -> Law-2396 stamped deposit (kappa=1 arm) or classical composition (kappa=0 arm) -> forward XRF spectrum -> classical sniffer inversion -> falsifier conditions"
+  },
+  "engine": {
+   "name": "engine",
+   "version": "1.2.0"
+  },
+  "input": {
+   "kind": "spectrum",
+   "sha256": "7363a5d95de6e7135c144e25e2dda56573045efd003a8a8cec4bf015062f1064",
+   "spectrum_sha256": "7363a5d95de6e7135c144e25e2dda56573045efd003a8a8cec4bf015062f1064",
+   "n_channels": 2500,
+   "live_time_s": 300.0
+  },
+  "prev_hash": "98a84ab2dae1558e72260977edbc5bc8b160df797c42564c4ab63a143ce7e9a5",
+  "attestation": {
+   "alg": "ES256",
+   "signer": "field-trust-root",
+   "units": "ug_cm2",
+   "one_claim": true,
+   "gapless": true,
+   "model_bound": true,
+   "note": "the signature attests to the report bytes AND to the model version / calibration id inside the signed body; it does not attest that the model describes the world"
+  },
+  "hash": "cdd8397c1d8ec95a99c48a5f629dc042e49db2bd9489660009678e5ef6d8c7af",
+  "signature": "930cc7d33278c7ebae244c5536174f44740e81c3b970a5206ade1025c65974d1fe5e2f47a749de44279dd9a436d7f09352889e60da6c3950c549f1727cf4fb3d",
+  "public_key": "0347f3c3b6bab649a0e0c7c94f5a7e333ef6b8cfff8149e8e86fde09a813d92b4d"
+ }
+}

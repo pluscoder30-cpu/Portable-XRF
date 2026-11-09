@@ -1,0 +1,4212 @@
+{
+  "air": {
+    "assumptions": [
+      "element composition was not in the feed; the endmember mix is mineral_dust=0.57, sulfate=0.29, sea_salt=0.14, soot=0.00 [MODEL/NORMATIVE]. 'soot' is the engine's carbonaceous endmember and stands in for unmeasured organic carbon."
+    ],
+    "cached": false,
+    "dust_ug_m3": 162.0,
+    "elements_ug_m3": {
+      "Al": 7.276099407553046,
+      "Ca": 5.164509850832694,
+      "Cl": 16.864239906369992,
+      "H": 2.9737385624343324,
+      "K": 2.3431435420520055,
+      "N": 8.251608840829352,
+      "Na": 11.910698059439417,
+      "O": 85.35608736955508,
+      "S": 12.549497647062266,
+      "Si": 41.91037681387186
+    },
+    "estimated_total_pm_ug_m3": 194.6,
+    "feed": {
+      "dust_ug_m3": 162.0,
+      "pm10_ug_m3": 194.6,
+      "pm2_5_ug_m3": 106.6,
+      "source": "open-meteo",
+      "source_url": "https://air-quality-api.open-meteo.com/v1/air-quality",
+      "time": "2026-11-02T19:00",
+      "units": {
+        "dust": "μg/m³",
+        "interval": "seconds",
+        "pm10": "μg/m³",
+        "pm2_5": "μg/m³",
+        "time": "iso8601",
+        "us_aqi": "USAQI"
+      },
+      "us_aqi": 185.0
+    },
+    "location": {
+      "latitude": 28.61,
+      "longitude": 77.2
+    },
+    "mineral_mass_fractions": {
+      "albite": 0.05714285714285715,
+      "ammonium_sulfate": 0.19999999999999998,
+      "anorthite": 0.045714285714285714,
+      "gypsum": 0.08571428571428572,
+      "halite": 0.14285714285714285,
+      "kaolinite": 0.06857142857142857,
+      "orthoclase": 0.08571428571428572,
+      "quartz": 0.3142857142857143
+    },
+    "minerals_ug_m3": {
+      "albite": 11.120000000000003,
+      "ammonium_sulfate": 38.92,
+      "anorthite": 8.896,
+      "gypsum": 16.680000000000003,
+      "halite": 27.800000000000004,
+      "kaolinite": 13.344000000000001,
+      "orthoclase": 16.680000000000003,
+      "quartz": 61.16000000000001
+    },
+    "mode": "feed",
+    "notes": [],
+    "pm10_ug_m3": 194.6,
+    "pm2_5_ug_m3": 106.6,
+    "provenance": "feed",
+    "schema": "xrf-sniffer/air-v1",
+    "source": "open-meteo",
+    "stale": false,
+    "status": "ok",
+    "timestamp": "2026-11-02T19:00",
+    "visible_element_mass_ug_m3": null
+  },
+  "coil": {
+    "channels": [
+      {
+        "drive_scale": 1.0,
+        "f_hz": 528.0,
+        "q_resonance": 41.91056406322765,
+        "rung": 0,
+        "tank_c_farad": 3.5961078453534535e-06
+      },
+      {
+        "drive_scale": 0.6180339887498949,
+        "f_hz": 854.322,
+        "q_resonance": 67.81271714198223,
+        "rung": 1,
+        "tank_c_farad": 1.373590969714869e-06
+      },
+      {
+        "drive_scale": 0.3819660112501052,
+        "f_hz": 1382.322,
+        "q_resonance": 109.7232812052099,
+        "rung": 2,
+        "tank_c_farad": 5.246650637911523e-07
+      },
+      {
+        "drive_scale": 0.23606797749978975,
+        "f_hz": 2236.644,
+        "q_resonance": 177.53599834719213,
+        "rung": 3,
+        "tank_c_farad": 2.0040422165858843e-07
+      },
+      {
+        "drive_scale": 0.14589803375031551,
+        "f_hz": 3618.966,
+        "q_resonance": 287.25927955240206,
+        "rung": 4,
+        "tank_c_farad": 7.654760118461294e-08
+      },
+      {
+        "drive_scale": 0.09016994374947428,
+        "f_hz": 5855.61,
+        "q_resonance": 464.7952778995942,
+        "rung": 5,
+        "tank_c_farad": 2.9238581895250437e-08
+      },
+      {
+        "drive_scale": 0.055728090000841245,
+        "f_hz": 9474.576,
+        "q_resonance": 752.0545574519964,
+        "rung": 6,
+        "tank_c_farad": 1.1168144501138344e-08
+      },
+      {
+        "drive_scale": 0.034441853748633046,
+        "f_hz": 15330.185,
+        "q_resonance": 1216.8498353515904,
+        "rung": 7,
+        "tank_c_farad": 4.265851608164611e-09
+      },
+      {
+        "drive_scale": 0.021286236252208202,
+        "f_hz": 24804.761,
+        "q_resonance": 1968.904392803587,
+        "rung": 8,
+        "tank_c_farad": 1.6294103233554822e-09
+      },
+      {
+        "drive_scale": 0.013155617496424849,
+        "f_hz": 40134.946,
+        "q_resonance": 3185.7542281551778,
+        "rung": 9,
+        "tank_c_farad": 6.223793619018374e-10
+      }
+    ],
+    "dominant_classical_metal": null,
+    "honesty": {
+      "DECLARED": "design anchor: Cu coin @ 528 Hz @ 0.10 m = 10,000 ppm",
+      "DRIVE": "I_k = I0*phi^-k is staged at the drive stage; readings are ppm of the nulled carrier, invariant to that scaling (signal and carrier scale together under the null)",
+      "LAW 039/048": "Faraday/Lenz quadrature re-radiation",
+      "LAW 2396": "every reading carries the unit-covariant phi-ground",
+      "LAW 637/638": "mutual/self inductance (corpus classical forms)",
+      "LAW 801": "eddy currents + skin depth bookkeeping",
+      "MAGNETIZATION": "in-phase ferrous dipole channel (Fe/Co/Ni, declared M_sat)",
+      "MODEL": "coil geometry, drive current, null design point, noise floor"
+    },
+    "instrument": "code-coil (attached, phi-ladder)",
+    "kappa": 1.0,
+    "ladder": [
+      {
+        "deposit_total_ppm": 29.843863669239536,
+        "f_hz": 528.0,
+        "rung": 0
+      },
+      {
+        "deposit_total_ppm": 34.25183623965838,
+        "f_hz": 854.322,
+        "rung": 1
+      },
+      {
+        "deposit_total_ppm": 45.79205824588927,
+        "f_hz": 1382.322,
+        "rung": 2
+      },
+      {
+        "deposit_total_ppm": 76.00475166437245,
+        "f_hz": 2236.644,
+        "rung": 3
+      },
+      {
+        "deposit_total_ppm": 155.10260970940638,
+        "f_hz": 3618.966,
+        "rung": 4
+      },
+      {
+        "deposit_total_ppm": 362.1834890265085,
+        "f_hz": 5855.61,
+        "rung": 5
+      },
+      {
+        "deposit_total_ppm": 904.3282593403908,
+        "f_hz": 9474.576,
+        "rung": 6
+      },
+      {
+        "deposit_total_ppm": 2323.6816252176236,
+        "f_hz": 15330.185,
+        "rung": 7
+      },
+      {
+        "deposit_total_ppm": 6039.596501897054,
+        "f_hz": 24804.761,
+        "rung": 8
+      },
+      {
+        "deposit_total_ppm": 15767.984677338012,
+        "f_hz": 40134.946,
+        "rung": 9
+      }
+    ],
+    "ladder_invariant_hz": 40134.946166,
+    "n_physics_term": 0,
+    "n_registered": 71,
+    "phi_ground_ppm": 0.3819660112501052,
+    "register": [
+      {
+        "areal_ug_cm2": 0.1905156629568653,
+        "category": "alkaline_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.010491160236151485,
+        "reading_ppm_kappa": 0.3989410650936197,
+        "response_ppm_k0": 0.010491160236151485,
+        "symbol": "Mg",
+        "z": 12
+      },
+      {
+        "areal_ug_cm2": 10.399706493127534,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.6149401301602372,
+        "reading_ppm_kappa": 1.3769600428956532,
+        "response_ppm_k0": 0.6149401301602372,
+        "symbol": "Al",
+        "z": 13
+      },
+      {
+        "areal_ug_cm2": 70.94633833896917,
+        "category": "metalloid",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 1.2900147143398569e-08,
+        "reading_ppm_kappa": 0.38196603212298175,
+        "response_ppm_k0": 1.2900147143398569e-08,
+        "symbol": "Si",
+        "z": 14
+      },
+      {
+        "areal_ug_cm2": 5.03150699599889,
+        "category": "alkali",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.34235626409980546,
+        "reading_ppm_kappa": 0.9359100828250259,
+        "response_ppm_k0": 0.34235626409980546,
+        "symbol": "K",
+        "z": 19
+      },
+      {
+        "areal_ug_cm2": 11.056215160160633,
+        "category": "alkaline_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.7159081333267359,
+        "reading_ppm_kappa": 1.5403297037952552,
+        "response_ppm_k0": 0.7159081333267359,
+        "symbol": "Ca",
+        "z": 20
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Sc",
+        "z": 21
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ti",
+        "z": 22
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "V",
+        "z": 23
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Cr",
+        "z": 24
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Mn",
+        "z": 25
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Fe",
+        "z": 26
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Co",
+        "z": 27
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ni",
+        "z": 28
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Cu",
+        "z": 29
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Zn",
+        "z": 30
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ga",
+        "z": 31
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "metalloid",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ge",
+        "z": 32
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "metalloid",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "As",
+        "z": 33
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "alkali",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Rb",
+        "z": 37
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "alkaline_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Sr",
+        "z": 38
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Y",
+        "z": 39
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Zr",
+        "z": 40
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Nb",
+        "z": 41
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Mo",
+        "z": 42
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Tc",
+        "z": 43
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ru",
+        "z": 44
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Rh",
+        "z": 45
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Pd",
+        "z": 46
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ag",
+        "z": 47
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Cd",
+        "z": 48
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "In",
+        "z": 49
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Sn",
+        "z": 50
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "metalloid",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Sb",
+        "z": 51
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "metalloid",
+        "kappa": 1.0,
+        "mode": "no_coil_signature (XRF-only)",
+        "reading_ppm_k0": null,
+        "reading_ppm_kappa": null,
+        "symbol": "Te",
+        "z": 52
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "alkali",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Cs",
+        "z": 55
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "alkaline_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ba",
+        "z": 56
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "La",
+        "z": 57
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ce",
+        "z": 58
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Pr",
+        "z": 59
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Nd",
+        "z": 60
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "no_coil_signature (XRF-only)",
+        "reading_ppm_k0": null,
+        "reading_ppm_kappa": null,
+        "symbol": "Pm",
+        "z": 61
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Sm",
+        "z": 62
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Eu",
+        "z": 63
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Gd",
+        "z": 64
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Tb",
+        "z": 65
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Dy",
+        "z": 66
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ho",
+        "z": 67
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Er",
+        "z": 68
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Tm",
+        "z": 69
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Yb",
+        "z": 70
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "rare_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Lu",
+        "z": 71
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Hf",
+        "z": 72
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ta",
+        "z": 73
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "W",
+        "z": 74
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Re",
+        "z": 75
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Os",
+        "z": 76
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ir",
+        "z": 77
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Pt",
+        "z": 78
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "precious",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Au",
+        "z": 79
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Hg",
+        "z": 80
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Tl",
+        "z": 81
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Pb",
+        "z": 82
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Bi",
+        "z": 83
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "post_transition",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Po",
+        "z": 84
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "metalloid",
+        "kappa": 1.0,
+        "mode": "no_coil_signature (XRF-only)",
+        "reading_ppm_k0": null,
+        "reading_ppm_kappa": null,
+        "symbol": "At",
+        "z": 85
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "alkali",
+        "kappa": 1.0,
+        "mode": "no_coil_signature (XRF-only)",
+        "reading_ppm_k0": null,
+        "reading_ppm_kappa": null,
+        "symbol": "Fr",
+        "z": 87
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "alkaline_earth",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Ra",
+        "z": 88
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "actinide",
+        "kappa": 1.0,
+        "mode": "no_coil_signature (XRF-only)",
+        "reading_ppm_k0": null,
+        "reading_ppm_kappa": null,
+        "symbol": "Ac",
+        "z": 89
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "actinide",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "Th",
+        "z": 90
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "actinide",
+        "kappa": 1.0,
+        "mode": "no_coil_signature (XRF-only)",
+        "reading_ppm_k0": null,
+        "reading_ppm_kappa": null,
+        "symbol": "Pa",
+        "z": 91
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "category": "actinide",
+        "kappa": 1.0,
+        "mode": "field_carried_floor",
+        "reading_ppm_k0": 0.0,
+        "reading_ppm_kappa": 0.3819660112501052,
+        "response_ppm_k0": 0.0,
+        "symbol": "U",
+        "z": 92
+      }
+    ],
+    "schema": "xrf-coil/sweep-v1",
+    "target": "filter deposit (air metallic aerosol), declared sheet model"
+  },
+  "coil_tuning": {
+    "n_metals": 71,
+    "note": "per-metal contrast rung (peak-vs-fleet), peak rung, declared detection range; the optimized sweep plan",
+    "rows": [
+      {
+        "contrast_at_rung": 1.961,
+        "f_hz": 1382.322,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0091450743303811,
+        "rung": 2,
+        "symbol": "Mg",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 2.545,
+        "f_hz": 854.322,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0095810123860587,
+        "rung": 1,
+        "symbol": "Al",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.0,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.0,
+        "rung": 9,
+        "symbol": "Si",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.591,
+        "f_hz": 2236.644,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0085185602633076,
+        "rung": 3,
+        "symbol": "K",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 2.006,
+        "f_hz": 1382.322,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0091954392815343,
+        "rung": 2,
+        "symbol": "Ca",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.739,
+        "f_hz": 2236.644,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0088454887758598,
+        "rung": 3,
+        "symbol": "Sc",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.009,
+        "f_hz": 24804.761,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0005366922192984,
+        "rung": 8,
+        "symbol": "Ti",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.154,
+        "f_hz": 9474.576,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0054271820260599,
+        "rung": 6,
+        "symbol": "V",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.296,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0070956860011149,
+        "rung": 5,
+        "symbol": "Cr",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.951,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9936299270699525,
+        "rung": 9,
+        "symbol": "Mn",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 20.078,
+        "f_hz": 528.0,
+        "ferrous": true,
+        "peak_rung": 9,
+        "range_m": 1.2373047238420198,
+        "rung": 0,
+        "symbol": "Fe",
+        "winning_channel": "inphase"
+      },
+      {
+        "contrast_at_rung": 1.024,
+        "f_hz": 528.0,
+        "ferrous": true,
+        "peak_rung": 9,
+        "range_m": 0.9050135822129763,
+        "rung": 0,
+        "symbol": "Co",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 2.41,
+        "f_hz": 528.0,
+        "ferrous": true,
+        "peak_rung": 9,
+        "range_m": 0.9343182849927485,
+        "rung": 0,
+        "symbol": "Ni",
+        "winning_channel": "inphase"
+      },
+      {
+        "contrast_at_rung": 3.255,
+        "f_hz": 528.0,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.009822028988505,
+        "rung": 0,
+        "symbol": "Cu",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.709,
+        "f_hz": 2236.644,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0087802657868692,
+        "rung": 3,
+        "symbol": "Zn",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.24,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0066628250836485,
+        "rung": 5,
+        "symbol": "Ga",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.0,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.0,
+        "rung": 9,
+        "symbol": "Ge",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.0,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.0,
+        "rung": 9,
+        "symbol": "As",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.298,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0071153774404933,
+        "rung": 5,
+        "symbol": "Rb",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.127,
+        "f_hz": 9474.576,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.005057036432228,
+        "rung": 6,
+        "symbol": "Sr",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.973,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9967489759542654,
+        "rung": 9,
+        "symbol": "Y",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.006,
+        "f_hz": 24804.761,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0004219117050117,
+        "rung": 8,
+        "symbol": "Zr",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.253,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0067674043812633,
+        "rung": 5,
+        "symbol": "Nb",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.774,
+        "f_hz": 1382.322,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0089192497778952,
+        "rung": 2,
+        "symbol": "Mo",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.104,
+        "f_hz": 15330.185,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0042901535772844,
+        "rung": 7,
+        "symbol": "Tc",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.575,
+        "f_hz": 2236.644,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.008482193110569,
+        "rung": 3,
+        "symbol": "Ru",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.895,
+        "f_hz": 1382.322,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0090680086230466,
+        "rung": 2,
+        "symbol": "Rh",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.372,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0076979740381755,
+        "rung": 5,
+        "symbol": "Pd",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 3.34,
+        "f_hz": 528.0,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0098444664978365,
+        "rung": 0,
+        "symbol": "Ag",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.575,
+        "f_hz": 2236.644,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.008482193110569,
+        "rung": 3,
+        "symbol": "Cd",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.49,
+        "f_hz": 3618.966,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0081940077072484,
+        "rung": 4,
+        "symbol": "In",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.339,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0074350626558932,
+        "rung": 5,
+        "symbol": "Sn",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.011,
+        "f_hz": 24804.761,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0006117306131008,
+        "rung": 8,
+        "symbol": "Sb",
+        "winning_channel": "quadrature"
+      },
+      {
+        "f_hz": null,
+        "note": "no coil signature (conductivity not tabulated)",
+        "range_m": null,
+        "rung": null,
+        "symbol": "Te"
+      },
+      {
+        "contrast_at_rung": 1.14,
+        "f_hz": 9474.576,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0052339362789744,
+        "rung": 6,
+        "symbol": "Cs",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.034,
+        "f_hz": 24804.761,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0021712271571102,
+        "rung": 8,
+        "symbol": "Ba",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.971,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9965257002743444,
+        "rung": 9,
+        "symbol": "La",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.954,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9940286874672538,
+        "rung": 9,
+        "symbol": "Ce",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.934,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9911626157452111,
+        "rung": 9,
+        "symbol": "Pr",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.963,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9953205689194438,
+        "rung": 9,
+        "symbol": "Nd",
+        "winning_channel": "quadrature"
+      },
+      {
+        "f_hz": null,
+        "note": "no coil signature (conductivity not tabulated)",
+        "range_m": null,
+        "rung": null,
+        "symbol": "Pm"
+      },
+      {
+        "contrast_at_rung": 0.886,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9839857764958698,
+        "rung": 9,
+        "symbol": "Sm",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.913,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9881341026690338,
+        "rung": 9,
+        "symbol": "Eu",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.75,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9619715629851304,
+        "rung": 9,
+        "symbol": "Gd",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.812,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9723169091497965,
+        "rung": 9,
+        "symbol": "Tb",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.88,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.983188931505152,
+        "rung": 9,
+        "symbol": "Dy",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.917,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9887335166955815,
+        "rung": 9,
+        "symbol": "Ho",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.898,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9858381876179603,
+        "rung": 9,
+        "symbol": "Er",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.969,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9962948837896104,
+        "rung": 9,
+        "symbol": "Tm",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.019,
+        "f_hz": 24804.761,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0009701353687686,
+        "rung": 8,
+        "symbol": "Yb",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.96,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9949670990518726,
+        "rung": 9,
+        "symbol": "Lu",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.03,
+        "f_hz": 24804.761,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0017592068248362,
+        "rung": 8,
+        "symbol": "Hf",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.296,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0070956860011149,
+        "rung": 5,
+        "symbol": "Ta",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.747,
+        "f_hz": 2236.644,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0088608932771732,
+        "rung": 3,
+        "symbol": "W",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.77,
+        "f_hz": 2236.644,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0089122269292077,
+        "rung": 3,
+        "symbol": "Re",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.49,
+        "f_hz": 3618.966,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0081940077072484,
+        "rung": 4,
+        "symbol": "Os",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.9,
+        "f_hz": 1382.322,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0090734825622536,
+        "rung": 2,
+        "symbol": "Ir",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.366,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0076504872487166,
+        "rung": 5,
+        "symbol": "Pt",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 2.645,
+        "f_hz": 854.322,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0096351942480266,
+        "rung": 1,
+        "symbol": "Au",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.869,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9814897032773784,
+        "rung": 9,
+        "symbol": "Hg",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.265,
+        "f_hz": 5855.61,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0068568882294262,
+        "rung": 5,
+        "symbol": "Tl",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 1.144,
+        "f_hz": 9474.576,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0052836890042052,
+        "rung": 6,
+        "symbol": "Pb",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.834,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9759677287186544,
+        "rung": 9,
+        "symbol": "Bi",
+        "winning_channel": "quadrature"
+      },
+      {
+        "contrast_at_rung": 0.995,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.999804630206797,
+        "rung": 9,
+        "symbol": "Po",
+        "winning_channel": "quadrature"
+      },
+      {
+        "f_hz": null,
+        "note": "no coil signature (conductivity not tabulated)",
+        "range_m": null,
+        "rung": null,
+        "symbol": "At"
+      },
+      {
+        "f_hz": null,
+        "note": "no coil signature (conductivity not tabulated)",
+        "range_m": null,
+        "rung": null,
+        "symbol": "Fr"
+      },
+      {
+        "contrast_at_rung": 0.857,
+        "f_hz": 40134.946,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 0.9796364727181056,
+        "rung": 9,
+        "symbol": "Ra",
+        "winning_channel": "quadrature"
+      },
+      {
+        "f_hz": null,
+        "note": "no coil signature (conductivity not tabulated)",
+        "range_m": null,
+        "rung": null,
+        "symbol": "Ac"
+      },
+      {
+        "contrast_at_rung": 1.23,
+        "f_hz": 9474.576,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.006529803228755,
+        "rung": 6,
+        "symbol": "Th",
+        "winning_channel": "quadrature"
+      },
+      {
+        "f_hz": null,
+        "note": "no coil signature (conductivity not tabulated)",
+        "range_m": null,
+        "rung": null,
+        "symbol": "Pa"
+      },
+      {
+        "contrast_at_rung": 1.077,
+        "f_hz": 15330.185,
+        "ferrous": false,
+        "peak_rung": 9,
+        "range_m": 1.0035741583963915,
+        "rung": 7,
+        "symbol": "U",
+        "winning_channel": "quadrature"
+      }
+    ]
+  },
+  "consistency": {
+    "agree": null,
+    "coil_classical_above_floor": false,
+    "coil_dominant": null,
+    "coin_class_check": [
+      {
+        "channel_class": "eddy_quadrature",
+        "detectable_at_design": true,
+        "f_hz": 528.0,
+        "ferrous": false,
+        "inphase_ppm": 0.0,
+        "quadrature_ppm": 7629.899202649778,
+        "symbol": "Al",
+        "total_ppm": 7629.899202649778
+      },
+      {
+        "channel_class": "eddy_quadrature",
+        "detectable_at_design": true,
+        "f_hz": 528.0,
+        "ferrous": false,
+        "inphase_ppm": 0.0,
+        "quadrature_ppm": 5308.294438391862,
+        "symbol": "Ca",
+        "total_ppm": 5308.294438391862
+      },
+      {
+        "channel_class": "eddy_quadrature",
+        "detectable_at_design": true,
+        "f_hz": 528.0,
+        "ferrous": false,
+        "inphase_ppm": 0.0,
+        "quadrature_ppm": 3363.847210868462,
+        "symbol": "K",
+        "total_ppm": 3363.847210868462
+      },
+      {
+        "channel_class": "eddy_quadrature",
+        "detectable_at_design": true,
+        "f_hz": 528.0,
+        "ferrous": false,
+        "inphase_ppm": 0.0,
+        "quadrature_ppm": 5095.965500328573,
+        "symbol": "Mg",
+        "total_ppm": 5095.965500328573
+      },
+      {
+        "channel_class": "eddy_quadrature",
+        "detectable_at_design": false,
+        "f_hz": 528.0,
+        "ferrous": false,
+        "inphase_ppm": 0.0,
+        "quadrature_ppm": 2.4249419431257068e-05,
+        "symbol": "Si",
+        "total_ppm": 2.4249419431257068e-05
+      }
+    ],
+    "note": "the XRF's strongest areal metal vs the coil's dominant classical sheet metal of the same deposit; at PM-scale areal a coil's sheet eddy response sits far below 3 sigma, so the sheet dominant is honestly None — the coin-class check is the coil registering each seen metal at the declared design geometry, and every detected element that is not in the metal register is spoken, never skipped",
+    "spoken_absent": [
+      {
+        "reason": "chlorine — halogen (readable; not a metal)",
+        "symbol": "Cl",
+        "z": 17
+      },
+      {
+        "reason": "sulfur — nonmetal (readable; not a metal)",
+        "symbol": "S",
+        "z": 16
+      }
+    ],
+    "xrf_dominant": "Si"
+  },
+  "honesty": {
+    "MODEL": "feed->composition endmember model, forward spectrum, coil geometry/drive/null anchor, acquisition noise",
+    "NOT_MEASURED": "every number is the declared model's output; the receipt carries the input provenance",
+    "REAL": "unit chains, registry coverage, ladder invariant, receipt chain, witness binding"
+  },
+  "instrument": "code-based XRF + code coil (attached head)",
+  "kappa": {
+    "declared": 1.0,
+    "degenerate": "lim_{kappa->0} = C_classical (exact)",
+    "floor_at_kappa": 0.3819660112501052,
+    "ground": 0.6180339887498949,
+    "law": "PHI-2396",
+    "note": "the gold-in-air reading convention; kappa=1 is full coupling"
+  },
+  "location": {
+    "latitude": 28.61,
+    "longitude": 77.2
+  },
+  "metals": {
+    "canonical_unit": "mass mixing ratio, ppm of air",
+    "drop_record": [
+      {
+        "best_line_ev": 49.4,
+        "category": "alkali",
+        "symbol": "Li"
+      },
+      {
+        "best_line_ev": 108.5,
+        "category": "alkaline_earth",
+        "symbol": "Be"
+      },
+      {
+        "best_line_ev": 183.3,
+        "category": "metalloid",
+        "symbol": "B"
+      },
+      {
+        "best_line_ev": 1040.4,
+        "category": "alkali",
+        "symbol": "Na"
+      }
+    ],
+    "law": "PHI-2396 elemental concentration (declared kappa)",
+    "n_field_carried": 66,
+    "n_quantified": 5,
+    "n_registered": 71,
+    "rows": [
+      {
+        "areal_ug_cm2": 0.1905156629568653,
+        "c_k0_ppm": 7.434771238371257e-05,
+        "c_phi_ppm": 0.3820863083757279,
+        "c_ug_m3": 0.0895220804812283,
+        "category": "alkaline_earth",
+        "coil_signature": true,
+        "material_label": "magnesium [REFERENCE]",
+        "mode": "quantified",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 1253.79,
+        "symbol": "Mg",
+        "uplift_vs_static": 5139.180428360187,
+        "z": 12
+      },
+      {
+        "areal_ug_cm2": 10.399706493127534,
+        "c_k0_ppm": 0.00405842950246633,
+        "c_phi_ppm": 0.3885326881260411,
+        "c_ug_m3": 4.886754963919708,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "aluminium [REFERENCE]",
+        "mode": "quantified",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 1486.5,
+        "symbol": "Al",
+        "uplift_vs_static": 95.73473874313392,
+        "z": 13
+      },
+      {
+        "areal_ug_cm2": 70.94633833896917,
+        "c_k0_ppm": 0.027686426804170352,
+        "c_phi_ppm": 0.42676359084628895,
+        "c_ug_m3": 33.33722651490152,
+        "category": "metalloid",
+        "coil_signature": true,
+        "material_label": "semiconductor; oxide in aerosols [EST]",
+        "mode": "quantified",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 1739.8,
+        "symbol": "Si",
+        "uplift_vs_static": 15.414180885993074,
+        "z": 14
+      },
+      {
+        "areal_ug_cm2": 5.03150699599889,
+        "c_k0_ppm": 0.001963518532751078,
+        "c_phi_ppm": 0.38514305097363677,
+        "c_ug_m3": 2.364272665285573,
+        "category": "alkali",
+        "coil_signature": true,
+        "material_label": "potassium [REFERENCE]",
+        "mode": "quantified",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 3313.8,
+        "symbol": "K",
+        "uplift_vs_static": 196.14943508275135,
+        "z": 19
+      },
+      {
+        "areal_ug_cm2": 11.056215160160633,
+        "c_k0_ppm": 0.004314628477377083,
+        "c_phi_ppm": 0.38894722677532956,
+        "c_ug_m3": 5.195244149609746,
+        "category": "alkaline_earth",
+        "coil_signature": true,
+        "material_label": "calcium [REFERENCE]",
+        "mode": "quantified",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 3692.3,
+        "symbol": "Ca",
+        "uplift_vs_static": 90.14616874076154,
+        "z": 20
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "scandium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 4093.3,
+        "symbol": "Sc",
+        "uplift_vs_static": null,
+        "z": 21
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "titanium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 4512.2,
+        "symbol": "Ti",
+        "uplift_vs_static": null,
+        "z": 22
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "vanadium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 4952.9,
+        "symbol": "V",
+        "uplift_vs_static": null,
+        "z": 23
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "antiferromagnet: bulk mu_r ~ 1 [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 5414.9,
+        "symbol": "Cr",
+        "uplift_vs_static": null,
+        "z": 24
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "manganese [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 5900.3,
+        "symbol": "Mn",
+        "uplift_vs_static": null,
+        "z": 25
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "ferromagnet: canonical low-field mu_r [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 6405.2,
+        "symbol": "Fe",
+        "uplift_vs_static": null,
+        "z": 26
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "ferromagnet [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 6930.9,
+        "symbol": "Co",
+        "uplift_vs_static": null,
+        "z": 27
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "ferromagnet [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 7480.3,
+        "symbol": "Ni",
+        "uplift_vs_static": null,
+        "z": 28
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "copper [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 8046.3,
+        "symbol": "Cu",
+        "uplift_vs_static": null,
+        "z": 29
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "zinc [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 8637.2,
+        "symbol": "Zn",
+        "uplift_vs_static": null,
+        "z": 30
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "gallium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ka1",
+        "primary_line_energy_ev": 9250.6,
+        "symbol": "Ga",
+        "uplift_vs_static": null,
+        "z": 31
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "metalloid",
+        "coil_signature": true,
+        "material_label": "semiconductor, intrinsic [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 1218.3,
+        "symbol": "Ge",
+        "uplift_vs_static": null,
+        "z": 32
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "metalloid",
+        "coil_signature": true,
+        "material_label": "semimetal [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 1317.4,
+        "symbol": "As",
+        "uplift_vs_static": null,
+        "z": 33
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "alkali",
+        "coil_signature": true,
+        "material_label": "rubidium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 1751.0,
+        "symbol": "Rb",
+        "uplift_vs_static": null,
+        "z": 37
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "alkaline_earth",
+        "coil_signature": true,
+        "material_label": "strontium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 1871.0,
+        "symbol": "Sr",
+        "uplift_vs_static": null,
+        "z": 38
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "yttrium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 1998.3,
+        "symbol": "Y",
+        "uplift_vs_static": null,
+        "z": 39
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "zirconium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 2125.9,
+        "symbol": "Zr",
+        "uplift_vs_static": null,
+        "z": 40
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "niobium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 2260.0,
+        "symbol": "Nb",
+        "uplift_vs_static": null,
+        "z": 41
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "molybdenum [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 2393.9,
+        "symbol": "Mo",
+        "uplift_vs_static": null,
+        "z": 42
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "technetium: radioelement, all isotopes; tabulated estimate [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 2535.4,
+        "symbol": "Tc",
+        "uplift_vs_static": null,
+        "z": 43
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "ruthenium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 2682.8,
+        "symbol": "Ru",
+        "uplift_vs_static": null,
+        "z": 44
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "rhodium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 2834.1,
+        "symbol": "Rh",
+        "uplift_vs_static": null,
+        "z": 45
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "palladium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 2989.5,
+        "symbol": "Pd",
+        "uplift_vs_static": null,
+        "z": 46
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "silver [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 3150.0,
+        "symbol": "Ag",
+        "uplift_vs_static": null,
+        "z": 47
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "cadmium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 3315.1,
+        "symbol": "Cd",
+        "uplift_vs_static": null,
+        "z": 48
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "indium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 3486.6,
+        "symbol": "In",
+        "uplift_vs_static": null,
+        "z": 49
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "tin [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 3662.8,
+        "symbol": "Sn",
+        "uplift_vs_static": null,
+        "z": 50
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "metalloid",
+        "coil_signature": true,
+        "material_label": "semimetal [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 3842.5,
+        "symbol": "Sb",
+        "uplift_vs_static": null,
+        "z": 51
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "metalloid",
+        "coil_signature": false,
+        "material_label": "semiconductor [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 4028.6,
+        "symbol": "Te",
+        "uplift_vs_static": null,
+        "z": 52
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "alkali",
+        "coil_signature": true,
+        "material_label": "caesium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 4618.5,
+        "symbol": "Cs",
+        "uplift_vs_static": null,
+        "z": 55
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "alkaline_earth",
+        "coil_signature": true,
+        "material_label": "barium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 4828.3,
+        "symbol": "Ba",
+        "uplift_vs_static": null,
+        "z": 56
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "lanthanum [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 5038.0,
+        "symbol": "La",
+        "uplift_vs_static": null,
+        "z": 57
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "cerium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 5261.6,
+        "symbol": "Ce",
+        "uplift_vs_static": null,
+        "z": 58
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "praseodymium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 5491.7,
+        "symbol": "Pr",
+        "uplift_vs_static": null,
+        "z": 59
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "neodymium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Lb1",
+        "primary_line_energy_ev": 5718.7,
+        "symbol": "Nd",
+        "uplift_vs_static": null,
+        "z": 60
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": false,
+        "material_label": "promethium: radioelement, no tabulated conductivity",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Mg",
+        "primary_line_energy_ev": 1237.0,
+        "symbol": "Pm",
+        "uplift_vs_static": null,
+        "z": 61
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "samarium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Mg",
+        "primary_line_energy_ev": 1290.8,
+        "symbol": "Sm",
+        "uplift_vs_static": null,
+        "z": 62
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "europium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Mg",
+        "primary_line_energy_ev": 1353.3,
+        "symbol": "Eu",
+        "uplift_vs_static": null,
+        "z": 63
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "gadolinium; bulk mu_r ~ 1 at room T [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Mg",
+        "primary_line_energy_ev": 1401.4,
+        "symbol": "Gd",
+        "uplift_vs_static": null,
+        "z": 64
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "terbium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1233.4,
+        "symbol": "Tb",
+        "uplift_vs_static": null,
+        "z": 65
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "dysprosium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1284.0,
+        "symbol": "Dy",
+        "uplift_vs_static": null,
+        "z": 66
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "holmium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1342.4,
+        "symbol": "Ho",
+        "uplift_vs_static": null,
+        "z": 67
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "erbium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1404.3,
+        "symbol": "Er",
+        "uplift_vs_static": null,
+        "z": 68
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "thulium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1463.4,
+        "symbol": "Tm",
+        "uplift_vs_static": null,
+        "z": 69
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "ytterbium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1525.5,
+        "symbol": "Yb",
+        "uplift_vs_static": null,
+        "z": 70
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "rare_earth",
+        "coil_signature": true,
+        "material_label": "lutetium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1580.1,
+        "symbol": "Lu",
+        "uplift_vs_static": null,
+        "z": 71
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "hafnium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1646.1,
+        "symbol": "Hf",
+        "uplift_vs_static": null,
+        "z": 72
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "tantalum [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1711.5,
+        "symbol": "Ta",
+        "uplift_vs_static": null,
+        "z": 73
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "tungsten [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1775.4,
+        "symbol": "W",
+        "uplift_vs_static": null,
+        "z": 74
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "rhenium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1840.1,
+        "symbol": "Re",
+        "uplift_vs_static": null,
+        "z": 75
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "osmium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1906.6,
+        "symbol": "Os",
+        "uplift_vs_static": null,
+        "z": 76
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "iridium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 1976.2,
+        "symbol": "Ir",
+        "uplift_vs_static": null,
+        "z": 77
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "platinum [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2047.5,
+        "symbol": "Pt",
+        "uplift_vs_static": null,
+        "z": 78
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "precious",
+        "coil_signature": true,
+        "material_label": "gold [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2118.4,
+        "symbol": "Au",
+        "uplift_vs_static": null,
+        "z": 79
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "transition",
+        "coil_signature": true,
+        "material_label": "mercury, liquid at room T [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2191.0,
+        "symbol": "Hg",
+        "uplift_vs_static": null,
+        "z": 80
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "thallium [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2266.8,
+        "symbol": "Tl",
+        "uplift_vs_static": null,
+        "z": 81
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "lead [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2342.3,
+        "symbol": "Pb",
+        "uplift_vs_static": null,
+        "z": 82
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "bismuth [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2417.7,
+        "symbol": "Bi",
+        "uplift_vs_static": null,
+        "z": 83
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "post_transition",
+        "coil_signature": true,
+        "material_label": "polonium, radioactive [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2499.0,
+        "symbol": "Po",
+        "uplift_vs_static": null,
+        "z": 84
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "metalloid",
+        "coil_signature": false,
+        "material_label": "astatine: no tabulated conductivity",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2577.0,
+        "symbol": "At",
+        "uplift_vs_static": null,
+        "z": 85
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "alkali",
+        "coil_signature": false,
+        "material_label": "francium: no tabulated conductivity",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2732.0,
+        "symbol": "Fr",
+        "uplift_vs_static": null,
+        "z": 87
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "alkaline_earth",
+        "coil_signature": true,
+        "material_label": "radium, radioactive [EST]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2806.0,
+        "symbol": "Ra",
+        "uplift_vs_static": null,
+        "z": 88
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "actinide",
+        "coil_signature": false,
+        "material_label": "actinium: no tabulated conductivity",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2900.0,
+        "symbol": "Ac",
+        "uplift_vs_static": null,
+        "z": 89
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "actinide",
+        "coil_signature": true,
+        "material_label": "thorium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 2989.6,
+        "symbol": "Th",
+        "uplift_vs_static": null,
+        "z": 90
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "actinide",
+        "coil_signature": false,
+        "material_label": "protactinium: no tabulated conductivity",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 3071.0,
+        "symbol": "Pa",
+        "uplift_vs_static": null,
+        "z": 91
+      },
+      {
+        "areal_ug_cm2": 0.0,
+        "c_k0_ppm": 0.0,
+        "c_phi_ppm": 0.3819660112501052,
+        "c_ug_m3": 0.0,
+        "category": "actinide",
+        "coil_signature": true,
+        "material_label": "uranium [REFERENCE]",
+        "mode": "field_carried",
+        "phi_ground_ppm": 0.6180339887498949,
+        "primary_line": "Ma1",
+        "primary_line_energy_ev": 3163.8,
+        "symbol": "U",
+        "uplift_vs_static": null,
+        "z": 92
+      }
+    ],
+    "sampling": {
+      "duration_min": 1440,
+      "filter_area_cm2": 11.3,
+      "flow_lpm": 16.7
+    }
+  },
+  "model": {
+    "calibration_id": "feed-endmember-v1/open-meteo/coil-design-cu-1pct",
+    "label": "[REAL units/arithmetic/registry] + [MODEL feed->composition, forward spectrum, coil declared model] + [PHI-2396 reading layer at declared kappa]",
+    "method": "air feed -> forward XRF spectrum -> classical sniffer inversion -> LAW 2396 metal register -> code-coil ladder sweep -> witness hash -> receipt chain",
+    "name": "xrf+code-coil (attached)",
+    "physics": "classical",
+    "version": "sniffer-1.0.0+engine-1.1.0+coil-1.0.0"
+  },
+  "provenance": "feed",
+  "schema": "xrf-sniffer/session-v1",
+  "source": "open-meteo",
+  "spectrum": {
+    "channels": 2500,
+    "note": "model forward of the feed's composition, Poisson noise, explicit seed; NOT a measurement",
+    "provenance": "simulated",
+    "seed": 2026110100,
+    "source": "engine.forward <- air feed (open-meteo)",
+    "total_counts": 12209125.0,
+    "truth_elements_ug_cm2": {
+      "Al": 15.48456978343678,
+      "Ca": 10.990808220603945,
+      "Cl": 35.88949037773323,
+      "H": 6.328536721187683,
+      "K": 4.986541230023595,
+      "N": 17.560591982678247,
+      "Na": 25.347651941008767,
+      "O": 181.64983974009385,
+      "S": 26.70710791296932,
+      "Si": 89.19121607256551
+    }
+  },
+  "timestamp": "2026-11-02T19:00",
+  "witness": {
+    "bytes": 1620552,
+    "channels": [
+      "2",
+      "6"
+    ],
+    "frames": 4086,
+    "kind": "wifi_sniffer_capture",
+    "note": "the Wi-Fi sniffer's raw capture; the radio ear of the instrument, sealed onto the same receipt chain as the mineral ear (SOUL_SEED = 1900 trust root)",
+    "path": "C:\\Users\\delta\\brain\\v6\\research\\32_PHI_PHYSICS\\phi-field-native-transformer\\field_computer\\server\\field_wifi_sniffer\\captures\\air_60s.txt",
+    "sha256": "d4c422167b77b24e19574ad95b799c99b12dd80c7d9075ffc72afe454160fc92"
+  },
+  "witness_absent": null,
+  "xrf_report": {
+    "acquisition": {
+      "air_path_cm": 2.0,
+      "current_ua": null,
+      "detector": "SDD-25mm2",
+      "duration_min": 1440,
+      "excitation": "40 kV Rh tube",
+      "filter_area_cm2": 11.3,
+      "flow_lpm": 16.7,
+      "live_time_s": 300.0,
+      "real_time_s": null,
+      "sample_id": "feed composition @ +28.6100,+77.2000"
+    },
+    "elements": [
+      {
+        "areal_g_cm2": 7.094633833896917e-05,
+        "areal_ug_cm2": 70.94633833896917,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Si",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.017638164285111734,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.0336532295128554,
+        "strongest_line": {
+          "energy_ev": 1739.8,
+          "intensity": 0.590686,
+          "name": "Ka1"
+        },
+        "symbol": "Si",
+        "systematic_ug_cm2": 7.094633833896918,
+        "total_sigma_ug_cm2": 7.094713650101146,
+        "z": 14
+      },
+      {
+        "areal_g_cm2": 3.422239308672535e-05,
+        "areal_ug_cm2": 34.222393086725354,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Cl",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.01232531616401527,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.01551961470051044,
+        "strongest_line": {
+          "energy_ev": 2622.0,
+          "intensity": 0.588561,
+          "name": "Ka1"
+        },
+        "symbol": "Cl",
+        "systematic_ug_cm2": 3.422239308672536,
+        "total_sigma_ug_cm2": 3.4222744986724734,
+        "z": 17
+      },
+      {
+        "areal_g_cm2": 2.499417260063304e-05,
+        "areal_ug_cm2": 24.994172600633043,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "S",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.009786414543119367,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.01399668652628095,
+        "strongest_line": {
+          "energy_ev": 2309.5,
+          "intensity": 0.589268,
+          "name": "Ka1"
+        },
+        "symbol": "S",
+        "systematic_ug_cm2": 2.4994172600633044,
+        "total_sigma_ug_cm2": 2.4994564503379673,
+        "z": 16
+      },
+      {
+        "areal_g_cm2": 1.1056215160160632e-05,
+        "areal_ug_cm2": 11.056215160160633,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Ca",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0052243123753176425,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.004793061168194139,
+        "strongest_line": {
+          "energy_ev": 3692.3,
+          "intensity": 0.586452,
+          "name": "Ka1"
+        },
+        "symbol": "Ca",
+        "systematic_ug_cm2": 1.1056215160160634,
+        "total_sigma_ug_cm2": 1.105631905343284,
+        "z": 20
+      },
+      {
+        "areal_g_cm2": 1.0399706493127533e-05,
+        "areal_ug_cm2": 10.399706493127534,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Al",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.029035461087942006,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.01056101690766858,
+        "strongest_line": {
+          "energy_ev": 1486.5,
+          "intensity": 0.591398,
+          "name": "Ka1"
+        },
+        "symbol": "Al",
+        "systematic_ug_cm2": 1.0399706493127534,
+        "total_sigma_ug_cm2": 1.0400242720773945,
+        "z": 13
+      },
+      {
+        "areal_g_cm2": 5.03150699599889e-06,
+        "areal_ug_cm2": 5.03150699599889,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "K",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.003852420718134425,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.002249688162210217,
+        "strongest_line": {
+          "energy_ev": 3313.8,
+          "intensity": 0.587153,
+          "name": "Ka1"
+        },
+        "symbol": "K",
+        "systematic_ug_cm2": 0.503150699599889,
+        "total_sigma_ug_cm2": 0.5031557289792942,
+        "z": 19
+      },
+      {
+        "areal_g_cm2": 1.905156629568653e-07,
+        "areal_ug_cm2": 0.1905156629568653,
+        "detected": true,
+        "detection_flag": "detected",
+        "element": "Mg",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.08722533058580229,
+        "method": "fundamental_parameters",
+        "note": "",
+        "quantified": true,
+        "sigma_ug_cm2": 0.006526523827660809,
+        "strongest_line": {
+          "energy_ev": 1253.79,
+          "intensity": 0.592111,
+          "name": "Ka1"
+        },
+        "symbol": "Mg",
+        "systematic_ug_cm2": 0.019051566295686533,
+        "total_sigma_ug_cm2": 0.020138462989810403,
+        "z": 12
+      },
+      {
+        "areal_g_cm2": 3.0347694771007945e-08,
+        "areal_ug_cm2": 0.030347694771007946,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Tm",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.011531481290762938,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.0005672831165234271,
+        "strongest_line": {
+          "energy_ev": 50742.0,
+          "intensity": 0.507393,
+          "name": "Ka1"
+        },
+        "symbol": "Tm",
+        "systematic_ug_cm2": 0.0030347694771007947,
+        "total_sigma_ug_cm2": 0.0030873347588875363,
+        "z": 69
+      },
+      {
+        "areal_g_cm2": 8.93615075379781e-09,
+        "areal_ug_cm2": 0.008936150753797811,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Fe",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0036256857497179626,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00012788567355104003,
+        "strongest_line": {
+          "energy_ev": 6405.2,
+          "intensity": 0.580277,
+          "name": "Ka1"
+        },
+        "symbol": "Fe",
+        "systematic_ug_cm2": 0.0008936150753797811,
+        "total_sigma_ug_cm2": 0.0009027195846139681,
+        "z": 26
+      },
+      {
+        "areal_g_cm2": 8.364786609937432e-09,
+        "areal_ug_cm2": 0.008364786609937433,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Mn",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0037252118249268638,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00022014929099180866,
+        "strongest_line": {
+          "energy_ev": 5900.3,
+          "intensity": 0.58134,
+          "name": "Ka1"
+        },
+        "symbol": "Mn",
+        "systematic_ug_cm2": 0.0008364786609937433,
+        "total_sigma_ug_cm2": 0.0008649637337033743,
+        "z": 25
+      },
+      {
+        "areal_g_cm2": 6.3915315195395726e-09,
+        "areal_ug_cm2": 0.006391531519539573,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Zn",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.002951161744941503,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00011272225850275324,
+        "strongest_line": {
+          "energy_ev": 8637.2,
+          "intensity": 0.576058,
+          "name": "Ka1"
+        },
+        "symbol": "Zn",
+        "systematic_ug_cm2": 0.0006391531519539573,
+        "total_sigma_ug_cm2": 0.0006490169945499424,
+        "z": 30
+      },
+      {
+        "areal_g_cm2": 5.398947842424557e-09,
+        "areal_ug_cm2": 0.005398947842424557,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Ti",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.003683475086677283,
+        "method": "fundamental_parameters",
+        "note": "areal density is below the 3-sigma detection limit or the declared 0.05 ug/cm2 reporting floor",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00022652466842371875,
+        "strongest_line": {
+          "energy_ev": 4512.2,
+          "intensity": 0.584554,
+          "name": "Ka1"
+        },
+        "symbol": "Ti",
+        "systematic_ug_cm2": 0.0005398947842424557,
+        "total_sigma_ug_cm2": 0.0005854910788873588,
+        "z": 22
+      },
+      {
+        "areal_g_cm2": 0.0,
+        "areal_ug_cm2": 0.0,
+        "detected": false,
+        "detection_flag": "not_quantified",
+        "element": "Na",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": null,
+        "method": "fundamental_parameters",
+        "note": "no line inside the fit window or the air path extinguishes it; the element cannot be quantified with this geometry",
+        "quantified": false,
+        "sigma_ug_cm2": null,
+        "strongest_line": {
+          "energy_ev": 1040.3,
+          "intensity": 0.66569,
+          "name": "Ka1"
+        },
+        "symbol": "Na",
+        "systematic_ug_cm2": 0.0,
+        "total_sigma_ug_cm2": null,
+        "z": 11
+      },
+      {
+        "areal_g_cm2": 0.0,
+        "areal_ug_cm2": 0.0,
+        "detected": false,
+        "detection_flag": "below_mdl",
+        "element": "Ta",
+        "label": "[MODEL]",
+        "mdl_ug_cm2": 0.0093010661905306,
+        "method": "fundamental_parameters",
+        "note": "no signal above the non-negativity constraint",
+        "quantified": true,
+        "sigma_ug_cm2": 0.00033232592493484303,
+        "strongest_line": {
+          "energy_ev": 57535.0,
+          "intensity": 0.502037,
+          "name": "Ka1"
+        },
+        "symbol": "Ta",
+        "systematic_ug_cm2": 0.0,
+        "total_sigma_ug_cm2": 0.00033232592493484303,
+        "z": 73
+      }
+    ],
+    "fit": {
+      "dropped_elements": [
+        "Na"
+      ],
+      "method": "fundamental_parameters",
+      "model": "NNLS on forward-v1",
+      "n_channels_used": 2380,
+      "n_elements_detected": 7,
+      "n_elements_quantified": 13,
+      "n_peaks": 9,
+      "peak_min_ev": 1000.0,
+      "peaks_below_min_ev_dropped": 4,
+      "quality": "good",
+      "quality_thresholds": {
+        "fair": 0.15,
+        "good": 0.05,
+        "label": "[DECLARED]"
+      },
+      "relative_residual": 0.03670520836684199,
+      "reporting_floor_ug_cm2": 0.05
+    },
+    "gate": {
+      "checks": {
+        "count_rate_cps": 40697.083333333336,
+        "count_rate_high": false,
+        "count_rate_low": false,
+        "energy_max_ev": 24990.0,
+        "energy_min_ev": 0.0,
+        "live_time_s": 300.0,
+        "n_channels": 2500,
+        "spectrum_valid": true,
+        "total_counts": 12209125.0
+      },
+      "reason": "ok",
+      "valid": true
+    },
+    "honesty": {
+      "modeled": [
+        "X-ray tube spectrum, detector response and spectral background",
+        "counts -> areal density conversion (fundamental parameters)",
+        "the element -> mineral split (prior-weighted; underdetermined)",
+        "the statistical uncertainty is an unconstrained linear estimate; the systematic term is the engine benchmark p90"
+      ],
+      "not_claimed": [
+        "this code does not generate or detect X-rays",
+        "a simulated spectrum is not a measurement",
+        "the mineral split is not a measurement: XRF sees elements, not minerals",
+        "O, C, N and H are invisible to this instrument by construction"
+      ],
+      "real": [
+        "spectrum I/O, strict validation and deterministic SHA-256 identity",
+        "SNIP continuum subtraction and peak detection",
+        "line identification against the tabulated characteristic-line library",
+        "NNLS quantitative inversion against the engine forward operator",
+        "3-sigma detection limits and linear covariance",
+        "mineral apportionment arithmetic",
+        "canonical JSON, hash chain and signature (in receipt.py)"
+      ]
+    },
+    "instrument": "xrf-sniffer",
+    "lines": [
+      {
+        "element": "Si",
+        "energy_ev": 1739.8,
+        "line": "Ka1",
+        "model_area": 2679567.675831557,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 2669963.9333342304,
+        "residual_frac": -0.003584064169734391,
+        "used_in_fit": true,
+        "window_center_ev": 1740.0,
+        "window_fwhm_ev": 77.72847498850152,
+        "z": 14
+      },
+      {
+        "element": "Cl",
+        "energy_ev": 2622.0,
+        "line": "Ka1",
+        "model_area": 2960215.610893888,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 2915181.226588718,
+        "residual_frac": -0.015213210868640376,
+        "used_in_fit": true,
+        "window_center_ev": 2620.0,
+        "window_fwhm_ev": 89.85075575507713,
+        "z": 17
+      },
+      {
+        "element": "S",
+        "energy_ev": 2309.5,
+        "line": "Ka1",
+        "model_area": 1744981.876680477,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 1737142.181643704,
+        "residual_frac": -0.004492708572817245,
+        "used_in_fit": true,
+        "window_center_ev": 2310.0,
+        "window_fwhm_ev": 85.77608364233066,
+        "z": 16
+      },
+      {
+        "element": "Ca",
+        "energy_ev": 3692.3,
+        "line": "Ka1",
+        "model_area": 1202565.2772688782,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 1244503.290174142,
+        "residual_frac": 0.034873793296700185,
+        "used_in_fit": true,
+        "window_center_ev": 3690.0,
+        "window_fwhm_ev": 102.68012317778425,
+        "z": 20
+      },
+      {
+        "element": "Al",
+        "energy_ev": 1486.5,
+        "line": "Ka1",
+        "model_area": 150763.33702239196,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 153406.68062930656,
+        "residual_frac": 0.017533066454492166,
+        "used_in_fit": true,
+        "window_center_ev": 1490.0,
+        "window_fwhm_ev": 73.92294286284803,
+        "z": 13
+      },
+      {
+        "element": "K",
+        "energy_ev": 3313.8,
+        "line": "Ka1",
+        "model_area": 590765.8529670016,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 589132.5371711644,
+        "residual_frac": -0.0027647430663675057,
+        "used_in_fit": true,
+        "window_center_ev": 3310.0,
+        "window_fwhm_ev": 98.31578660191326,
+        "z": 19
+      },
+      {
+        "element": "Mg",
+        "energy_ev": 1253.79,
+        "line": "Ka1",
+        "model_area": 566.2404948894376,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 665.6213265511861,
+        "residual_frac": 0.17550993360365955,
+        "used_in_fit": true,
+        "window_center_ev": 1260.0,
+        "window_fwhm_ev": 70.23999064900579,
+        "z": 12
+      },
+      {
+        "element": "Tm",
+        "energy_ev": 50742.0,
+        "line": "Ka1",
+        "model_area": 1023.9008333901604,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 969.2623208774021,
+        "residual_frac": -0.05336309018506107,
+        "used_in_fit": true,
+        "window_center_ev": 7180.0,
+        "window_fwhm_ev": 136.38080479885184,
+        "z": 69
+      },
+      {
+        "element": "Fe",
+        "energy_ev": 6405.2,
+        "line": "Ka1",
+        "model_area": 964.3740716631992,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 1492.6757516457242,
+        "residual_frac": 0.5478182123575701,
+        "used_in_fit": true,
+        "window_center_ev": 6400.0,
+        "window_fwhm_ev": 129.61144690526294,
+        "z": 26
+      },
+      {
+        "element": "Mn",
+        "energy_ev": 5900.3,
+        "line": "Ka1",
+        "model_area": 912.4486705956945,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 1267.1284050216343,
+        "residual_frac": 0.3887119855129892,
+        "used_in_fit": true,
+        "window_center_ev": 5900.0,
+        "window_fwhm_ev": 125.07956861057433,
+        "z": 25
+      },
+      {
+        "element": "Zn",
+        "energy_ev": 8637.2,
+        "line": "Ka1",
+        "model_area": 772.6946091720508,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 1097.8154412742224,
+        "residual_frac": 0.4207623920795066,
+        "used_in_fit": true,
+        "window_center_ev": 8630.0,
+        "window_fwhm_ev": 148.14515552079638,
+        "z": 30
+      },
+      {
+        "element": "Ti",
+        "energy_ev": 4512.2,
+        "line": "Ka1",
+        "model_area": 575.9178562640719,
+        "note": "model area is the fitted design column in one FWHM window",
+        "observed_area": 1240.9981556803427,
+        "residual_frac": 1.1548179869445059,
+        "used_in_fit": true,
+        "window_center_ev": 4510.0,
+        "window_fwhm_ev": 111.51745486387841,
+        "z": 22
+      }
+    ],
+    "minerals": {
+      "apportioned_element_mass_ug_cm2": 156.8408483385715,
+      "conservation": {
+        "apportioned_equals_measured": true,
+        "difference_ug_cm2": 2.842170943040401e-14,
+        "unapportioned_mass_ug_cm2": 0.0,
+        "unapportioned_symbols": []
+      },
+      "label": "[MODEL/NORMATIVE]",
+      "measured_element_mass_ug_cm2": 156.84084833857148,
+      "method": "apportion",
+      "note": "Element areal densities are measured/simulated; the mineral split is a prior-weighted apportionment under the engine's normative crustal-aerosol prior. XRF cannot see O, C, N or H, so the unmix closure residual is expected to be nonzero. The mass_fraction is the fraction of the apportioned element mass, not of total mineral mass.",
+      "rows": [
+        {
+          "category": "silicate",
+          "element_mass_ug_cm2": 39.020486086433046,
+          "formula": "SiO2",
+          "mass_fraction": 0.2487903279010563,
+          "name": "quartz",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.55
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 3.9020925075556305,
+          "unmixed_mass_fraction": 0.6246099324154302,
+          "unmixed_mass_ug_cm2": 66.00641408373161
+        },
+        {
+          "category": "salt",
+          "element_mass_ug_cm2": 34.222393086725354,
+          "formula": "NaCl",
+          "mass_fraction": 0.218198214618488,
+          "name": "halite",
+          "prior": [
+            {
+              "element": "Na",
+              "weight": 0.8
+            },
+            {
+              "element": "Cl",
+              "weight": 1.0
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 3.4222744986724734,
+          "unmixed_mass_fraction": 0.3753171621748788,
+          "unmixed_mass_ug_cm2": 39.662097468487374
+        },
+        {
+          "category": "feldspar",
+          "element_mass_ug_cm2": 16.747097646269992,
+          "formula": "KAlSi3O8",
+          "mass_fraction": 0.10677765278416577,
+          "name": "orthoclase",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.15
+            },
+            {
+              "element": "Al",
+              "weight": 0.2
+            },
+            {
+              "element": "K",
+              "weight": 0.8
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 1.1566454510818613,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "sulfate",
+          "element_mass_ug_cm2": 15.26114009035668,
+          "formula": "CaSO4.2H2O",
+          "mass_fraction": 0.09730335082996068,
+          "name": "gypsum",
+          "prior": [
+            {
+              "element": "Ca",
+              "weight": 0.25
+            },
+            {
+              "element": "S",
+              "weight": 0.5
+            },
+            {
+              "element": "H",
+              "weight": 0.2
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 1.2799304692701403,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "clay",
+          "element_mass_ug_cm2": 12.673443197927313,
+          "formula": "Al2Si2O5(OH)4",
+          "mass_fraction": 0.08080448003296449,
+          "name": "kaolinite",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.12
+            },
+            {
+              "element": "Al",
+              "weight": 0.4
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.9475692731560221,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "sulfate",
+          "element_mass_ug_cm2": 12.497086300316521,
+          "formula": "(NH4)2SO4",
+          "mass_fraction": 0.07968004784913639,
+          "name": "ammonium_sulfate",
+          "prior": [
+            {
+              "element": "S",
+              "weight": 0.5
+            },
+            {
+              "element": "N",
+              "weight": 1.0
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 1.2497282251689836,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "feldspar",
+          "element_mass_ug_cm2": 8.654589807866047,
+          "formula": "NaAlSi3O8",
+          "mass_fraction": 0.055180712802467315,
+          "name": "albite",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.1
+            },
+            {
+              "element": "Al",
+              "weight": 0.15
+            },
+            {
+              "element": "Na",
+              "weight": 0.2
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.7264205074994736,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "feldspar",
+          "element_mass_ug_cm2": 8.120160253899513,
+          "formula": "CaAl2Si2O8",
+          "mass_fraction": 0.05177324874174722,
+          "name": "anorthite",
+          "prior": [
+            {
+              "element": "Si",
+              "weight": 0.08
+            },
+            {
+              "element": "Al",
+              "weight": 0.15
+            },
+            {
+              "element": "Ca",
+              "weight": 0.08
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.5952347365061642,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "carbonate",
+          "element_mass_ug_cm2": 6.080918338088349,
+          "formula": "CaCO3",
+          "mass_fraction": 0.038771266557813454,
+          "name": "calcite",
+          "prior": [
+            {
+              "element": "Ca",
+              "weight": 0.55
+            },
+            {
+              "element": "C",
+              "weight": 0.2
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.6080975479388062,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "clay",
+          "element_mass_ug_cm2": 2.074849397956061,
+          "formula": "K0.6Al2.3Si3.5O10(OH)2",
+          "mass_fraction": 0.013229011574058147,
+          "name": "illite",
+          "prior": [
+            {
+              "element": "Al",
+              "weight": 0.1
+            },
+            {
+              "element": "K",
+              "weight": 0.2
+            },
+            {
+              "element": "Mg",
+              "weight": 0.15
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.1447489461700822,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "carbonate",
+          "element_mass_ug_cm2": 1.4886841327326112,
+          "formula": "CaMg(CO3)2",
+          "mass_fraction": 0.009491686308142103,
+          "name": "dolomite",
+          "prior": [
+            {
+              "element": "Ca",
+              "weight": 0.12
+            },
+            {
+              "element": "Mg",
+              "weight": 0.85
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.13377552443478846,
+          "unmixed_mass_fraction": 0.0,
+          "unmixed_mass_ug_cm2": 0.0
+        },
+        {
+          "category": "carbonaceous",
+          "element_mass_ug_cm2": 0.0,
+          "formula": "C",
+          "mass_fraction": 0.0,
+          "name": "soot",
+          "prior": [
+            {
+              "element": "C",
+              "weight": 0.8
+            }
+          ],
+          "sigma_element_mass_ug_cm2": 0.0,
+          "unmixed_mass_fraction": 7.290540969099163e-05,
+          "unmixed_mass_ug_cm2": 0.00770436781624386
+        }
+      ],
+      "unmix": {
+        "closure": {
+          "element_residual": {
+            "Al": 10.399706493127534,
+            "C": -0.00770436781624386,
+            "Ca": 11.056215160160633,
+            "Cl": 10.16228060836561,
+            "Fe": 0.008936150753797811,
+            "H": 0.0,
+            "K": 5.03150699599889,
+            "Mg": 0.1905156629568653,
+            "Mn": 0.008364786609937433,
+            "N": 0.0,
+            "Na": -15.601984990127628,
+            "O": -35.152592877373706,
+            "S": 24.994172600633043,
+            "Si": 40.092517132611256,
+            "Ti": 0.005398947842424557
+          },
+          "explained_fraction": 0.6736824272856572,
+          "relative_residual": 0.7579508314669331
+        },
+        "label": "[MODEL]",
+        "method": "NNLS with a Tikhonov prior",
+        "minerals": {
+          "halite": 39.662097468487374,
+          "quartz": 66.00641408373161,
+          "soot": 0.00770436781624386
+        },
+        "total_mineral_mass_ug_cm2": 105.67621592003523
+      }
+    },
+    "model": {
+      "calibration_id": "FP-v1/SDD-25mm2/40 kV Rh tube/air2.00cm",
+      "label": "[MODEL]",
+      "method": "fundamental_parameters",
+      "name": "counts_to_concentration",
+      "notes": [
+        "counts -> areal density is NNLS against the engine forward model; it inherits every approximation listed in engine/README.md §11",
+        "the forward model has not been compared with a real spectrometer's output",
+        "the systematic uncertainty is the engine benchmark p90 (10 %), not a per-sample calibration"
+      ],
+      "parameters": {
+        "air_path_cm": 2.0,
+        "detector": "SDD-25mm2",
+        "detector_fwhm_mn_ev": 125.03342032015554,
+        "e_max_ev": 25000.0,
+        "e_min_ev": 1200.0,
+        "excitation": "40 kV Rh tube",
+        "excitation_total_flux_cm2_s": 10000000000.000002,
+        "matrix_iterations": 2,
+        "reporting_floor_ug_cm2": 0.05,
+        "systematic_rel_error": 0.1,
+        "unit_areal_g_cm2": 1e-06
+      },
+      "physics": "classical",
+      "version": "sniffer-1.0.0+engine-1.1.0"
+    },
+    "peaks": [
+      {
+        "alternatives": [
+          {
+            "element": "Zn",
+            "energy_ev": 1034.7,
+            "intensity": 0.936075,
+            "line": "Lb1",
+            "residual_ev": -35.299999999999955,
+            "residual_sigma": -352.99999999999955,
+            "z": 30
+          },
+          {
+            "element": "Zn",
+            "energy_ev": 1107.6,
+            "intensity": 0.541418,
+            "line": "Lb3",
+            "residual_ev": 37.59999999999991,
+            "residual_sigma": 375.9999999999991,
+            "z": 30
+          }
+        ],
+        "ambiguous": false,
+        "area": 90088.0593248739,
+        "area_err": 321.9082732272209,
+        "background": 792.4241892136076,
+        "best_line": {
+          "element": "Zn",
+          "energy_ev": 1104.8,
+          "line": "Lb4"
+        },
+        "center_err_ev": 0.09960134270947112,
+        "center_ev": 1070.0,
+        "fwhm_ev": 70.39738594661155,
+        "match_quality": "poor",
+        "note": "",
+        "residual_ev": 34.799999999999955,
+        "residual_sigma": 347.99999999999955,
+        "sigma_ev": 29.895017283873305,
+        "snr": 279.85630323109064
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Al",
+            "energy_ev": 1486.1,
+            "intensity": 0.296882,
+            "line": "Ka2",
+            "residual_ev": -0.7607816542570163,
+            "residual_sigma": -7.607816542570163,
+            "z": 13
+          },
+          {
+            "element": "Tm",
+            "energy_ev": 1463.4,
+            "intensity": 1.0,
+            "line": "Ma1",
+            "residual_ev": -23.460781654256834,
+            "residual_sigma": -234.60781654256834,
+            "z": 69
+          },
+          {
+            "element": "Tm",
+            "energy_ev": 1510.4,
+            "intensity": 0.997068,
+            "line": "Mb",
+            "residual_ev": 23.539218345743166,
+            "residual_sigma": 235.39218345743166,
+            "z": 69
+          }
+        ],
+        "ambiguous": false,
+        "area": 1403740.0328327776,
+        "area_err": 1201.3664030846749,
+        "background": 2099.3124865754758,
+        "best_line": {
+          "element": "Al",
+          "energy_ev": 1486.5,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.027820663286582083,
+        "center_ev": 1486.860781654257,
+        "fwhm_ev": 77.61909000599044,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -0.3607816542569253,
+        "residual_sigma": -3.607816542569253,
+        "sigma_ev": 32.961792630302796,
+        "snr": 1168.4528793451193
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Si",
+            "energy_ev": 1739.2,
+            "intensity": 0.296524,
+            "line": "Ka2",
+            "residual_ev": -0.7999999999999545,
+            "residual_sigma": -7.999999999999545,
+            "z": 14
+          },
+          {
+            "element": "Ta",
+            "energy_ev": 1711.5,
+            "intensity": 1.0,
+            "line": "Ma1",
+            "residual_ev": -28.5,
+            "residual_sigma": -285.0,
+            "z": 73
+          },
+          {
+            "element": "Ta",
+            "energy_ev": 1769.5,
+            "intensity": 0.997068,
+            "line": "Mb",
+            "residual_ev": 29.5,
+            "residual_sigma": 295.0,
+            "z": 73
+          }
+        ],
+        "ambiguous": false,
+        "area": 22286826.51102787,
+        "area_err": 4730.275587057424,
+        "background": 4477.7004832482635,
+        "best_line": {
+          "element": "Si",
+          "energy_ev": 1739.8,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.006642352391149005,
+        "center_ev": 1740.0,
+        "fwhm_ev": 73.84205123907644,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -0.20000000000004547,
+        "residual_sigma": -2.0000000000004547,
+        "sigma_ev": 31.357831947666277,
+        "snr": 4711.528134218475
+      },
+      {
+        "alternatives": [
+          {
+            "element": "S",
+            "energy_ev": 2309.5,
+            "intensity": 0.589268,
+            "line": "Ka1",
+            "residual_ev": 3.14257488903786,
+            "residual_sigma": 31.4257488903786,
+            "z": 16
+          }
+        ],
+        "ambiguous": false,
+        "area": 16796561.070595097,
+        "area_err": 4114.61065303637,
+        "background": 6106.475023429297,
+        "best_line": {
+          "element": "S",
+          "energy_ev": 2308.4,
+          "line": "Ka2"
+        },
+        "center_err_ev": 0.008443488339912047,
+        "center_ev": 2306.357425110962,
+        "fwhm_ev": 81.48727946021414,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": 2.042574889037951,
+        "residual_sigma": 20.42574889037951,
+        "sigma_ev": 34.604461445861,
+        "snr": 4082.175079724761
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Cl",
+            "energy_ev": 2622.0,
+            "intensity": 0.588561,
+            "line": "Ka1",
+            "residual_ev": 2.0,
+            "residual_sigma": 20.0,
+            "z": 17
+          }
+        ],
+        "ambiguous": false,
+        "area": 29107202.747705366,
+        "area_err": 5423.735333902458,
+        "background": 13527.858876528244,
+        "best_line": {
+          "element": "Cl",
+          "energy_ev": 2620.0,
+          "line": "Ka2"
+        },
+        "center_err_ev": 0.00671873296060225,
+        "center_ev": 2620.0,
+        "fwhm_ev": 85.35821796732327,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": 0.0,
+        "residual_sigma": 0.0,
+        "sigma_ev": 36.24829767669207,
+        "snr": 5366.63405490369
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Cl",
+            "energy_ev": 2812.0,
+            "intensity": 0.0395148,
+            "line": "Kb3",
+            "residual_ev": -5.835777388938368,
+            "residual_sigma": -58.35777388938368,
+            "z": 17
+          }
+        ],
+        "ambiguous": true,
+        "area": 2984075.9401441873,
+        "area_err": 1764.0954016149265,
+        "background": 5443.265315975441,
+        "best_line": {
+          "element": "Cl",
+          "energy_ev": 2812.0,
+          "line": "Kb1"
+        },
+        "center_err_ev": 0.01701016089711199,
+        "center_ev": 2817.8357773889384,
+        "fwhm_ev": 69.19442123952295,
+        "match_quality": "fair",
+        "note": "",
+        "residual_ev": -5.835777388938368,
+        "residual_sigma": -58.35777388938368,
+        "sigma_ev": 29.38416520851959,
+        "snr": 1691.561543334017
+      },
+      {
+        "alternatives": [
+          {
+            "element": "K",
+            "energy_ev": 3311.1,
+            "intensity": 0.294751,
+            "line": "Ka2",
+            "residual_ev": -3.0750870436736477,
+            "residual_sigma": -30.750870436736477,
+            "z": 19
+          }
+        ],
+        "ambiguous": false,
+        "area": 6451799.8882945245,
+        "area_err": 2548.2836172373227,
+        "background": 1674.5960482099445,
+        "best_line": {
+          "element": "K",
+          "energy_ev": 3313.8,
+          "line": "Ka1"
+        },
+        "center_err_ev": 0.017258950731139394,
+        "center_ev": 3314.1750870436736,
+        "fwhm_ev": 103.23157593200892,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -0.37508704367337486,
+        "residual_sigma": -3.7508704367337486,
+        "sigma_ev": 43.83841395857158,
+        "snr": 2531.821750394146
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Ca",
+            "energy_ev": 3692.3,
+            "intensity": 0.586452,
+            "line": "Ka1",
+            "residual_ev": 2.300000000000182,
+            "residual_sigma": 23.00000000000182,
+            "z": 20
+          }
+        ],
+        "ambiguous": false,
+        "area": 12711453.085475324,
+        "area_err": 3574.55864181945,
+        "background": 2523.3176145968446,
+        "best_line": {
+          "element": "Ca",
+          "energy_ev": 3688.8,
+          "line": "Ka2"
+        },
+        "center_err_ev": 0.012841636030335448,
+        "center_ev": 3690.0,
+        "fwhm_ev": 107.81412933667347,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -1.199999999999818,
+        "residual_sigma": -11.999999999998181,
+        "sigma_ev": 45.78444521235442,
+        "snr": 3556.0902363613754
+      },
+      {
+        "alternatives": [
+          {
+            "element": "Ca",
+            "energy_ev": 4013.1,
+            "intensity": 0.0405853,
+            "line": "Kb3",
+            "residual_ev": -1.4105932893858153,
+            "residual_sigma": -14.105932893858153,
+            "z": 20
+          }
+        ],
+        "ambiguous": true,
+        "area": 1951669.8016422447,
+        "area_err": 1410.1720988430875,
+        "background": 1364.0314531033835,
+        "best_line": {
+          "element": "Ca",
+          "energy_ev": 4013.1,
+          "line": "Kb1"
+        },
+        "center_err_ev": 0.03390156892996838,
+        "center_ev": 4014.5105932893857,
+        "fwhm_ev": 111.52717267468603,
+        "match_quality": "good",
+        "note": "",
+        "residual_ev": -1.4105932893858153,
+        "residual_sigma": -14.105932893858153,
+        "sigma_ev": 47.36122953854855,
+        "snr": 1383.9940552244684
+      }
+    ],
+    "provenance": "simulated",
+    "sample_id": "feed composition @ +28.6100,+77.2000",
+    "schema": "xrf-sniffer/report-v1",
+    "source": "engine.forward <- air feed (open-meteo)",
+    "spectrum": {
+      "energy_max_ev": 24990.0,
+      "energy_min_ev": 0.0,
+      "live_time_s": 300.0,
+      "n_channels": 2500,
+      "provenance": "simulated",
+      "real_time_s": null,
+      "sample_id": "feed composition @ +28.6100,+77.2000",
+      "sha256": "c8783771e136f40563ba3740e36e20460d01dc5efac016b99bd4601dc056d7e3",
+      "source": "engine.forward <- air feed (open-meteo)",
+      "total_counts": 12209125.0
+    },
+    "timestamp": "2026-11-02T19:01:19.379918+00:00",
+    "warnings": [
+      "one or more candidate elements have no line inside the fit window; they are reported at zero with detection_flag='not_quantified'"
+    ]
+  }
+}

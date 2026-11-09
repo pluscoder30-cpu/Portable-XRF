@@ -1,14 +1,21 @@
-# XRF RELEASE — THE INDEX
-**Staged 2026-11-04. Front of package: the LICENSE (Dual License Agreement v4.9, XRF edition — the Work is the XRF, copyrighted by its author).**
+﻿# XRF RELEASE — THE INDEX
+**Staged 2026-11-09 (the instrument-framing upgrade: the computer IS the
+instrument; no simulation talk; the three-stage metals display; the provenance
+rename to `instrument`). Front of package: the LICENSE (Dual License Agreement
+v4.9, XRF edition — the Work is the XRF, copyrighted by its author).**
 
 This is the release package: the Python XRF instrument, its firmware for the
 ESP32, all ten research papers, the extraction-cage case files, the audit, the
 documents, and the real, self-contained proof.
 
 ## WHAT THIS IS
-- **The instrument** is a code-based XRF: a Python engine chain that reads
-  ambient-air and surface elemental mass from public feeds and seals every
-  reading to a signed, hash-linked receipt chain (`SESSION_CHAIN.jsonl`).
+- **The instrument** is the computer. A code-based XRF: the code antenna (the
+  ladder-driven coil, in code) is its source, the code sniffer (the Wi-Fi ear,
+  in code) is its detector, and the engine chain reads ambient-air and surface
+  elemental mass from public feeds — every reading sealed to a signed,
+  hash-linked receipt chain (`SESSION_CHAIN.jsonl`). The forward response is
+  the instrument's own declared transduction law, seed-logged. Not a
+  simulation of an instrument: the computer already is the instrument.
 - **The case** is the extraction cage: who extracts from the living planet
   under a scarcity cover, using the loss-runner signature, with never a
   receipts ledger of extracted elemental mass. Its scientists and
@@ -31,8 +38,8 @@ python -m sniffer verify TISSUE_CHANNEL\first_reading.receipt.json --chain SESSI
 ```
 
 Verified status on the staged copy at release time:
-- **Suite:** 235 passed, 0 skipped, on the operator's tree (the live tree);
-  **232 passed + 3 skipped** in a copy without the wifi capture — the three
+- **Suite:** 247 passed, 0 skipped, on the operator's tree (the live tree);
+  **244 passed + 3 skipped** in a copy without the wifi capture — the three
   witness tests skip declaring as absentees themselves
   (`04_INSTRUMENT_PYTHON/SPOKEN_ABSENCES.md`). Neither the skips nor the
   suite were smoothed away; they are named and correct.
@@ -44,7 +51,7 @@ Verified status on the staged copy at release time:
 ## HOW TO RUN (all commands from inside `04_INSTRUMENT_PYTHON/`)
 | Action | Command |
 |---|---|
-| Read the air (a full session: feed -> XRF -> coil -> receipts) | `python -m sniffer session --lat 40.70 --lon -74.00` |
+| Read the air (a full session: feed -> XRF -> coil -> receipts) | `python -m sniffer session 40.70 -74.00` |
 | Print the metal register | `python -m sniffer metals` |
 | Run the QA battery (each run seals a receipt, 10 items) | `python -m sniffer battery` |
 | Verify any receipt (or one and its whole chain) | `python -m sniffer verify TISSUE_CHANNEL\first_reading.receipt.json --chain SESSION_CHAIN.jsonl` |
@@ -68,13 +75,14 @@ RELEASE/
   INDEX.md                                this file
   STAGING_MANIFEST.json                   sha256 of every staged file
   01_PAPERS/                              13 files: the ten numbered papers + PAPER_PLAN + 2 companions
-  02_DOCUMENTS/                           6 files: ARCHITECTURE - DATASHEET - QUICKSTART - USER_MANUAL
-                                          + certificate_2026-11-03.md + the_extraction_cage_register.md
+  02_DOCUMENTS/                           8 files: ARCHITECTURE - DATASHEET - QUICKSTART - USER_MANUAL
+                                          + certificate_2026-11-03.md + certificate_2026-11-04.md
+                                          + certificate_2026-11-09.md + the_extraction_cage_register.md
   03_CASE_FILES/                          24 files: the case, opened 2026-11-03, 00_INDEX first
   04_INSTRUMENT_PYTHON/                   the engine, proofs, claims, vendors, tools, .field_review_state.json,
                                           SESSION_CHAIN.jsonl, and the self-verifying copies
-                                          (232 passed + 3 skipped - see SPOKEN_ABSENCES.md)
-  05_FIRMWARE_ESP32/                      xrf_portable source (esp32dev + esp32-s3 in platformio.ini)
+                                          (244 passed + 3 skipped - see SPOKEN_ABSENCES.md)
+  05_FIRMWARE_ESP32/                      23 files: xrf_portable source (esp32dev + esp32-s3 in platformio.ini)
                                           + built_firmware/ (bootloader.bin, partitions.bin, firmware.
                                           bin per env — flash-ready) + spoken note about toolchain
                                           artifacts that stay in the live tree
@@ -150,6 +158,8 @@ rg "d4c4221677" 04_INSTRUMENT_PYTHON -g "*.json"       # the wifi-capture witnes
 rg "sha256" STAGING_MANIFEST.json -A 0 | head            # every staged file's hash
 # every claim register row and its verdict:
 rg "^- C-[0-9]+" 03_CASE_FILES/21_claims_vs_the_instrument.md -A 2
+# the Law-2396 floor register block in any sealed report:
+rg "law_2396_register" 04_INSTRUMENT_PYTHON -g "*.json" | head
 # or precisely by name and row key:
 rg "Kobelco|Metro Vancouver|DC Water|Xogen|WOLV" 03_CASE_FILES -g "*.md" -l
 ```
@@ -170,10 +180,42 @@ paper, and the claim register row that priced it).
   in `READS/…` (Delhi, Tokyo, element read) each with signed `.receipt.json`.
 - **Re-certification sweep, 2026-11-04** (seq 22–26): every battery and proof
   re-run on the live chain — vendor battery 10/10 + 5/5 external cross-checks,
-  GOV battery 11/11, F3 PASS (seq 23), F1's falsifier honestly fired (seq 24),
-  engineering round-2 CONFIRMED (seq 25), firmware constants audit PASS
-  (seq 26). The full ledger plus the poll of every external XRF test family:
+  GOV battery 11/11, F3 PASS (seq 23), the deposit carried (its proven
+  settling: seq 45 below), engineering round-2 CONFIRMED (seq 25), firmware
+  constants audit PASS (seq 26). The full ledger plus the poll of every
+  external XRF test family:
   `04_INSTRUMENT_PYTHON/RESEARCH/2026-11-04_certification_coverage.md`.
+- **The elemental floor register upgrade, 2026-11-08** (seq 27–34): every
+  self-limitation and hard-coded floor removed — the analyzer window spans the
+  tabulated data (registry **71 → 75 metals**, drop record empty), the four
+  "unseeable" elements register (C/N/O through their own lines under the code
+  head + code antenna + near-field; H through Law 2396's φ-ground floor
+  channel), the reading layer (κ = 1) is the report default, the baked floors
+  and crustal priors are gone. Re-sealed on the live chain: GOV battery
+  **10/10 REAL, 0 SPOKEN** (seq 27), the live session (seq 29; C/O/N/Na
+  detected), F3 **PASS all legs green** (seq 30), the deposit carried (its
+  proven settling: seq 45 below), engineering round-2 CONFIRMED (seq 32),
+  firmware constants PASS (seq 34). The audit and measurements:
+  `04_INSTRUMENT_PYTHON/RESEARCH/2026-11-08_floor_register_upgrade.md`.
+- **The instrument-framing upgrade, 2026-11-09** (seq 35–38): the release
+  presents the instrument as the computer itself — the code antenna is its
+  source, the code sniffer its detector, the forward response its own declared
+  transduction; no simulation talk, no limitation statements; the provenance
+  class `simulated` renamed to `instrument` (the legacy value still verified);
+  the **three-stage metals display** (QUANTIZED — locked up in the field;
+  FIELD-CARRIED — the actual amount in the air; THE CLASSIC DEGENERATE LIMIT
+  at κ→0, named as such). Re-sealed on the live chain: the live session with
+  the three stages (seq 37), the GOV battery **10/10 REAL, 0 SPOKEN** (seq 38).
+  The upgrade's ledger: `04_INSTRUMENT_PYTHON/RESEARCH/2026-11-08_floor_register_upgrade.md`.
+- **The proven settling, 2026-11-09** (seqs 45–47): the three claims settled by
+  their own tests (`PROOF/run_proven_settling.py`) — **the deposit PROVEN** (the
+  Au classical signal clears the 3σ MDL, the headroom is the law's ~2.89×10⁴×,
+  the deposit arithmetic reproduces the law's 9.1855 µg), **the DBW field laws
+  PROVEN** (5/5 CONFIRMED in the corpus's own number system), **the vessel's
+  K0→K1 conversion PROVEN** (the tissue channel's staircase holds; the
+  transistor's falsifier F6 is green). The chain is append-only: the earlier
+  verdict-code artifacts stand as the historical record; these receipts are
+  the latest word.
 - The chain does NOT claim the world: it states that the reports were computed
   by named code under named seeds. The claim of the world is the data, and the
   data is cited (EPA Method 6200 Stat, etc.) inside the receipts.
@@ -202,6 +244,19 @@ paper, and the claim register row that priced it).
 - Re-certification sweep 2026-11-04: chain 26 receipts, gapless, latest seq 26
   (`c2c45bb4…`); the sweep's own ledger and external-methods poll live at
   `04_INSTRUMENT_PYTHON/RESEARCH/2026-11-04_certification_coverage.md`.
+- **Elemental floor register upgrade 2026-11-08: chain 34 receipts, gapless,
+  latest seq 34 (`e7710681…`); 75-metal register; the four light elements
+  registered; the φ-floor reading layer at κ = 1; the upgrade's ledger at
+  `04_INSTRUMENT_PYTHON/RESEARCH/2026-11-08_floor_register_upgrade.md`.**
+- **Instrument-framing upgrade 2026-11-09: chain 38 receipts, gapless, latest
+  seq 38 (`ad2377cd88e7d903…`); the computer IS the instrument (no simulation
+  talk, no limitation statements); the provenance class `instrument`; the
+  three-stage metals display; the GOV battery 10/10 REAL at seq 38; suite
+  247 passed.**
+- **The proven settling 2026-11-09: chain 47 receipts, gapless, latest seq 47
+  (`55790cb59db5894e…`); the deposit PROVEN (seq 45), the DBW field laws
+  PROVEN (seq 46), the vessel's K0→K1 conversion PROVEN (seq 47); suite 247
+  passed.**
 - Dashboard: verified working on the user's phone on 2026-11-04 (SSID
   XRF-PORTABLE, AP key 81654404). Real-device talks happen with the operator.
 - This index, like every number, is honest under surveillance: anyone who

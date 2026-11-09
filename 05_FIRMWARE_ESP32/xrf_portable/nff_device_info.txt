@@ -1,0 +1,1 @@
+{"baud":9600,"board":"ESP8266 (FTDI)","fqbn":"esp8266:esp8266:generic","port":"COM7","product_id":"6001","vendor_id":"0403"}

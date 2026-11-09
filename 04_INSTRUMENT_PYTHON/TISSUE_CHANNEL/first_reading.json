@@ -1,0 +1,81 @@
+{
+ "channel": "TISSUE (kappa_bio=1)",
+ "law": 2398,
+ "status": "SIMULATED",
+ "canonical_unit": "ppm of tissue",
+ "classical_limit_error": 0.0,
+ "readings": [
+  {
+   "tissue": "newborn liver",
+   "element": "Au",
+   "classical_ppm": 0.12,
+   "kappa1_reading_ppm": 0.5761300899000926,
+   "source": "Alexiou 1977, NAA, n=6",
+   "n": 6
+  },
+  {
+   "tissue": "placenta",
+   "element": "Au",
+   "classical_ppm": 0.31,
+   "kappa1_reading_ppm": 0.8835565477625726,
+   "source": "Alexiou 1977, NAA, n=18",
+   "n": 18
+  },
+  {
+   "tissue": "hair",
+   "element": "Au",
+   "classical_ppm": 0.0528,
+   "kappa1_reading_ppm": 0.46739820585609965,
+   "source": "PLoS ONE 2010, ICP-MS (ppb 52.8)",
+   "n": null
+  },
+  {
+   "tissue": "urine",
+   "element": "Au",
+   "classical_ppm": 0.0005,
+   "kappa1_reading_ppm": 0.3827750282444802,
+   "source": "Perrelli & Piolatto 1992 ref <=0.5 ug/L",
+   "n": null
+  }
+ ],
+ "G1_never_zero": true,
+ "G2_retention_over_crust": {
+  "enrichments": {
+   "newborn liver": 30.0,
+   "placenta": 77.5,
+   "hair": 13.2,
+   "urine": 0.1
+  },
+  "all_above_crust": false
+ },
+ "G3_staircase": {
+  "declared": "integer phi-rungs per clean stage",
+  "clean_channels": {
+   "newborn liver": {
+    "enrichment": 30.0,
+    "nearest_integer_rung": 7,
+    "off_by_percent": 3.33
+   },
+   "placenta": {
+    "enrichment": 77.5,
+    "nearest_integer_rung": 9,
+    "off_by_percent": 1.96
+   }
+  },
+  "verdict": "SUGGESTIVE (n=2)",
+  "provocative": {
+   "liver_off_phi7_percent": 3.33,
+   "placenta_off_phi9_percent": 1.96
+  }
+ },
+ "G4_adjacent_class": {
+  "placenta_over_liver": 2.5833,
+  "phi_squared": 2.618033988749895,
+  "dev_percent": -1.33,
+  "verdict": "SUGGESTIVE (n small, SDs wide; [DECLARED] extension)"
+ },
+ "ash_accent": {
+  "grade_vs_crust_rungs": 12.8,
+  "grade_vs_best_japan_mine": 90.0
+ }
+}

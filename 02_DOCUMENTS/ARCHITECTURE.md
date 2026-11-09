@@ -1,6 +1,6 @@
 # XRF-PORTABLE — ARCHITECTURE (ADR-grade)
 
-**Status:** current (engine-1.1.0 · sniffer-1.0.0 · coil-1.0.0) · Documented 2026-11-02 · Suite 226 green; chain seq 1–12 (2026-11-03: seq 10 F1 in-code, seq 11 F3 in-code, seq 12 engineering round 2)
+**Status:** current (engine-1.2.0 · sniffer-1.1.0 · coil-1.0.0) · Documented 2026-11-09 · Suite 247 green; chain seq 1–47 (2026-11-09: seq 30 F3 PASS, seq 32 engineering round 2, seq 38 the GOV battery ALL GREEN, **seqs 45–47 the proven settling: the deposit, the DBW field laws, the vessel's K0→K1 conversion**)
 
 ---
 
@@ -8,7 +8,7 @@
 
 ```
 feed  →  classical chain  →  REGISTER  →  reading layer (Law 2396/2397/2398)  →  sealed receipt
-(hash-bound)  (NIST-anchored, NO φ)   (71 metals)  (explicit named step, κ=1)     (ES256 chain)
+(hash-bound)  (NIST-anchored, NO φ)   (75 metals)  (explicit named step, κ=1)     (ES256 chain)
 ```
 
 ## 2. Design rules (load-bearing)
@@ -25,7 +25,7 @@ feed  →  classical chain  →  REGISTER  →  reading layer (Law 2396/2397/239
 
 ```
 engine/
-  metals.py       71-metal register: matched lines, spoken drop record, crust tables
+  metals.py       75-metal register: matched lines, spoken drop record, crust tables
   quantum.py      classical atomic-selection chain (Law 1347/1345 identities, energy splits)
   phi_laws.py     reading layers: phi_motion, ladder_frequencies (asserts invariant), coil_response_phi
   coil.py         the code coil (Law 2397): laws 637/638/801/039/048/675-676 + declared geometry + one anchor
@@ -49,7 +49,7 @@ READS/ RESEARCH/ PROOF/ AUDIT/ VENDOR/ QCBATTERY/ TISSUE_CHANNEL/   certified ar
 2. **hash** the feed (SHA-256 over canonical form) — the same value later signed in the receipt's `input.sha256`.
 3. **forward model**: element composition → filter deposit → Poisson spectrum (explicit seed; every seed logged).
 4. **classical inversion** (matrix-corrected, Law-cited) → the κ→0 concentration table. *(No φ anywhere before this point.)*
-5. **register** (`metals.py`): 71 metals mapped, drops spoken, per-element law audit identities applied.
+5. **register** (`metals.py`): 75 metals mapped, drops spoken, per-element law audit identities applied.
 6. **reading layer** (`phi_laws.py`): `C(κ=1) = φ·C + φ⁻²` — the single named step.
 7. **coil ear** (`coil.py`): rung sweep + coin-class check; channel classes spoken; PM-areal sheet below 3σ recorded **as a result**.
 8. **seal**: canonical report → ES256 → append to chain; return receipt (seq, hash) → verify command available immediately.

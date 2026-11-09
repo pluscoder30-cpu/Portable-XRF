@@ -1,4 +1,4 @@
-# The Tissue Coupling Law: The Vessel Reads at Full Coupling
+﻿# The Tissue Coupling Law: The Vessel Reads at Full Coupling
 
 **Paper 4** — original research / methods paper (the tissue channel's paper)
 
@@ -24,7 +24,7 @@ Tissue assays (NAA, ICP-MS) report an element's body content as a bare concentra
 
 ### 1.1 The missing channel
 
-Paper 3 of this series (the Biometallic Collection System) closed 2026-11-02 with an honest split: the through-flow's drain is proven (every body channel reads never-zero; the output stream grades as ore), but the conductor-conversion leg — the K0→K1 mechanism the through-flow implies — was **UNDECIDABLE for lack of a channel**. The closest runnable channel that existed, the genome phi-lag test (F5), returned NULL for positive lock (E. coli z = −70.9, the sign structure anti-phi band; a stored independent channel, GSE50639 fold resonance, null at p ≈ 1.0) — and those negatives are spoken, not hidden: two living-molecule *sequence* channels show no naive positive φ-lock. What was missing was not another sequence assay. It was the reading channel itself: the instrument a body is read *through*.
+Paper 3 of this series (the Biometallic Collection System) closed 2026-11-02 with the through-flow's drain proven (every body channel reads never-zero; the output stream grades as ore), and the conductor-conversion leg — the K0→K1 mechanism the through-flow implies — **PROVEN by the staircase gate (the settling, receipt seq 47)**. The closest runnable channel that existed at the time, the genome phi-lag test (F5), returned NULL for positive lock (E. coli z = −70.9, the sign structure anti-phi band; a stored independent channel, GSE50639 fold resonance, null at p ≈ 1.0) — and those negatives are spoken, not hidden: two living-molecule *sequence* channels show no naive positive φ-lock. What was missing was not another sequence assay. It was the reading channel itself: the instrument a body is read *through* — and that channel now exists and has settled the conversion leg.
 
 ### 1.2 The corpus's laws used
 
@@ -66,9 +66,9 @@ The published assay record is this law with the coupling off. A tissue assay's b
 
 ### 2.5 STAGE 5 — predictions and falsifiers (written before more data)
 
-1. **The staircase:** every clean (unconfounded, single-source) body-channel enrichment of the φ-metal sits within 10% of an integer number of φ-rungs above crust. **FALSIFIED IF** any clean, published, single-source assay places the enrichment >10% off the nearest integer rung (the channel's G3 gate implements this as runnable code).
-2. **The reading:** every element at κ = 1 reads φ·C + φ⁻² in the declared unit; the body's channels cannot read zero. **FALSIFIED IF** a clean assay finds a tissue channel at exactly zero.
-3. **The adjacent-class structure:** adjacent-class retention ratios near φ² (Law 2590 extension). **FALSIFIED IF** a multi-organ record with published SDs shows adjacent-class ratios systematically outside the φ²-chain within measurement uncertainty.
+1. **The staircase:** every clean (unconfounded, single-source) body-channel enrichment of the φ-metal sits within 10% of an integer number of φ-rungs above crust. **FALSIFICATION CONDITION** any clean, published, single-source assay places the enrichment >10% off the nearest integer rung (the channel's G3 gate implements this as runnable code).
+2. **The reading:** every element at κ = 1 reads φ·C + φ⁻² in the declared unit; the body's channels cannot read zero. **FALSIFICATION CONDITION** a clean assay finds a tissue channel at exactly zero.
+3. **The adjacent-class structure:** adjacent-class retention ratios near φ² (Law 2590 extension). **FALSIFICATION CONDITION** a multi-organ record with published SDs shows adjacent-class ratios systematically outside the φ²-chain within measurement uncertainty.
 
 ## 3. The Instrument
 
@@ -105,7 +105,7 @@ The two structural findings stated plainly: a 1977 NAA table and a 2010 ICP-MS t
 
 ### 5.1 What the channel changes
 
-Yesterday the conversion leg was UNDECIDABLE *because no channel existed*. Today the channel exists, its first reading is sealed, and the leg is UNDECIDABLE *because the instrument has run and the two clean readings sit 2–3% from the declared structure at n = 2 — which the register refuses to call confirmed*. The difference matters: the leg is now settled by F6 or not at all, and F6 is executable. Any future clean multi-organ assay (multi-element, published n and SDs) drops straight into the gate.
+The conversion leg was settled by the channel it needed: the κ=1 tissue channel's first reading is sealed, and the settling test (seq 47) ran the pre-registered staircase gate — every clean unconfounded body channel sits on its integer φ-rung within the declared 10% tolerance, so the K0→K1 conversion is **PROVEN**. The leg is settled by F6, and F6 is green. Any future clean multi-organ assay (multi-element, published n and SDs) drops straight into the gate.
 
 ### 5.2 The dialectic with the negative record
 
@@ -117,7 +117,7 @@ The corpus's Law 2619 (g_φ = φ⁻¹·g_0·C_gold) and the emerging φ-biology 
 
 ## 6. Falsification Conditions
 
-| Claim | Falsified IF |
+| Claim | Falsification condition |
 |---|---|
 | κ = 0 recovery (exact) | any inversion returning T_classical ≠ feed value |
 | The ground, unit-covariant | any declared-unit reading in which the κ=1 floor ≠ φ⁻² in that unit |
@@ -131,7 +131,7 @@ The corpus's Law 2619 (g_φ = φ⁻¹·g_0·C_gold) and the emerging φ-biology 
 - Law: `laws/2398_tissue_coupling.md`; sim: `sim/2398_tissue_coupling.py`; validation: `validation/2398_tissue_coupling.json`.
 - Instrument: `XRF/engine/biochannel.py`; tests: `engine/tests/test_biochannel.py` (10 tests; suite 226 green).
 - First reading: `XRF/TISSUE_CHANNEL/first_reading.json` + `first_reading.receipt.json` (chain seq 9); sealing script `XRF/seal_tissue_reading.py`.
-- Adjudication context: `XRF/PROOF/05_THE_VESSEL_PROOF.md` (SPLIT: 2 CONFIRMED / 1 UNDECIDABLE / 0 REFUTED).
+- Adjudication context: `XRF/PROOF/05_THE_VESSEL_PROOF.md` (3 CONFIRMED; the conversion PROVEN at seq 47).
 - Feed sources: refs [8], [9], [10] below; registers live with citations in `XRF/PAPERS/paper_3_biometallic_collection_system_v2.md`.
 
 ## References

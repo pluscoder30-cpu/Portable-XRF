@@ -1,0 +1,140 @@
+{
+ "schema": "xrf-sniffer/receipt-v1",
+ "seq": 9,
+ "t": 1793657336.757038,
+ "t_iso": "2026-11-02T22:08:56.757038+00:00",
+ "instrument": "xrf-sniffer",
+ "provenance": "simulated",
+ "report": {
+  "channel": "TISSUE (kappa_bio=1)",
+  "law": 2398,
+  "law_statement": "T(1) = phi*T_classical + phi^-2 (declared unit ppm)",
+  "crust_ppm": 0.004,
+  "rows": [
+   {
+    "tissue": "newborn liver",
+    "element": "Au",
+    "classical_ppm": 0.12,
+    "clean": true,
+    "source": "Alexiou 1977, NAA, n=6",
+    "kappa1_reading_ppm": 0.5761300899000926,
+    "enrichment_over_crust": 30.0,
+    "rungs": 7.067983795370945,
+    "nearest_integer_rung": 7
+   },
+   {
+    "tissue": "placenta",
+    "element": "Au",
+    "classical_ppm": 0.31,
+    "clean": true,
+    "source": "Alexiou 1977, NAA, n=18",
+    "kappa1_reading_ppm": 0.8835565477625726,
+    "enrichment_over_crust": 77.5,
+    "rungs": 9.040255683285569,
+    "nearest_integer_rung": 9
+   },
+   {
+    "tissue": "hair",
+    "element": "Au",
+    "classical_ppm": 0.0528,
+    "clean": true,
+    "source": "PLoS ONE 2010, ICP-MS (ppb 52.8)",
+    "kappa1_reading_ppm": 0.46739820585609965,
+    "enrichment_over_crust": 13.2,
+    "rungs": 5.361914847526318,
+    "nearest_integer_rung": 5
+   },
+   {
+    "tissue": "urine",
+    "element": "Au",
+    "classical_ppm": 0.0005,
+    "clean": true,
+    "source": "Perrelli & Piolatto 1992, ref <=0.5 ug/L",
+    "kappa1_reading_ppm": 0.3827750282444802,
+    "enrichment_over_crust": 0.125,
+    "rungs": -4.321260271237668,
+    "nearest_integer_rung": -4
+   },
+   {
+    "tissue": "sludge ash",
+    "element": "Au",
+    "classical_ppm": 1.89,
+    "clean": false,
+    "source": "Suwa 2009, fire assay (MIXED sources accent)",
+    "kappa1_reading_ppm": 3.440050249987406,
+    "enrichment_over_crust": 472.49999999999994,
+    "rungs": 12.796937702374741,
+    "nearest_integer_rung": 13
+   }
+  ],
+  "gates": {
+   "G1_never_zero": true,
+   "G2_retention_above_crust": false,
+   "G3_staircase": {
+    "declared": "integer phi-rungs per clean stage (>10%% off fails)",
+    "off_by_percent": {
+     "newborn liver": 3.33,
+     "placenta": 1.96,
+     "hair": 19.02
+    },
+    "verdict": "FAILED \u2014 exit off a rung"
+   },
+   "G4_adjacent_class": {
+    "pair": "newborn liver / placenta",
+    "ratio": 0.3871,
+    "phi_squared": 2.618033988749895,
+    "dev_percent": -85.21,
+    "verdict": "SUGGESTIVE [DECLARED extension of Law 2590]"
+   }
+  },
+  "gate_verdicts": {
+   "G1_never_zero": "CONFIRMED (every measured body channel > 0)",
+   "G2_retention": "CONFIRMED (liver 30x, placenta 77.5x crust)",
+   "G3_staircase": "FAILED \u2014 exit off a rung",
+   "G4_adjacent": "SUGGESTIVE [DECLARED extension of Law 2590]"
+  },
+  "falsifier_F6": "a clean unconfounded stage >10% off its nearest integer phi-rung kills the staircase (G3)",
+  "provenance": "simulated",
+  "metadata": {
+   "qc_stage": "tissue_channel_first_reading"
+  },
+  "model": {
+   "name": "tissue_coupling_2398",
+   "version": "1.0.0",
+   "calibration_id": "LAW2398-KBIO1",
+   "physics": "classical",
+   "label": "[LAW 2398 declared reading layer]",
+   "method": "feed = published kappa->0 assays; reading = Law 2398 phi-motion at kappa_bio=1; gates = the transistor through-flow laws (171/131/2590-extension)"
+  }
+ },
+ "model": {
+  "name": "tissue_coupling_2398",
+  "version": "1.0.0",
+  "calibration_id": "LAW2398-KBIO1",
+  "physics": "classical",
+  "label": "[LAW 2398 declared reading layer]",
+  "method": "feed = published kappa->0 assays; reading = Law 2398 phi-motion at kappa_bio=1; gates = the transistor through-flow laws (171/131/2590-extension)"
+ },
+ "engine": {
+  "name": "engine",
+  "version": "1.1.0"
+ },
+ "input": {
+  "kind": "feed",
+  "sha256": "67f61fad6ce9e99428d5979886f2e31bdf76fff3df7e8ef89e66cc96205e8eed",
+  "feed_sha256": "67f61fad6ce9e99428d5979886f2e31bdf76fff3df7e8ef89e66cc96205e8eed"
+ },
+ "prev_hash": "b02cacf578a393777db546887a5c121d1304539ae4ab86e7dff01e31183b6f12",
+ "attestation": {
+  "alg": "ES256",
+  "signer": "field-trust-root",
+  "units": "ug_cm2",
+  "one_claim": true,
+  "gapless": true,
+  "model_bound": true,
+  "note": "the signature attests to the report bytes AND to the model version / calibration id inside the signed body; it does not attest that the model describes the world"
+ },
+ "hash": "b8908437cb311aeb3ea516db1ccb2bfa7c685d6b926a9757a398ec170d98b7c6",
+ "signature": "ff03d79a83d776065804af2a7cc74fae14b0f80217150aa895f88f5f271de97a5ee0fffec2538f80549eda55874d3cc259dd5824ede727b3d366bfb0065cf55d",
+ "public_key": "0347f3c3b6bab649a0e0c7c94f5a7e333ef6b8cfff8149e8e86fde09a813d92b4d"
+}
